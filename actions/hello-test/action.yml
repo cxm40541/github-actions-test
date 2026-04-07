@@ -1,0 +1,23 @@
+name: "Hello Test Action"
+description: "Una semplice action per fare test"
+
+inputs:
+  name:
+    description: "Nome da salutare"
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+    - name: Say hello
+      shell: bash
+      run: |
+        echo "👋 Ciao ${{ inputs.name }}!"
+        echo "Action eseguita correttamente"
+
+    - name: Fake test
+      shell: bash
+      run: |
+        echo "Eseguo test..."
+        sleep 2
+        echo "Tutti i test sono passati!"
