@@ -1,0 +1,371 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: Anaconda-schemi-001_create_webint
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/001_create_webint.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-002_create_UtentiAppConciliaVB
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/002_create_UtentiAppConciliaVB.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-003_create_Usr_Solleciti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/003_create_Usr_Solleciti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-004_create_usr_interessimora
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/004_create_usr_interessimora.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-005_create_usr_anaconda
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/005_create_usr_anaconda.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-006_create_UserPSS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/006_create_UserPSS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-007_create_SQLBatchTasks
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/007_create_SQLBatchTasks.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-008_create_sanzionigev
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/008_create_sanzionigev.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-009_create_portalis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/009_create_portalis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-010_create_pgmlettere
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/010_create_pgmlettere.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-011_create_LOTTOMATICA_univadm
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/011_create_LOTTOMATICA_univadm.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-012_create_LOTTOMATICA_iusr_Deleghe_Vlt
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/012_create_LOTTOMATICA_iusr_Deleghe_Vlt.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-013_create_LOTTOMATICA_iusr_deleghe_totobit
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/013_create_LOTTOMATICA_iusr_deleghe_totobit.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-014_create_LOTTOMATICA_iusr_deleghe_lisfin
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/014_create_LOTTOMATICA_iusr_deleghe_lisfin.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-015_create_LkOTGAUGLTM
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/015_create_LkOTGAUGLTM.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-016_create_k42281
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/016_create_k42281.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-017_create_k12706
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/017_create_k12706.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-018_create_K12186
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/018_create_K12186.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-019_create_k12060
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/019_create_k12060.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-020_create_k12054
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/020_create_k12054.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-021_create_IUSR_S_ONE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/021_create_IUSR_S_ONE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-022_create_iusr_pss_hda
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/022_create_iusr_pss_hda.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-023_create_iusr_delegherid_sqf
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/023_create_iusr_delegherid_sqf.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-024_create_Ispettorati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/024_create_Ispettorati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-025_create_fit_dmz
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/025_create_fit_dmz.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-026_create_ExtranetIspettorati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/026_create_ExtranetIspettorati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-027_create_DBServLISUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/027_create_DBServLISUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-028_create_DBRiscossioniUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/028_create_DBRiscossioniUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-029_create_DBMenuUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/029_create_DBMenuUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-030_create_DBAssurance
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/030_create_DBAssurance.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-031_create_DbARCULis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/031_create_DbARCULis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-032_create_DBAnaLisUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/032_create_DBAnaLisUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-033_create_DBAnacondaOwners
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/033_create_DBAnacondaOwners.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-034_create_DbAddebAutomUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/034_create_DbAddebAutomUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-035_create_contablis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/035_create_contablis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-036_create_concilia
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/036_create_concilia.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-schemi-037_create_anaconda_plugin
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/037_create_anaconda_plugin.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

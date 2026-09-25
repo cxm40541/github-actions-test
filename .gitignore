@@ -1,0 +1,4 @@
+# Credenziali reali di connessione ai database: mai committare.
+# Restano tracciati solo i file *.properties.example come template.
+environments/**/*.properties
+!environments/**/*.properties.example

@@ -1,0 +1,5 @@
+changeLogFile=../../databases/Attivazioni/changelog/db.changelog-master.yaml
+url=jdbc:sqlserver://HOST_CAT:1433;databaseName=Attivazioni;encrypt=true;trustServerCertificate=true
+username=__DA_COMPILARE__
+password=__DA_COMPILARE__
+driver=com.microsoft.sqlserver.jdbc.SQLServerDriver

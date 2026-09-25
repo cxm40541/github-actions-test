@@ -1,0 +1,65 @@
+﻿/****** Object:  StoredProcedure [dbo].[Report_ricevitorie_ed_associazione]    Script Date: 11/17/2025 15:18:31 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER OFF
+GO
+CREATE	PROCEDURE [dbo].[Report_ricevitorie_ed_associazione] 
+	@DATA		 	CHAR(8),
+	@SERVIZIO		CHAR(2),
+	@RUOTA			CHAR(2),
+	@ASSOCIAZIONE		CHAR(1),
+	@XML 			CHAR(1),
+	@ESITO 			INT OUT
+
+AS
+SELECT @ESITO = 0
+
+IF (@DATA IS NULL) OR (RTRIM(LTRIM(@DATA)) = '')
+BEGIN
+    SELECT @ESITO = 9
+    RAISERROR ('MANCA LA DATA',16,1)
+    RETURN @ESITO
+END
+
+IF (@SERVIZIO IS NULL) OR (RTRIM(LTRIM(@SERVIZIO)) = '')
+BEGIN
+    SELECT @ESITO = 9
+    RAISERROR ('MANCA IL NOME DEL SERVIZIO',16,1)
+    RETURN @ESITO
+END
+
+IF (@RUOTA IS NULL) OR (RTRIM(LTRIM(@RUOTA)) = '')
+BEGIN
+    SELECT @RUOTA = null
+END
+
+IF (@ASSOCIAZIONE IS NULL) OR (RTRIM(LTRIM(@ASSOCIAZIONE)) = '')
+BEGIN
+    SELECT @ASSOCIAZIONE = null
+END
+
+IF (@SERVIZIO) = '01' 
+BEGIN
+	EXEC [Anaconda].[dbo].[Report_ricevitorie_ed_associazione_LOTTO] @DATA, @SERVIZIO, @RUOTA, @ASSOCIAZIONE, @XML, @ESITO OUT
+END
+ELSE IF (@SERVIZIO) = '02' 
+BEGIN
+	EXEC [Anaconda].[dbo].[Report_ricevitorie_ed_associazione_F101] @DATA, @SERVIZIO, @RUOTA, @ASSOCIAZIONE, @XML, @ESITO OUT
+END
+ELSE IF (@SERVIZIO) = '05' 
+BEGIN
+	EXEC [Anaconda].[dbo].[Report_ricevitorie_ed_associazione_BOLLO] @DATA, @SERVIZIO, @RUOTA, @ASSOCIAZIONE, @XML, @ESITO OUT
+END
+ELSE IF (@SERVIZIO) = '08' 
+BEGIN
+	EXEC [Anaconda].[dbo].[Report_ricevitorie_ed_associazione_TRIS] @DATA, @SERVIZIO, @RUOTA, @ASSOCIAZIONE, @XML, @ESITO OUT
+END
+ELSE
+BEGIN
+	SELECT @ESITO = 9
+	RAISERROR ('SERVIZIO ERRATO',16,1)
+	RETURN @ESITO
+END
+
+SET QUOTED_IDENTIFIER OFF
+GO

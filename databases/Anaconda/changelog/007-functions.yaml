@@ -1,0 +1,121 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: Anaconda-funzioni-001_create_f_gev_calcola_telefono
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Funzioni/001_create_f_gev_calcola_telefono.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-funzioni-002_create_S2T_convert_TO_base10
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Funzioni/002_create_S2T_convert_TO_base10.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-funzioni-003_create_S2T_convert_FROM_base10
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Funzioni/003_create_S2T_convert_FROM_base10.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-funzioni-004_create_S2T_ValoreDefault
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Funzioni/004_create_S2T_ValoreDefault.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-funzioni-005_create_f_gev_calcola_frequenza
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Funzioni/005_create_f_gev_calcola_frequenza.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-funzioni-006_create_f_gev_codifica_sgi_ltm
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Funzioni/006_create_f_gev_codifica_sgi_ltm.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-funzioni-007_create_f_gev_codifica_sgi_ext_ltm
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Funzioni/007_create_f_gev_codifica_sgi_ext_ltm.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-funzioni-008_create_f_gev_codifica_ltm_sgi_ext
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Funzioni/008_create_f_gev_codifica_ltm_sgi_ext.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-funzioni-009_create_f_gev_codifica_ltm_sgi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Funzioni/009_create_f_gev_codifica_ltm_sgi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-funzioni-010_create_f_gev_calcola_merceologica
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Funzioni/010_create_f_gev_calcola_merceologica.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-funzioni-011_create_f_gev_calcola_commento
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Funzioni/011_create_f_gev_calcola_commento.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-funzioni-012_create_f_ana_ultimo_fide
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Funzioni/012_create_f_ana_ultimo_fide.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

@@ -1,0 +1,26 @@
+﻿/****** Object:  Table [dbo].[DORSALI]    Script Date: 11/17/2025 15:21:52 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[DORSALI](
+	[CODOR] [char](5) NOT NULL,
+	[TDH] [varchar](11) NULL,
+	[TIPO_H] [char](3) NULL,
+	[NUAH] [varchar](8) NULL,
+	[PORTA_H] [varchar](15) NULL,
+	[TGU_H] [varchar](13) NULL,
+	[NODO_H] [varchar](15) NULL,
+	[FEP] [char](4) NOT NULL,
+	[sett] [char](3) NOT NULL,
+	[host] [char](3) NULL,
+ CONSTRAINT [PK_DORSALI] PRIMARY KEY CLUSTERED 
+(
+	[CODOR] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [DATA]
+) ON [DATA]
+GO
+SET ANSI_PADDING OFF
+GO

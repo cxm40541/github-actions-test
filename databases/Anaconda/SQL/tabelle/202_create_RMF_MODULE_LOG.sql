@@ -1,0 +1,38 @@
+﻿/****** Object:  Table [dbo].[RMF_MODULE_LOG]    Script Date: 11/17/2025 15:18:30 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[RMF_MODULE_LOG](
+	[MODULE_LOG_NO] [int] NULL,
+	[CMPY_PERSON_ID] [int] NULL,
+	[PARENT_MODULE_LOG_NO] [nvarchar](255) NULL,
+	[PROCESS_NO] [nvarchar](255) NULL,
+	[PHYSICAL_MODULE_NO] [int] NULL,
+	[LOGICAL_MODULE_NO] [int] NULL,
+	[MODULE_ACTION_NO] [nvarchar](255) NULL,
+	[FOR_OBJECT_CLASS] [int] NULL,
+	[FOR_OBJECT_ID] [int] NULL,
+	[WORKED_ON_OBJECT] [nvarchar](255) NULL,
+	[COMMAND_CODE_TYPE] [int] NULL,
+	[COMMAND_CODE_NO] [int] NULL,
+	[STATE_CODE_TYPE] [int] NULL,
+	[STATE_CODE_NO] [int] NULL,
+	[MODULE_STATE_NO] [nvarchar](255) NULL,
+	[IS_ACTIVE] [nvarchar](255) NULL,
+	[ABORT_REASON_CODE_TYPE] [nvarchar](255) NULL,
+	[ABORT_REASON_CODE_NO] [nvarchar](255) NULL,
+	[NODE_NO] [int] NULL,
+	[BATCH_JOB_NO] [nvarchar](255) NULL,
+	[PID] [int] NULL,
+	[MODULE_LOCK_ID] [int] NULL,
+	[USER_PERSON_ID] [int] NULL,
+	[CREATION_DATE] [nvarchar](255) NULL,
+	[PLANNED_START_DATE] [nvarchar](255) NULL,
+	[START_DATE] [nvarchar](255) NULL,
+	[STOP_DATE] [nvarchar](255) NULL,
+	[START_INTERVAL] [nvarchar](255) NULL,
+	[PERCENT_DONE] [int] NULL,
+	[RECORD_COUNT] [int] NULL
+) ON [DATA]
+GO

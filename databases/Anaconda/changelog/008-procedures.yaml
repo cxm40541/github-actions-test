@@ -1,0 +1,3261 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: Anaconda-procedure-001_create_Report_ricevitorie_ed_associazione_TRIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/001_create_Report_ricevitorie_ed_associazione_TRIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-002_create_Report_ricevitorie_ed_associazione_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/002_create_Report_ricevitorie_ed_associazione_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-003_create_Report_ricevitorie_ed_associazione_F101
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/003_create_Report_ricevitorie_ed_associazione_F101.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-004_create_Report_ricevitorie_ed_associazione_BOLLO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/004_create_Report_ricevitorie_ed_associazione_BOLLO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-005_create_ANA_LIS_TROVA_CONTRATTI_NON_ABBINATI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/005_create_ANA_LIS_TROVA_CONTRATTI_NON_ABBINATI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-006_create_ANA_CONI_TROVA_CONTRATTI_NON_ABBINATI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/006_create_ANA_CONI_TROVA_CONTRATTI_NON_ABBINATI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-007_create_ANADLL_ESEGUI_QUERY
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/007_create_ANADLL_ESEGUI_QUERY.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-008_create_ANA_TROVA_PROVVEDIMENTI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/008_create_ANA_TROVA_PROVVEDIMENTI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-009_create_Report_ricevitorie_e_documenti_inviati_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/009_create_Report_ricevitorie_e_documenti_inviati_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-010_create_TITOLARE_VALIDO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/010_create_TITOLARE_VALIDO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-011_create_TITOLARE_PRECEDENTE_K
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/011_create_TITOLARE_PRECEDENTE_K.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-012_create_TITOLARE_PRECEDENTE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/012_create_TITOLARE_PRECEDENTE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-013_create_SOSPENSIONE_TRIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/013_create_SOSPENSIONE_TRIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-014_create_ANA_MOVIMENTA_RICARICHE_DA_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/014_create_ANA_MOVIMENTA_RICARICHE_DA_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-015_create_ANA_REP_CAMBITITOLARITA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/015_create_ANA_REP_CAMBITITOLARITA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-016_create_ANA_REP_ATTIVAZPOSGIALLO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/016_create_ANA_REP_ATTIVAZPOSGIALLO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-017_create_ANA_MOVIMENTA_TRIS_DA_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/017_create_ANA_MOVIMENTA_TRIS_DA_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-018_create_Seleziona_Servizi_Disattivabili_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/018_create_Seleziona_Servizi_Disattivabili_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-019_create_ACQUISIZIONE_CONTRATTO_QUADRO_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/019_create_ACQUISIZIONE_CONTRATTO_QUADRO_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-020_create_ACQUISIZIONE_FIDEJUSSIONE_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/020_create_ACQUISIZIONE_FIDEJUSSIONE_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-021_create_ACQUISIZIONE_RAD_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/021_create_ACQUISIZIONE_RAD_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-022_create_ACQUISIZIONE_AUTORIZZAZIONE_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/022_create_ACQUISIZIONE_AUTORIZZAZIONE_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-023_create_ACQUISIZIONE_ADESIONE_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/023_create_ACQUISIZIONE_ADESIONE_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-024_create_ACQUISIZIONE_RINUNCIA_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/024_create_ACQUISIZIONE_RINUNCIA_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-025_create_ASSOCIAZIONE_CU
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/025_create_ASSOCIAZIONE_CU.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-026_create_ASSOCIAZIONE_BOLLO_DATA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/026_create_ASSOCIAZIONE_BOLLO_DATA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-027_create_ASSOCIAZIONE_BOLLO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/027_create_ASSOCIAZIONE_BOLLO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-028_create_ASSOC_SERVIZI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/028_create_ASSOC_SERVIZI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-029_create_ASSOC_BOLLO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/029_create_ASSOC_BOLLO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-030_create_ATTIVAZIONE_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/030_create_ATTIVAZIONE_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-031_create_ATTIVAZIONE_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/031_create_ATTIVAZIONE_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-032_create_ATTIVAZIONE_GP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/032_create_ATTIVAZIONE_GP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-033_create_RIATTIVAZIONE_ST
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/033_create_RIATTIVAZIONE_ST.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-034_create_VARIAZIONE_DATI_PUNTO_VENDITA_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/034_create_VARIAZIONE_DATI_PUNTO_VENDITA_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-035_create_VARIAZIONE_CONTRATTO_QUADRO_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/035_create_VARIAZIONE_CONTRATTO_QUADRO_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-036_create_VARIAZIONE_FIDEJUSSIONE_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/036_create_VARIAZIONE_FIDEJUSSIONE_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-037_create_VARIAZIONE_RAD_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/037_create_VARIAZIONE_RAD_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-038_create_SCRIVI_LSRLET_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/038_create_SCRIVI_LSRLET_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-039_create_SCRIVI_LSRLET_APPOGGIO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/039_create_SCRIVI_LSRLET_APPOGGIO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-040_create_SCRIVI_LSRLET
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/040_create_SCRIVI_LSRLET.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-041_create_Report_contrattualistica_non_abbinata
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/041_create_Report_contrattualistica_non_abbinata.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-042_create_RIATTIVAZIONE_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/042_create_RIATTIVAZIONE_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-043_create_RIATTIVAZIONE_GP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/043_create_RIATTIVAZIONE_GP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-044_create_VARIAZIONE_AUTORIZZAZIONE_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/044_create_VARIAZIONE_AUTORIZZAZIONE_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-045_create_VARIAZIONE_ADESIONE_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/045_create_VARIAZIONE_ADESIONE_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-046_create_VARIAZIONE_RINUNCIA_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/046_create_VARIAZIONE_RINUNCIA_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-047_create_Report_ricevitorie_e_documenti_inviati_F101
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/047_create_Report_ricevitorie_e_documenti_inviati_F101.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-048_create_Report_ricevitorie_e_documenti_inviati_BOLLO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/048_create_Report_ricevitorie_e_documenti_inviati_BOLLO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-049_create_RIATTIVAZIONE_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/049_create_RIATTIVAZIONE_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-050_create_GEV_DATI_RICEVITORIA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/050_create_GEV_DATI_RICEVITORIA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-051_create_GEV_CODIFICA_SGI_LTM
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/051_create_GEV_CODIFICA_SGI_LTM.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-052_create_GEV_CODIFICA_LTM_SGI_EXT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/052_create_GEV_CODIFICA_LTM_SGI_EXT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-053_create_GEV_CODIFICA_LTM_SGI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/053_create_GEV_CODIFICA_LTM_SGI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-054_create_ANA_REP_PVNOLOTTISTI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/054_create_ANA_REP_PVNOLOTTISTI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-055_create_ANA_REP_PVLOTTISTI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/055_create_ANA_REP_PVLOTTISTI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-056_create_ANA_REP_TRASFERIMENTI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/056_create_ANA_REP_TRASFERIMENTI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-057_create_ANAGRICEV
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/057_create_ANAGRICEV.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-058_create_GEV_DISATTIVAZIONE_DA_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/058_create_GEV_DISATTIVAZIONE_DA_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-059_create_ANA_ANNULLA_MOVIMENTAZIONE_LSRPRO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/059_create_ANA_ANNULLA_MOVIMENTAZIONE_LSRPRO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-060_create_GEV_DECOD_RICEV
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/060_create_GEV_DECOD_RICEV.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-061_create_ATTIVAZIONE_ST
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/061_create_ATTIVAZIONE_ST.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-062_create_GEV_RICEVITORIA_PRECEDENTE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/062_create_GEV_RICEVITORIA_PRECEDENTE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-063_create_GEV_ESISTE_RINUNCIA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/063_create_GEV_ESISTE_RINUNCIA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-064_create_GEV_ESISTE_RID
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/064_create_GEV_ESISTE_RID.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-065_create_LIT_AGGIORNA_TTB_V
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/065_create_LIT_AGGIORNA_TTB_V.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-066_create_ADESIONE_TRIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/066_create_ADESIONE_TRIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-067_create_ADESIONE_BOLLO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/067_create_ADESIONE_BOLLO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-068_create_GEV_TITOLARE_PRECEDENTE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/068_create_GEV_TITOLARE_PRECEDENTE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-069_create_ANNULLA_PROVVEDIMENTO_ST
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/069_create_ANNULLA_PROVVEDIMENTO_ST.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-070_create_ANNULLA_PROVVEDIMENTO_SERVIZI_PACCHETTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/070_create_ANNULLA_PROVVEDIMENTO_SERVIZI_PACCHETTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-071_create_ANNULLA_PROVVEDIMENTO_SERVIZI_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/071_create_ANNULLA_PROVVEDIMENTO_SERVIZI_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-072_create_ANNULLA_PROVVEDIMENTO_SERVIZI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/072_create_ANNULLA_PROVVEDIMENTO_SERVIZI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-073_create_ANNULLA_PROVVEDIMENTO_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/073_create_ANNULLA_PROVVEDIMENTO_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-074_create_ANNULLA_PROVVEDIMENTO_GP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/074_create_ANNULLA_PROVVEDIMENTO_GP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-075_create_ANNULLA_PROVVEDIMENTO_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/075_create_ANNULLA_PROVVEDIMENTO_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-076_create_ANA_ANNULLA_MOVIMENTAZIONE_F101
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/076_create_ANA_ANNULLA_MOVIMENTAZIONE_F101.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-077_create_ANA_ANNULLA_MOVIMENTAZIONE_CONTRIBUTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/077_create_ANA_ANNULLA_MOVIMENTAZIONE_CONTRIBUTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-078_create_ANA_ANNULLA_MOVIMENTAZIONE_COMUNI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/078_create_ANA_ANNULLA_MOVIMENTAZIONE_COMUNI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-079_create_ANA_ANNULLA_MOVIMENTAZIONE_CANONE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/079_create_ANA_ANNULLA_MOVIMENTAZIONE_CANONE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-080_create_ANA_ANNULLA_MOVIMENTAZIONE_BOLLO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/080_create_ANA_ANNULLA_MOVIMENTAZIONE_BOLLO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-081_create_ANA_ANNULLA_MOVIMENTAZIONE_BIGLIETTERIA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/081_create_ANA_ANNULLA_MOVIMENTAZIONE_BIGLIETTERIA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-082_create_AGGIORNA_TERM_MAGAZ
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/082_create_AGGIORNA_TERM_MAGAZ.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-083_create_AGGIORNA_LTO0AA_TEST
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/083_create_AGGIORNA_LTO0AA_TEST.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-084_create_AGGIORNA_LTO0AA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/084_create_AGGIORNA_LTO0AA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-085_create_AGGIORNA_FT_VOS_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/085_create_AGGIORNA_FT_VOS_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-086_create_DISATTIVAZIONE_TRIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/086_create_DISATTIVAZIONE_TRIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-087_create_DISATTIVAZIONE_TEL_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/087_create_DISATTIVAZIONE_TEL_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-088_create_DISATTIVAZIONE_ST
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/088_create_DISATTIVAZIONE_ST.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-089_create_DISATTIVAZIONE_PAG_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/089_create_DISATTIVAZIONE_PAG_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-090_create_DISATTIVAZIONE_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/090_create_DISATTIVAZIONE_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-091_create_DISATTIVAZIONE_GP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/091_create_DISATTIVAZIONE_GP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-092_create_DISATTIVAZIONE_F101
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/092_create_DISATTIVAZIONE_F101.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-093_create_DISATTIVAZIONE_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/093_create_DISATTIVAZIONE_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-094_create_DISATTIVAZIONE_CITT_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/094_create_DISATTIVAZIONE_CITT_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-095_create_DISATTIVAZIONE_BOLLO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/095_create_DISATTIVAZIONE_BOLLO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-096_create_DISATTIVAZIONE_BIG_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/096_create_DISATTIVAZIONE_BIG_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-097_create_DISATTIVAZIONE_ATTI_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/097_create_DISATTIVAZIONE_ATTI_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-098_create_DISABILITA_SER_LOTTOMATICA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/098_create_DISABILITA_SER_LOTTOMATICA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-099_create_DISABILITA_SER_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/099_create_DISABILITA_SER_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-100_create_ANA_ANNULLA_MOVIMENTAZIONE_TRIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/100_create_ANA_ANNULLA_MOVIMENTAZIONE_TRIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-101_create_ANA_ANNULLA_MOVIMENTAZIONE_RICARICHE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/101_create_ANA_ANNULLA_MOVIMENTAZIONE_RICARICHE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-102_create_daily_Report_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/102_create_daily_Report_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-103_create_ANA_MOVIMENTA_BIGLIETTERIA_DA_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/103_create_ANA_MOVIMENTA_BIGLIETTERIA_DA_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-104_create_Crea_Report_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/104_create_Crea_Report_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-105_create_ANA_DISATTIVA_F101_TEMP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/105_create_ANA_DISATTIVA_F101_TEMP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-106_create_ANA_DISATTIVA_BOLLO_TEMP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/106_create_ANA_DISATTIVA_BOLLO_TEMP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-107_create_ANA_CREA_LSRGEN
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/107_create_ANA_CREA_LSRGEN.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-108_create_ANA_DISATTIVA_TRIS_TEMP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/108_create_ANA_DISATTIVA_TRIS_TEMP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-109_create_TUTTOLTM
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/109_create_TUTTOLTM.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-110_create_INSERTPROVVCONC
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/110_create_INSERTPROVVCONC.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-111_create_GEV_ASSOCIA_TITOLARE_DOCUMENTO_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/111_create_GEV_ASSOCIA_TITOLARE_DOCUMENTO_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-112_create_GEV_ASSOCIA_TITOLARE_DOCUMENTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/112_create_GEV_ASSOCIA_TITOLARE_DOCUMENTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-113_create_INSERT_LSRPRO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/113_create_INSERT_LSRPRO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-114_create_INSERT_LSRPRO_I_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/114_create_INSERT_LSRPRO_I_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-115_create_IC_AGGIORNA_FT_VOS_CHIUSURE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/115_create_IC_AGGIORNA_FT_VOS_CHIUSURE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-116_create_GEV_TITOLARE_PROVVEDIMENTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/116_create_GEV_TITOLARE_PROVVEDIMENTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-117_create_IC_FT_VOS_CHIUSURE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/117_create_IC_FT_VOS_CHIUSURE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-118_create_INSERT_ANA_MODIFICHE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/118_create_INSERT_ANA_MODIFICHE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-119_create_ElencoRicevitorieTrasfInJoinNew
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/119_create_ElencoRicevitorieTrasfInJoinNew.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-120_create_ElencoRicevitorieTrasfInJoin
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/120_create_ElencoRicevitorieTrasfInJoin.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-121_create_ElencoRicevitorieTrasf
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/121_create_ElencoRicevitorieTrasf.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-122_create_Report_ricevitorie_ed_associazione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/122_create_Report_ricevitorie_ed_associazione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-123_create_Report_ricevitorie_e_documenti_inviati_TRIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/123_create_Report_ricevitorie_e_documenti_inviati_TRIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-124_create_CARICA_PREGRESSO_SERVIZI_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/124_create_CARICA_PREGRESSO_SERVIZI_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-125_create_CARICA_PREGRESSO_CONTRATTI_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/125_create_CARICA_PREGRESSO_CONTRATTI_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-126_create_CARICA_CONFIDA_TRIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/126_create_CARICA_CONFIDA_TRIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-127_create_CAMBIOTIT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/127_create_CAMBIOTIT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-128_create_CALCOLA_ADDEBITO_CANONE_BOLLO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/128_create_CALCOLA_ADDEBITO_CANONE_BOLLO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-129_create_CC_DATI_LETTERA_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/129_create_CC_DATI_LETTERA_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-130_create_CC_STATI_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/130_create_CC_STATI_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-131_create_CREA_LSEAPP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/131_create_CREA_LSEAPP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-132_create_CREA_LISTA_SERVIZI_ATTIVI_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/132_create_CREA_LISTA_SERVIZI_ATTIVI_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-133_create_Crea_AttivLis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/133_create_Crea_AttivLis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-134_create_CC_DATI_MOVIMENTAZIONI_OLD_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/134_create_CC_DATI_MOVIMENTAZIONI_OLD_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-135_create_CC_DATI_MOVIMENTAZIONI_NEW_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/135_create_CC_DATI_MOVIMENTAZIONI_NEW_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-136_create_CREA_LSR5APP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/136_create_CREA_LSR5APP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-137_create_CREA_LSR3APP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/137_create_CREA_LSR3APP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-138_create_GESTIONE_LSRVAR_IND
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/138_create_GESTIONE_LSRVAR_IND.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-139_create_ANA_MOVIMENTA_LSRPRO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/139_create_ANA_MOVIMENTA_LSRPRO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-140_create_ANA_MOVIMENTA_CONTRIBUTO_DA_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/140_create_ANA_MOVIMENTA_CONTRIBUTO_DA_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-141_create_ANA_MOVIMENTA_COMUNI_DA_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/141_create_ANA_MOVIMENTA_COMUNI_DA_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-142_create_ANA_MOVIMENTA_CANONE_DA_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/142_create_ANA_MOVIMENTA_CANONE_DA_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-143_create_ANA_MOVIMENTA_BOLLO_DA_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/143_create_ANA_MOVIMENTA_BOLLO_DA_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-144_create_PopolaTabProvvRicNonAttTRISPROVANew
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/144_create_PopolaTabProvvRicNonAttTRISPROVANew.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-145_create_PopolaTabProvvRicNonAttF101New
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/145_create_PopolaTabProvvRicNonAttF101New.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-146_create_PopolaTabProvvRicAttTRISProvaNew
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/146_create_PopolaTabProvvRicAttTRISProvaNew.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-147_create_PopolaTabProvvRicAttF101New
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/147_create_PopolaTabProvvRicAttF101New.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-148_create_ANA_MOVIMENTA_F101_DA_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/148_create_ANA_MOVIMENTA_F101_DA_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-149_create_ANA_MOVIMENTA_F101
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/149_create_ANA_MOVIMENTA_F101.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-150_create_ANA_MOVIMENTA_BOLLO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/150_create_ANA_MOVIMENTA_BOLLO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-151_create_ANA_MOVIMENTA_LIS_DA_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/151_create_ANA_MOVIMENTA_LIS_DA_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-152_create_CREA_LSR1APP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/152_create_CREA_LSR1APP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-153_create_CREA_LSR01A
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/153_create_CREA_LSR01A.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-154_create_CC_DATI_LOTTO_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/154_create_CC_DATI_LOTTO_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-155_create_CC_DATI_RAD_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/155_create_CC_DATI_RAD_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-156_create_CC_DATI_DOC_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/156_create_CC_DATI_DOC_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-157_create_CARICA_CONCESSIONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/157_create_CARICA_CONCESSIONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-158_create_CARICA_ATTIVAZIONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/158_create_CARICA_ATTIVAZIONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-159_create_CREA_LSRFLAG
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/159_create_CREA_LSRFLAG.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-160_create_GEV_VARIAZIONE_CONTRATTI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/160_create_GEV_VARIAZIONE_CONTRATTI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-161_create_GEV_TROVA_DOCUMENTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/161_create_GEV_TROVA_DOCUMENTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-162_create_IC_AUTORIZZA_SOSTITUZIONE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/162_create_IC_AUTORIZZA_SOSTITUZIONE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-163_create_IC_AGGIORNA_SOSTITUZIONE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/163_create_IC_AGGIORNA_SOSTITUZIONE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-164_create_SAP_MOVIMENTAZIONI_BIGLIETTERIA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/164_create_SAP_MOVIMENTAZIONI_BIGLIETTERIA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-165_create_GEV_VARIAZIONE_QUESTIONARI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/165_create_GEV_VARIAZIONE_QUESTIONARI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-166_create_GEV_VARIAZIONE_ORDINE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/166_create_GEV_VARIAZIONE_ORDINE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-167_create_GEV_VARIAZIONE_NUOVI_QUESTIONARI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/167_create_GEV_VARIAZIONE_NUOVI_QUESTIONARI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-168_create_GEV_VARIAZIONE_NUOVI_CONTRATTI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/168_create_GEV_VARIAZIONE_NUOVI_CONTRATTI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-169_create_GEV_VARIAZIONE_FIDEJUSSIONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/169_create_GEV_VARIAZIONE_FIDEJUSSIONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-170_create_INSERT_LSRPRO_F_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/170_create_INSERT_LSRPRO_F_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-171_create_INSERT_LSRPRO_E_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/171_create_INSERT_LSRPRO_E_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-172_create_GEV_ASSOCIAZIONE_TITOLARE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/172_create_GEV_ASSOCIAZIONE_TITOLARE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-173_create_CREA_RAD_ATTIVAZIONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/173_create_CREA_RAD_ATTIVAZIONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-174_create_CREA_RAD_ADESIONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/174_create_CREA_RAD_ADESIONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-175_create_INSERT_SER_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/175_create_INSERT_SER_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-176_create_CREA_RAD_ATTIVAZIONI_LIS_CP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/176_create_CREA_RAD_ATTIVAZIONI_LIS_CP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-177_create_CREA_RAD_ATTIVAZIONI_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/177_create_CREA_RAD_ATTIVAZIONI_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-178_create_CREA_RAD_DISATTIVAZIONI_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/178_create_CREA_RAD_DISATTIVAZIONI_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-179_create_CREA_RAD_DISATTIVAZIONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/179_create_CREA_RAD_DISATTIVAZIONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-180_create_CREA_RAD_RIATTIVAZIONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/180_create_CREA_RAD_RIATTIVAZIONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-181_create_ANA_DISATTIVA_LTM_TEMP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/181_create_ANA_DISATTIVA_LTM_TEMP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-182_create_Daily_Report_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/182_create_Daily_Report_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-183_create_CREA_RAD_RIATTIVAZIONI_LIS_CP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/183_create_CREA_RAD_RIATTIVAZIONI_LIS_CP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-184_create_CREA_RAD_RIATTIVAZIONI_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/184_create_CREA_RAD_RIATTIVAZIONI_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-185_create_AGGIORNA_FT_VOS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/185_create_AGGIORNA_FT_VOS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-186_create_AGGIORNA_FLAG_ANAGRAFICA_CONTRATTI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/186_create_AGGIORNA_FLAG_ANAGRAFICA_CONTRATTI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-187_create_AGGIORNA_ANAGRAFICA_UNICA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/187_create_AGGIORNA_ANAGRAFICA_UNICA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-188_create_Annulla_Provvedimento_Anagrafica_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/188_create_Annulla_Provvedimento_Anagrafica_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-189_create_ANNULLA_PROVVEDIMENTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/189_create_ANNULLA_PROVVEDIMENTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-190_create_GEV_SCRIVI_LSRLET
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/190_create_GEV_SCRIVI_LSRLET.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-191_create_ANA_ANNULLA_MOVIMENTAZIONE_LTM
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/191_create_ANA_ANNULLA_MOVIMENTAZIONE_LTM.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-192_create_ANA_TROVA_CONTRATTI_NON_ABBINATI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/192_create_ANA_TROVA_CONTRATTI_NON_ABBINATI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-193_create_ATTIVAZIONE_PAG_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/193_create_ATTIVAZIONE_PAG_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-194_create_ANA_ANNULLA_MOVIMENTAZIONE_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/194_create_ANA_ANNULLA_MOVIMENTAZIONE_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-195_create_ANA_ANNULLA_MOVIMENTAZIONE_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/195_create_ANA_ANNULLA_MOVIMENTAZIONE_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-196_create_GEV_ESISTE_RICEVITORIA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/196_create_GEV_ESISTE_RICEVITORIA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-197_create_ANA_REP_STATO_RICEVITORIA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/197_create_ANA_REP_STATO_RICEVITORIA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-198_create_ANA_REP_STAT_VECTIT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/198_create_ANA_REP_STAT_VECTIT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-199_create_ANA_REP_STAT_TITATT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/199_create_ANA_REP_STAT_TITATT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-200_create_ANA_REP_STAT_NORID
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/200_create_ANA_REP_STAT_NORID.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-201_create_ANA_REP_STAT_NOFIDNORID
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/201_create_ANA_REP_STAT_NOFIDNORID.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-202_create_ANA_REP_STAT_NOFID
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/202_create_ANA_REP_STAT_NOFID.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-203_create_ANA_REP_STAT_DOCOK
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/203_create_ANA_REP_STAT_DOCOK.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-204_create_ANA_REP_PVATTIVI_SI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/204_create_ANA_REP_PVATTIVI_SI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-205_create_ANA_REP_PVATTIVI_CONI_ST
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/205_create_ANA_REP_PVATTIVI_CONI_ST.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-206_create_ANA_REP_PVATTIVI_CONI_SI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/206_create_ANA_REP_PVATTIVI_CONI_SI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-207_create_ANA_REP_DELTACONTPOSGIALLO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/207_create_ANA_REP_DELTACONTPOSGIALLO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-208_create_RIATTIVAZIONE_CITT_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/208_create_RIATTIVAZIONE_CITT_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-209_create_RIATTIVAZIONE_BOLLO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/209_create_RIATTIVAZIONE_BOLLO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-210_create_RIATTIVAZIONE_BIG_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/210_create_RIATTIVAZIONE_BIG_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-211_create_RIATTIVAZIONE_ATTI_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/211_create_RIATTIVAZIONE_ATTI_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-212_create_Report_ricevitorie_e_documenti_inviati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/212_create_Report_ricevitorie_e_documenti_inviati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-213_create_Report_riattivabili_TRIS_con_fidejussione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/213_create_Report_riattivabili_TRIS_con_fidejussione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-214_create_VARIAZIONE_TULPS_ST
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/214_create_VARIAZIONE_TULPS_ST.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-215_create_VARIAZIONE_TULPS_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/215_create_VARIAZIONE_TULPS_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-216_create_VARIAZIONE_RINUNCIA_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/216_create_VARIAZIONE_RINUNCIA_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-217_create_VARIAZIONE_RAD_ST
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/217_create_VARIAZIONE_RAD_ST.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-218_create_ValidaTrasferimento
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/218_create_ValidaTrasferimento.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-219_create_ACQUISIZIONE_TULPS_ST
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/219_create_ACQUISIZIONE_TULPS_ST.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-220_create_Report_attivabili_F101_con_fidejussione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/220_create_Report_attivabili_F101_con_fidejussione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-221_create_RepMovimentazioniST
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/221_create_RepMovimentazioniST.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-222_create_RepMovimentazioniCONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/222_create_RepMovimentazioniCONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-223_create_Report_attivabili_TRIS_con_fidejussione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/223_create_Report_attivabili_TRIS_con_fidejussione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-224_create_RIATTIVAZIONE_F101
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/224_create_RIATTIVAZIONE_F101.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-225_create_Report_riattivabili_F101_con_fidejussione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/225_create_Report_riattivabili_F101_con_fidejussione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-226_create_Report_riattivabili_bollo_canone
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/226_create_Report_riattivabili_bollo_canone.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-227_create_Report_Movimentazioni_per_periodo_di_tempo_TRIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/227_create_Report_Movimentazioni_per_periodo_di_tempo_TRIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-228_create_Report_Movimentazioni_per_periodo_di_tempo_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/228_create_Report_Movimentazioni_per_periodo_di_tempo_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-229_create_Report_Movimentazioni_per_periodo_di_tempo_F101
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/229_create_Report_Movimentazioni_per_periodo_di_tempo_F101.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-230_create_Report_Movimentazioni_per_periodo_di_tempo_BOLLO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/230_create_Report_Movimentazioni_per_periodo_di_tempo_BOLLO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-231_create_RIATTIVAZIONI_PACCHETTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/231_create_RIATTIVAZIONI_PACCHETTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-232_create_RIATTIVAZIONE_TRIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/232_create_RIATTIVAZIONE_TRIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-233_create_RIATTIVAZIONE_TEL_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/233_create_RIATTIVAZIONE_TEL_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-234_create_SCRIVI_LSRLET_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/234_create_SCRIVI_LSRLET_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-235_create_SCRIVI_LSRLET_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/235_create_SCRIVI_LSRLET_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-236_create_VARIAZIONE_RAD_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/236_create_VARIAZIONE_RAD_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-237_create_VARIAZIONE_RAD_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/237_create_VARIAZIONE_RAD_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-238_create_VARIAZIONE_QUESTIONARIO_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/238_create_VARIAZIONE_QUESTIONARIO_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-239_create_VARIAZIONE_NULLA_OSTA_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/239_create_VARIAZIONE_NULLA_OSTA_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-240_create_VARIAZIONE_NULLA_OSTA_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/240_create_VARIAZIONE_NULLA_OSTA_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-241_create_VARIAZIONE_FIDEJUSSIONE_UNICA_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/241_create_VARIAZIONE_FIDEJUSSIONE_UNICA_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-242_create_VARIAZIONE_FIDEJUSSIONE_GP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/242_create_VARIAZIONE_FIDEJUSSIONE_GP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-243_create_VARIAZIONE_FIDEJUSSIONE_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/243_create_VARIAZIONE_FIDEJUSSIONE_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-244_create_VARIAZIONE_CONTRATTO_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/244_create_VARIAZIONE_CONTRATTO_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-245_create_VARIAZIONE_CONTRATTO_GP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/245_create_VARIAZIONE_CONTRATTO_GP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-246_create_VARIAZIONE_CONTRATTO_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/246_create_VARIAZIONE_CONTRATTO_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-247_create_RIATTIVAZIONE_PAG_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/247_create_RIATTIVAZIONE_PAG_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-248_create_ATTIVAZIONE_F101
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/248_create_ATTIVAZIONE_F101.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-249_create_ACQUISIZIONE_TULPS_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/249_create_ACQUISIZIONE_TULPS_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-250_create_ATTIVAZIONE_CITT_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/250_create_ATTIVAZIONE_CITT_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-251_create_ATTIVAZIONE_BOLLO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/251_create_ATTIVAZIONE_BOLLO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-252_create_ATTIVAZIONE_BIG_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/252_create_ATTIVAZIONE_BIG_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-253_create_ATTIVAZIONE_ATTI_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/253_create_ATTIVAZIONE_ATTI_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-254_create_ACQUISIZIONE_RINUNCIA_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/254_create_ACQUISIZIONE_RINUNCIA_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-255_create_ACQUISIZIONE_RAD_ST
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/255_create_ACQUISIZIONE_RAD_ST.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-256_create_ACQUISIZIONE_RAD_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/256_create_ACQUISIZIONE_RAD_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-257_create_ACQUISIZIONE_RAD_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/257_create_ACQUISIZIONE_RAD_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-258_create_ACQUISIZIONE_QUESTIONARIO_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/258_create_ACQUISIZIONE_QUESTIONARIO_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-259_create_ACQUISIZIONE_NULLA_OSTA_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/259_create_ACQUISIZIONE_NULLA_OSTA_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-260_create_ACQUISIZIONE_NULLA_OSTA_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/260_create_ACQUISIZIONE_NULLA_OSTA_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-261_create_ACQUISIZIONE_FIDEJUSSIONE_UNICA_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/261_create_ACQUISIZIONE_FIDEJUSSIONE_UNICA_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-262_create_ACQUISIZIONE_FIDEJUSSIONE_GP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/262_create_ACQUISIZIONE_FIDEJUSSIONE_GP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-263_create_ACQUISIZIONE_FIDEJUSSIONE_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/263_create_ACQUISIZIONE_FIDEJUSSIONE_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-264_create_ACQUISIZIONE_CONTRATTO_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/264_create_ACQUISIZIONE_CONTRATTO_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-265_create_ACQUISIZIONE_CONTRATTO_GP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/265_create_ACQUISIZIONE_CONTRATTO_GP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-266_create_ACQUISIZIONE_CONTRATTO_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/266_create_ACQUISIZIONE_CONTRATTO_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-267_create_ATTIVAZIONI_PACCHETTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/267_create_ATTIVAZIONI_PACCHETTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-268_create_ATTIVAZIONE_TRIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/268_create_ATTIVAZIONE_TRIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-269_create_ATTIVAZIONE_TEL_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/269_create_ATTIVAZIONE_TEL_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-270_create_ANA_REP_STAT_CONTOT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/270_create_ANA_REP_STAT_CONTOT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-271_create_ANA_REP_STAT_CONSOSPESE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/271_create_ANA_REP_STAT_CONSOSPESE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-272_create_ANA_REP_STAT_CONRINUNCE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/272_create_ANA_REP_STAT_CONRINUNCE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-273_create_ANA_REP_STAT_CONNOABB
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/273_create_ANA_REP_STAT_CONNOABB.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-274_create_ANA_REP_STAT_CONATTIVE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/274_create_ANA_REP_STAT_CONATTIVE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-275_create_ANA_REP_SITUAZCONPOSGIALLO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/275_create_ANA_REP_SITUAZCONPOSGIALLO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-276_create_ANA_REP_RINUNCIEPOSGIALLO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/276_create_ANA_REP_RINUNCIEPOSGIALLO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-277_create_ANA_REP_RIEPSETTCONT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/277_create_ANA_REP_RIEPSETTCONT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-278_create_ANA_REP_PVSOSPESI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/278_create_ANA_REP_PVSOSPESI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-279_create_SCRIVI_LSRLET_ST
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/279_create_SCRIVI_LSRLET_ST.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-280_create_ANA_MOVIMENTA_TRIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/280_create_ANA_MOVIMENTA_TRIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-281_create_ANA_MOVIMENTA_LTM_DA_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/281_create_ANA_MOVIMENTA_LTM_DA_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-282_create_ANA_MOVIMENTA_LTM
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/282_create_ANA_MOVIMENTA_LTM.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-283_create_Report_Movimentazioni_per_periodo_di_tempo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/283_create_Report_Movimentazioni_per_periodo_di_tempo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-284_create_Report_movimentazioni_CONI_ST
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/284_create_Report_movimentazioni_CONI_ST.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-285_create_Report_attivabili_riattivabili_TRIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/285_create_Report_attivabili_riattivabili_TRIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-286_create_Report_attivabili_riattivabili_F101
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/286_create_Report_attivabili_riattivabili_F101.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-287_create_GEV_ATTIVAZIONE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/287_create_GEV_ATTIVAZIONE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-288_create_GEV_CREA_RAD_old
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/288_create_GEV_CREA_RAD_old.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-289_create_GEV_CREA_RAD
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/289_create_GEV_CREA_RAD.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-290_create_Gev_Copia_Profilo_Ricevitoria
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/290_create_Gev_Copia_Profilo_Ricevitoria.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-291_create_GEV_DISATTIVAZIONE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/291_create_GEV_DISATTIVAZIONE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-292_create_GEV_RMF_CONTRATTUALIZZATE_OLD
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/292_create_GEV_RMF_CONTRATTUALIZZATE_OLD.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-293_create_GEV_RMF_CONTRATTUALIZZATE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/293_create_GEV_RMF_CONTRATTUALIZZATE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-294_create_GEV_RIATTIVAZIONE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/294_create_GEV_RIATTIVAZIONE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-295_create_GEV_REPORT_CONTRATTI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/295_create_GEV_REPORT_CONTRATTI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-296_create_GEV_Modifica_Operatore
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/296_create_GEV_Modifica_Operatore.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-297_create_GEV_INSERT_LSRPVO_TSR_NON_LTM
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/297_create_GEV_INSERT_LSRPVO_TSR_NON_LTM.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-298_create_CREA_RAD_RIATTIVAZIONI_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/298_create_CREA_RAD_RIATTIVAZIONI_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-299_create_CREA_RAD_RIATTIVAZIONI_GP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/299_create_CREA_RAD_RIATTIVAZIONI_GP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-300_create_CREA_RAD_RIATTIVAZIONI_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/300_create_CREA_RAD_RIATTIVAZIONI_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-301_create_CREA_RAD_RIATTIVAZIONI_ST
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/301_create_CREA_RAD_RIATTIVAZIONI_ST.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-302_create_CREA_RAD_DISATTIVAZIONI_ST
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/302_create_CREA_RAD_DISATTIVAZIONI_ST.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-303_create_CREA_RAD_ATTIVAZIONI_ST
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/303_create_CREA_RAD_ATTIVAZIONI_ST.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-304_create_CREA_RAD_DISATTIVAZIONI_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/304_create_CREA_RAD_DISATTIVAZIONI_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-305_create_CREA_RAD_DISATTIVAZIONI_GP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/305_create_CREA_RAD_DISATTIVAZIONI_GP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-306_create_CREA_RAD_DISATTIVAZIONI_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/306_create_CREA_RAD_DISATTIVAZIONI_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-307_create_CREA_RAD_ATTIVAZIONI_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/307_create_CREA_RAD_ATTIVAZIONI_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-308_create_CREA_RAD_ATTIVAZIONI_GP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/308_create_CREA_RAD_ATTIVAZIONI_GP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-309_create_CREA_RAD_ATTIVAZIONI_CONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/309_create_CREA_RAD_ATTIVAZIONI_CONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-310_create_GEV_AGGIORNA_OPERATORE_DOPO_CI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/310_create_GEV_AGGIORNA_OPERATORE_DOPO_CI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-311_create_GEV_ACQUISIZIONE_RINUNCE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/311_create_GEV_ACQUISIZIONE_RINUNCE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-312_create_GEV_ACQUISIZIONE_RAD
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/312_create_GEV_ACQUISIZIONE_RAD.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-313_create_GEV_ACQUISIZIONE_QUESTIONARI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/313_create_GEV_ACQUISIZIONE_QUESTIONARI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-314_create_GEV_ACQUISIZIONE_ORDINE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/314_create_GEV_ACQUISIZIONE_ORDINE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-315_create_GEV_ACQUISIZIONE_NUOVI_QUESTIONARI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/315_create_GEV_ACQUISIZIONE_NUOVI_QUESTIONARI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-316_create_INSERTPROVVSTATO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/316_create_INSERTPROVVSTATO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-317_create_GEV_VARIAZIONE_CONTRATTI_ITVM
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/317_create_GEV_VARIAZIONE_CONTRATTI_ITVM.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-318_create_GEV_INSERT_LSRPVO_TSR_CONTRATTUALIZZATE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/318_create_GEV_INSERT_LSRPVO_TSR_CONTRATTUALIZZATE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-319_create_GEV_ACQUISIZIONE_FIDEJUSSIONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/319_create_GEV_ACQUISIZIONE_FIDEJUSSIONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-320_create_GEV_ACQUISIZIONE_CONTRATTI_ITVM
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/320_create_GEV_ACQUISIZIONE_CONTRATTI_ITVM.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-321_create_GEV_ACQUISIZIONE_CONTRATTI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/321_create_GEV_ACQUISIZIONE_CONTRATTI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-322_create_GEV_ACQUISIZIONE_APS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/322_create_GEV_ACQUISIZIONE_APS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-323_create_ANA_MOVIMENTA_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/323_create_ANA_MOVIMENTA_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-324_create_GEV_RMF_GIORNALIERO_OLD
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/324_create_GEV_RMF_GIORNALIERO_OLD.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-325_create_GEV_RMF_GIORNALIERO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/325_create_GEV_RMF_GIORNALIERO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-procedure-326_create_GEV_INSERT_LSRPVO_TSR_CONTRATTUALIZZATE_OLD
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/326_create_GEV_INSERT_LSRPVO_TSR_CONTRATTUALIZZATE_OLD.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

@@ -1,0 +1,3 @@
+﻿/****** Object:  Schema [K12186]    Script Date: 11/17/2025 15:18:25 ******/
+CREATE SCHEMA [K12186] AUTHORIZATION [GTK\K12186]
+GO

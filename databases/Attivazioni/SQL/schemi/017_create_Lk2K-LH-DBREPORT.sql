@@ -1,0 +1,3 @@
+﻿/****** Object:  Schema [Lk2K-LH-DBREPORT]    Script Date: 11/17/2025 15:21:50 ******/
+CREATE SCHEMA [Lk2K-LH-DBREPORT] AUTHORIZATION [Lk2K-LH-DBREPORT]
+GO

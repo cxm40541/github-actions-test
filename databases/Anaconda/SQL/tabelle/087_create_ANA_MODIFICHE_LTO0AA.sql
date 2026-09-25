@@ -1,0 +1,31 @@
+﻿/****** Object:  Table [dbo].[ANA_MODIFICHE_LTO0AA]    Script Date: 11/17/2025 15:18:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[ANA_MODIFICHE_LTO0AA](
+	[DATA_INS] [char](8) NULL,
+	[DATA_VALIDITA] [char](8) NULL,
+	[DATA_CESSAZIONE] [char](8) NULL,
+	[TIPO_MOD] [varchar](1) NOT NULL,
+	[COD_LOTT] [char](6) NOT NULL,
+	[ID_CONI] [char](15) NULL,
+	[COGNOME] [char](24) NULL,
+	[NOME] [char](20) NULL,
+	[TIPO_GIURIDICO] [char](1) NOT NULL,
+	[COD_FISC_TIT] [char](16) NULL,
+	[PARTITA_IVA] [char](11) NULL,
+	[DENOM] [char](50) NULL,
+	[INDIRIZZO] [char](40) NULL,
+	[CAP] [char](5) NULL,
+	[COMUNE] [char](24) NULL,
+	[PROV] [char](2) NULL,
+	[TEL_CASA] [char](12) NULL,
+	[TEL_CELL] [char](12) NULL,
+	[FT_LTO] [varchar](8) NOT NULL
+) ON [DATA]
+GO
+SET ANSI_PADDING OFF
+GO

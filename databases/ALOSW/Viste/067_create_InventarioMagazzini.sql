@@ -1,0 +1,7 @@
+﻿/****** Object:  View [dbo].[InventarioMagazzini]    Script Date: 11/17/2025 15:16:02 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE VIEW [dbo].[InventarioMagazzini] AS  SELECT 1 As TipoOggetto,idscheda AS CodiceOggetto ,nome as macchina, prop AS Proprieta,agente AS Associato,matricola,idmagazzino as Magazzino FROM schede WHERE datafine is null AND idscheda not in (select scheda from move where scheda=schede.idscheda)  Union SELECT 2 as TipoOggetto, iddedicato AS CodiceOggetto,nome as macchina,prop AS Proprieta,agente AS Associato,matricola, idmagazzino as Magazzino FROM dedicati WHERE datafine is null AND iddedicato not in (select dedicato from move where dedicato=dedicati.iddedicato)    UNION SELECT 15 AS TipoOggetto,iddistributore AS CodiceOggetto,nome as macchina,prop AS Proprieta,agente AS Associato,matricola,idmagazzino as Magazzino FROM distribut WHERE datafine is null AND iddistributore not in (select distributore from move where distributore=distribut.iddistributore) UNION SELECT 0 AS TipoOggetto,idmobile AS CodiceOggetto,modello as macchina,prop AS Proprieta,agente AS Associato,matricola,idmagazzino as Magazzino FROM mobili WHERE datafine is null AND idmobile not in (select mobile from move where mobile=mobili.idmobile) UNION SELECT 3 AS TipoOggetto,IdAccessorio AS CodiceOggetto,Nome as macchina,prop AS Proprieta,'' AS Associato,matricola,idmagazzino as Magazzino FROM Accessori WHERE IdAccessorio not in (select Accessorio from move where accessorio=accessori.idaccessorio)
+GO

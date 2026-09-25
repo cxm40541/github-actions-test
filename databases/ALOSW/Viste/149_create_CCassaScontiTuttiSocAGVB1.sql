@@ -1,0 +1,19 @@
+﻿/****** Object:  View [dbo].[CCassaScontiTuttiSocAGVB1]    Script Date: 11/17/2025 15:16:01 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE VIEW [dbo].[CCassaScontiTuttiSocAGVB1] AS select data,'Corrispettivi Società'  as descrizione, sum(incassonetto) as Entrate, 0 as uscite, prop as idsoc, 0 AS IdRefillHopper from incassi group by data,prop
+ Union select data, 'Preu incassato'  as descrizione, sum(tasse) as Entrate, 0 as uscite, prop as idsoc, 0 AS IdRefillHopper from incassi where tasse <> 0  group by data,prop
+ Union select data, 'AAMS incassato'  as descrizione, sum(AAMS) as Entrate, 0 as uscite, prop as idsoc, 0 AS IdRefillHopper  from incassi  where aams <> 0  group by data,prop
+ Union select data, 'Rete incassata'  as descrizione, sum(RETE) as Entrate, 0 as uscite, prop as idsoc, 0 AS IdRefillHopper from incassi where rete <> 0  group by data,prop
+ Union select data, 'Sospesi'  as descrizione, 0 as Entrate, sum(abs(importo))  as uscite,locali.prop as idsoc, 0 AS IdRefillHopper from sospesirientri  LEFT JOIN locali on locali.idlocale=sospesirientri.codicelocale where  tiposospeso <> 1 and sospesirientri.importo < 0 and swincasso = 0  group by data,prop
+ Union select data, 'Recuperi'  as descrizione, sum(importo) as Entrate, 0  as uscite, locali.prop as idsoc, 0 AS IdRefillHopper from sospesirientri LEFT JOIN locali on locali.idlocale=sospesirientri.codicelocale where  tiposospeso <> 1 and sospesirientri.importo >  0  and swincasso = 0  group by data,prop
+ Union select datada as data, 'Cariche Iniziali'  as descrizione, 0 as Entrate, sum(totsocieta) as uscite,idsocieta as idsoc, 0 AS IdRefillHopper from hopper where totsocieta <> 0 and not totsocieta  is null group by datada,idsocieta
+ Union select dataa as data, 'Cariche Finali'  as descrizione, sum(totsocfin) as Entrate, 0  as uscite,idsocieta as idsoc, 0 AS IdRefillHopper  from hopper where totsocfin <> 0 and not totsocfin  is null group by dataa,idsocieta
+ Union select data, 'Refill Recuperati' as Descrizione, sum(abs(refillsocieta)) as Entrate, 0 as uscite,(CASE WHEN (hopper.iddedicato IS NOT NULL OR hopper.iddedicato = 0) THEN dedicati.prop ELSE accessori.prop END) AS idsoc, IdRefillHopper from ((refillhopper LEFT JOIN hopper ON hopper.idhopper = refillhopper.idhopper) LEFT JOIN dedicati ON dedicati.iddedicato = hopper.iddedicato) LEFT JOIN accessori ON accessori.idaccessorio = hopper.idaccessorio where refillhopper.refillsocieta < 0  group by data, idsocieta, hopper.iddedicato, dedicati.prop, accessori.prop, IdRefillHopper 
+ Union select data, 'Refill Generati' as Descrizione, 0 as Entrate, sum(abs(refillsocieta)) as uscite,(CASE WHEN (hopper.iddedicato IS NOT NULL OR hopper.iddedicato = 0) THEN dedicati.prop ELSE accessori.prop END) AS idsoc, IdRefillHopper from ((refillhopper LEFT JOIN hopper ON hopper.idhopper = refillhopper.idhopper) LEFT JOIN dedicati ON dedicati.iddedicato = hopper.iddedicato) LEFT JOIN accessori ON accessori.idaccessorio = hopper.idaccessorio where  refillhopper.refillsocieta > 0  group by data, idsocieta, hopper.iddedicato, dedicati.prop, accessori.prop, IdRefillHopper 
+ Union select data, 'Uscite Cassa' as Descrizione, 0 as Entrate, sum(uscita) as Uscite,idsocieta as idsoc, 0 AS IdRefillHopper from cOperazione where Uscita>0 group by data,idsocieta
+ Union select data, 'Acconti Utilizzati'  as descrizione, 0 as Entrate, sum(abs(importo))  as uscite,locali.prop as idsoc, 0 AS IdRefillHopper from acconti LEFT JOIN locali on locali.idlocale=acconti.codicelocale where  acconti.importo < 0 group by data,prop 
+ Union select data, 'Acconti Prelevati'  as descrizione, sum(importo) as Entrate, 0  as uscite,locali.prop as idsoc, 0 AS IdRefillHopper from acconti LEFT JOIN locali on locali.idlocale=acconti.codicelocale where  acconti.importo >  0 group by data,prop
+GO

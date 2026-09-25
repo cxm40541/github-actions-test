@@ -1,0 +1,2021 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: ALOSW-viste-001_create_vsApparecchi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/001_create_vsApparecchi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-002_create_VeseBIZLottomatica
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/002_create_VeseBIZLottomatica.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-003_create_vsLocale
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/003_create_vsLocale.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-004_create_V_TAB_SCASSETTAMENTI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/004_create_V_TAB_SCASSETTAMENTI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-005_create_V_ANAG_AWP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/005_create_V_ANAG_AWP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-006_create_ViewMaxIN
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/006_create_ViewMaxIN.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-007_create_ViewMaxData
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/007_create_ViewMaxData.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-008_create_Schede
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/008_create_Schede.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-009_create_PrimeInstallazioni2Parte2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/009_create_PrimeInstallazioni2Parte2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-010_create_PrimeInstallazioni2Parte1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/010_create_PrimeInstallazioni2Parte1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-011_create_PrimeInstallazioni2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/011_create_PrimeInstallazioni2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-012_create_PrimeInstallazioni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/012_create_PrimeInstallazioni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-013_create_PWSStatsAccessi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/013_create_PWSStatsAccessi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-014_create_QRY_LOTTO_RICAMBI_GESTORI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/014_create_QRY_LOTTO_RICAMBI_GESTORI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-015_create_QRY_LOTTO_AWP_NOEtichetta
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/015_create_QRY_LOTTO_AWP_NOEtichetta.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-016_create_SospNullaOsta
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/016_create_SospNullaOsta.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-017_create_BD_Societa
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/017_create_BD_Societa.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-018_create_BD_Ricambi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/018_create_BD_Ricambi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-019_create_BD_Luoghi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/019_create_BD_Luoghi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-020_create_BD_Fornitori
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/020_create_BD_Fornitori.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-021_create_BD_Costruttori
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/021_create_BD_Costruttori.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-022_create_Bd_Apparecchi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/022_create_Bd_Apparecchi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-023_create_Accessori
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/023_create_Accessori.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-024_create_Concessionari
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/024_create_Concessionari.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-025_create_CodiciMove
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/025_create_CodiciMove.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-026_create_Costr
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/026_create_Costr.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-027_create_ChiusuraCassaTutti2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/027_create_ChiusuraCassaTutti2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-028_create_ChiusuraCassaTutti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/028_create_ChiusuraCassaTutti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-029_create_ChiusuraCassa2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/029_create_ChiusuraCassa2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-030_create_ChiusuraCassa
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/030_create_ChiusuraCassa.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-031_create_CCassa2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/031_create_CCassa2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-032_create_CCassa
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/032_create_CCassa.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-033_create_CCassaTutti2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/033_create_CCassaTutti2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-034_create_CCassaTutti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/034_create_CCassaTutti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-035_create_Agenti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/035_create_Agenti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-036_create_Articoli
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/036_create_Articoli.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-037_create_CCassaSconti2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/037_create_CCassaSconti2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-038_create_CCassaSconti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/038_create_CCassaSconti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-039_create_CCassaScontiTutti2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/039_create_CCassaScontiTutti2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-040_create_CCassaScontiTutti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/040_create_CCassaScontiTutti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-041_create_Dedicati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/041_create_Dedicati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-042_create_Ditte
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/042_create_Ditte.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-043_create_Distribut
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/043_create_Distribut.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-044_create_Forn
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/044_create_Forn.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-045_create_Esattore
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/045_create_Esattore.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-046_create_IntervalliIncassi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/046_create_IntervalliIncassi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-047_create_Fideiussioni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/047_create_Fideiussioni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-048_create_DB_Luoghi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/048_create_DB_Luoghi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-049_create_Mobili
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/049_create_Mobili.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-050_create_Locali
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/050_create_Locali.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-051_create_Magazzini
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/051_create_Magazzini.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-052_create_LastChangeLivelli
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/052_create_LastChangeLivelli.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-053_create_MyIncassiTemp
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/053_create_MyIncassiTemp.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-054_create_LTO_Mobili
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/054_create_LTO_Mobili.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-055_create_ParZone
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/055_create_ParZone.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-056_create_Societa
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/056_create_Societa.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-057_create_QryBoxDro
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/057_create_QryBoxDro.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-058_create_qryApparecchiInstallati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/058_create_qryApparecchiInstallati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-059_create_NomiMacchine3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/059_create_NomiMacchine3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-060_create_NomiMacchine2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/060_create_NomiMacchine2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-061_create_NomiMacchine
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/061_create_NomiMacchine.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-062_create_NomiLocali2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/062_create_NomiLocali2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-063_create_NomiLocali
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/063_create_NomiLocali.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-064_create_NomiFornitori
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/064_create_NomiFornitori.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-065_create_NomiCostruttori
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/065_create_NomiCostruttori.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-066_create_LuogoDedicati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/066_create_LuogoDedicati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-067_create_InventarioMagazzini
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/067_create_InventarioMagazzini.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-068_create_InventarioLocaliVLT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/068_create_InventarioLocaliVLT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-069_create_InventarioLocaliPDA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/069_create_InventarioLocaliPDA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-070_create_InventarioLocali3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/070_create_InventarioLocali3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-071_create_InventarioLocali2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/071_create_InventarioLocali2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-072_create_InventarioLocali
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/072_create_InventarioLocali.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-073_create_ParcoMacchine
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/073_create_ParcoMacchine.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-074_create_ParchiTotali
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/074_create_ParchiTotali.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-075_create_ParchiInstallati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/075_create_ParchiInstallati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-076_create_LocaliAttivi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/076_create_LocaliAttivi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-077_create_EsattoriLocali
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/077_create_EsattoriLocali.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-078_create_EsattoreGiornoLocale
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/078_create_EsattoreGiornoLocale.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-079_create_DayActions
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/079_create_DayActions.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-080_create_IncassiPerGrafici7
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/080_create_IncassiPerGrafici7.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-081_create_IncassiPerGrafici5
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/081_create_IncassiPerGrafici5.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-082_create_IncassiPerGrafici4
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/082_create_IncassiPerGrafici4.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-083_create_IncassiPerGrafici3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/083_create_IncassiPerGrafici3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-084_create_IncassiPerGrafici2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/084_create_IncassiPerGrafici2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-085_create_IncassiMacchine
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/085_create_IncassiMacchine.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-086_create_EsaGioLoc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/086_create_EsaGioLoc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-087_create_ElencoEsattoriAssegnati2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/087_create_ElencoEsattoriAssegnati2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-088_create_ElencoEsattoriAssegnati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/088_create_ElencoEsattoriAssegnati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-089_create_ElencoEsattoriAss
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/089_create_ElencoEsattoriAss.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-090_create_GestioneLocali
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/090_create_GestioneLocali.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-091_create_CCassaScontiSocAGVB1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/091_create_CCassaScontiSocAGVB1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-092_create_CCassaScontiAGVB1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/092_create_CCassaScontiAGVB1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-093_create_CCassaSconti6SocAGVB
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/093_create_CCassaSconti6SocAGVB.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-094_create_CCassaSconti6Soc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/094_create_CCassaSconti6Soc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-095_create_CCassaSconti5AGVB
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/095_create_CCassaSconti5AGVB.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-096_create_CCassaSconti5
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/096_create_CCassaSconti5.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-097_create_CCassaSconti4Soc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/097_create_CCassaSconti4Soc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-098_create_CCassaSconti3Soc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/098_create_CCassaSconti3Soc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-099_create_CCassaSconti3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/099_create_CCassaSconti3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-100_create_CCassaSconti2Soc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/100_create_CCassaSconti2Soc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-101_create_CCassaAGVB1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/101_create_CCassaAGVB1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-102_create_CCassa6SocAGVB
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/102_create_CCassa6SocAGVB.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-103_create_CCassa6Soc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/103_create_CCassa6Soc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-104_create_CCassa5AGVB
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/104_create_CCassa5AGVB.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-105_create_CCassa5
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/105_create_CCassa5.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-106_create_CCassa4Soc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/106_create_CCassa4Soc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-107_create_CCassa3Soc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/107_create_CCassa3Soc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-108_create_CCassa3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/108_create_CCassa3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-109_create_CCassa2Soc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/109_create_CCassa2Soc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-110_create_ATTIVILOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/110_create_ATTIVILOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-111_create_AssociatiMacchine
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/111_create_AssociatiMacchine.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-112_create_ApparecchiUsatiInMagazzino
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/112_create_ApparecchiUsatiInMagazzino.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-113_create_ApparecchiIncassiNSL
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/113_create_ApparecchiIncassiNSL.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-114_create_ApparecchiIncassi9
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/114_create_ApparecchiIncassi9.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-115_create_ApparecchiIncassi7
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/115_create_ApparecchiIncassi7.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-116_create_ApparecchiIncassi6
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/116_create_ApparecchiIncassi6.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-117_create_ApparecchiIncassi5
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/117_create_ApparecchiIncassi5.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-118_create_ApparecchiIncassi4
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/118_create_ApparecchiIncassi4.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-119_create_ApparecchiIncassi3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/119_create_ApparecchiIncassi3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-120_create_ApparecchiIncassi2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/120_create_ApparecchiIncassi2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-121_create_ApparecchiIncassi12
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/121_create_ApparecchiIncassi12.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-122_create_ApparecchiIncassi11
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/122_create_ApparecchiIncassi11.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-123_create_ApparecchiIncassi10
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/123_create_ApparecchiIncassi10.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-124_create_ApparecchiConTipologia
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/124_create_ApparecchiConTipologia.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-125_create_ApparecchiStorico2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/125_create_ApparecchiStorico2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-126_create_ApparecchiStorico
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/126_create_ApparecchiStorico.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-127_create_ApparecchiNuoviInMagazzino
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/127_create_ApparecchiNuoviInMagazzino.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-128_create_ApparecchiNewSlot
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/128_create_ApparecchiNewSlot.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-129_create_ApparecchiMaturato
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/129_create_ApparecchiMaturato.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-130_create_ApparecchiInstallati3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/130_create_ApparecchiInstallati3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-131_create_ApparecchiInstallati2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/131_create_ApparecchiInstallati2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-132_create_ApparecchiInstallati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/132_create_ApparecchiInstallati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-133_create_ApparecchiInMagazzino7
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/133_create_ApparecchiInMagazzino7.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-134_create_ApparecchiInMagazzino6
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/134_create_ApparecchiInMagazzino6.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-135_create_ApparecchiInMagazzino4
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/135_create_ApparecchiInMagazzino4.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-136_create_ApparecchiInMagazzino3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/136_create_ApparecchiInMagazzino3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-137_create_ApparecchiInMagazzino2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/137_create_ApparecchiInMagazzino2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-138_create_CCassaTuttiSocAGVB1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/138_create_CCassaTuttiSocAGVB1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-139_create_CCassaTuttiAGVB1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/139_create_CCassaTuttiAGVB1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-140_create_CCassaTutti6SocAGVB
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/140_create_CCassaTutti6SocAGVB.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-141_create_CCassaTutti6Soc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/141_create_CCassaTutti6Soc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-142_create_CCassaTutti5AGVB
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/142_create_CCassaTutti5AGVB.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-143_create_CCassaTutti5
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/143_create_CCassaTutti5.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-144_create_CCassaTutti4Soc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/144_create_CCassaTutti4Soc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-145_create_CCassaTutti3Soc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/145_create_CCassaTutti3Soc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-146_create_CCassaTutti3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/146_create_CCassaTutti3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-147_create_CCassaTutti2Soc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/147_create_CCassaTutti2Soc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-148_create_CCassaSocAGVB1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/148_create_CCassaSocAGVB1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-149_create_CCassaScontiTuttiSocAGVB1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/149_create_CCassaScontiTuttiSocAGVB1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-150_create_CCassaScontiTuttiAGVB1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/150_create_CCassaScontiTuttiAGVB1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-151_create_CCassaScontiTutti6SocAGVB
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/151_create_CCassaScontiTutti6SocAGVB.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-152_create_CCassaScontiTutti6Soc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/152_create_CCassaScontiTutti6Soc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-153_create_CCassaScontiTutti5AGVB
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/153_create_CCassaScontiTutti5AGVB.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-154_create_CCassaScontiTutti5
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/154_create_CCassaScontiTutti5.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-155_create_CCassaScontiTutti4Soc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/155_create_CCassaScontiTutti4Soc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-156_create_CCassaScontiTutti3Soc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/156_create_CCassaScontiTutti3Soc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-157_create_CCassaScontiTutti3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/157_create_CCassaScontiTutti3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-158_create_CCassaScontiTutti2Soc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/158_create_CCassaScontiTutti2Soc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-159_create_CensimentoSchede
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/159_create_CensimentoSchede.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-160_create_WL_Locali2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/160_create_WL_Locali2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-161_create_WL_Locali
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/161_create_WL_Locali.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-162_create_WL_Hopper4
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/162_create_WL_Hopper4.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-163_create_WL_hopper3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/163_create_WL_hopper3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-164_create_WL_Hopper2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/164_create_WL_Hopper2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-165_create_WL_Hopper
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/165_create_WL_Hopper.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-166_create_WL_Guasti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/166_create_WL_Guasti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-167_create_WL_Acconti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/167_create_WL_Acconti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-168_create_vTipoDa3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/168_create_vTipoDa3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-169_create_vTipoDa2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/169_create_vTipoDa2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-170_create_vTipoDa
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/170_create_vTipoDa.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-171_create_StatoApparecchi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/171_create_StatoApparecchi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-172_create_RicambiTipoLuogoDa
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/172_create_RicambiTipoLuogoDa.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-173_create_RicambiTipoLuogoA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/173_create_RicambiTipoLuogoA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-174_create_ProprietaMacchine
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/174_create_ProprietaMacchine.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-175_create_StoricoMacchine
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/175_create_StoricoMacchine.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-176_create_ViewLastContDistr
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/176_create_ViewLastContDistr.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-177_create_ViewLastCont
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/177_create_ViewLastCont.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-178_create_ViewIncassi3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/178_create_ViewIncassi3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-179_create_ViewIncassi2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/179_create_ViewIncassi2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-180_create_ViewIncassi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/180_create_ViewIncassi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-181_create_ViewAssegni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/181_create_ViewAssegni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-182_create_VeseLottomatica5
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/182_create_VeseLottomatica5.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-183_create_VeseLottomatica3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/183_create_VeseLottomatica3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-184_create_VeseLottomatica2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/184_create_VeseLottomatica2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-185_create_StoricoApparecchi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/185_create_StoricoApparecchi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-186_create_RiepilogoBonus
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/186_create_RiepilogoBonus.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-187_create_SpostamentiPlan
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/187_create_SpostamentiPlan.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-188_create_ViewTuttiBeniBusiness
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/188_create_ViewTuttiBeniBusiness.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-189_create_ViewSpostamentiPda
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/189_create_ViewSpostamentiPda.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-190_create_ViewSpostamenti3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/190_create_ViewSpostamenti3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-191_create_ViewSpostamenti2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/191_create_ViewSpostamenti2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-192_create_ViewSpostamenti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/192_create_ViewSpostamenti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-193_create_vAssegni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/193_create_vAssegni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-194_create_vScSpostamenti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/194_create_vScSpostamenti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-195_create_vMAG_RicambiUbicazione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/195_create_vMAG_RicambiUbicazione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-196_create_vMag_LuoghiRicambi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/196_create_vMag_LuoghiRicambi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-197_create_vMAG_Inventario
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/197_create_vMAG_Inventario.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-198_create_ApparecchiStoricoFullNew
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/198_create_ApparecchiStoricoFullNew.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-199_create_ApparecchiStoricoFull
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/199_create_ApparecchiStoricoFull.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-200_create_ApparecchiInMagazzino
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/200_create_ApparecchiInMagazzino.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-201_create_ApparecchiStoricoFullNewWithCntInst
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/201_create_ApparecchiStoricoFullNewWithCntInst.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-viste-202_create_Apparecchi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/202_create_Apparecchi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

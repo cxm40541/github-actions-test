@@ -1,0 +1,100 @@
+﻿/****** Object:  View [dbo].[ApparecchiInstallati]    Script Date: 11/17/2025 15:16:01 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE VIEW [dbo].[ApparecchiInstallati]
+AS
+SELECT     'NSL' AS Categoria, 'New Slot' AS Tipo, move.locale AS IdLocale, 2 AS TipoOggetto, 'NSL' AS TipoOggettoDesc, move.dedicato AS CodiceOggetto, 
+                      dedicati.prop AS Proprieta, dedicati.agente AS Associato, dedicati.matricola, dedicati.nome AS Modello, dedicati.identificativo, dedicati.nullaosta, 
+                      1 AS TM, move.idmove, NULL AS IdStorico, 0 AS IdPadre, CONVERT(varchar, RIGHT(move.DataCambio, 4)) + '-' + CONVERT(varchar, 
+                      replace(LEFT(RIGHT(move.DataCambio, 7), 3), '/', '')) + '-' + CONVERT(varchar, replace(LEFT(move.DataCambio, 2), '/', '')) + ' 00:00:00' AS DataDa, NULL 
+                      AS DataA, Dedicati.DataCreazione, dedicati.fornitore, dedicati.costruttore, dedicati.IdMagazzino, 0 AS Ordinamento, 0 AS OrdinamentoCategoria
+FROM         move, dedicati
+WHERE     dedicati.iddedicato = move.dedicato AND dedicati.partipologiamonopoli = 1 AND move.dedicato > 0
+UNION
+SELECT     'C7A' AS Categoria, 'Gioco' AS Tipo, move.locale AS IdLocale, 2 AS TipoOggetto, 'GIO' AS TipoOggettoDesc, move.dedicato AS CodiceOggetto, 
+                      dedicati.prop AS Proprieta, dedicati.agente AS Associato, dedicati.matricola, dedicati.nome AS Modello, dedicati.identificativo, dedicati.nullaosta, 
+                      ParTipologiaMonopoli AS TM, move.idmove, NULL AS IdStorico, 0 AS IdPadre, CONVERT(varchar, RIGHT(move.DataCambio, 4)) 
+                      + '-' + CONVERT(varchar, replace(LEFT(RIGHT(move.DataCambio, 7), 3), '/', '')) + '-' + CONVERT(varchar, replace(LEFT(move.DataCambio, 2), '/', '')) 
+                      + ' 00:00:00' AS DataDa, NULL AS DataA, Dedicati.DataCreazione, dedicati.fornitore, dedicati.costruttore, dedicati.IdMagazzino, 1 AS Ordinamento, 
+                      1 AS OrdinamentoCategoria
+FROM         move, dedicati
+WHERE     dedicati.iddedicato = move.dedicato AND dedicati.partipologiamonopoli = 2 AND move.dedicato > 0
+UNION
+SELECT     'C7C' AS Categoria, 'Gioco' AS Tipo, move.locale AS IdLocale, 2 AS TipoOggetto, 'GIO' AS TipoOggettoDesc, move.dedicato AS CodiceOggetto, 
+                      dedicati.prop AS Proprieta, dedicati.agente AS Associato, dedicati.matricola, dedicati.nome AS Modello, dedicati.identificativo, dedicati.nullaosta, 
+                      ParTipologiaMonopoli AS TM, move.idmove, NULL AS IdStorico, 0 AS IdPadre, CONVERT(varchar, RIGHT(move.DataCambio, 4)) 
+                      + '-' + CONVERT(varchar, replace(LEFT(RIGHT(move.DataCambio, 7), 3), '/', '')) + '-' + CONVERT(varchar, replace(LEFT(move.DataCambio, 2), '/', '')) 
+                      + ' 00:00:00' AS DataDa, NULL AS DataA, Dedicati.DataCreazione, dedicati.fornitore, dedicati.costruttore, dedicati.IdMagazzino, 1 AS Ordinamento, 
+                      2 AS OrdinamentoCategoria
+FROM         move, dedicati
+WHERE     dedicati.iddedicato = move.dedicato AND dedicati.partipologiamonopoli = 4 AND move.dedicato > 0
+UNION
+SELECT     'MEC' AS Categoria, 'Gioco' AS Tipo, move.locale AS IdLocale, 2 AS TipoOggetto, 'GIO' AS TipoOggettoDesc, move.dedicato AS CodiceOggetto, 
+                      dedicati.prop AS Proprieta, dedicati.agente AS Associato, dedicati.matricola, dedicati.nome AS Modello, dedicati.identificativo, dedicati.nullaosta, 
+                      ParTipologiaMonopoli AS TM, move.idmove, NULL AS IdStorico, 0 AS IdPadre, CONVERT(varchar, RIGHT(move.DataCambio, 4)) 
+                      + '-' + CONVERT(varchar, replace(LEFT(RIGHT(move.DataCambio, 7), 3), '/', '')) + '-' + CONVERT(varchar, replace(LEFT(move.DataCambio, 2), '/', '')) 
+                      + ' 00:00:00' AS DataDa, NULL AS DataA, Dedicati.DataCreazione, dedicati.fornitore, dedicati.costruttore, dedicati.IdMagazzino, 1 AS Ordinamento, 
+                      3 AS OrdinamentoCategoria
+FROM         move, dedicati
+WHERE     dedicati.iddedicato = move.dedicato AND (dedicati.partipologiamonopoli > 4 OR
+                      dedicati.partipologiamonopoli IS NULL) AND move.dedicato > 0
+UNION
+SELECT     'NSL' AS Categoria, 'Mobile' AS Tipo, move.locale AS IdLocale, 0 AS TipoOggetto, 'MOB' AS TipoOggettoDesc, move.mobile AS CodiceOggetto, 
+                      mobili.prop AS Proprieta, mobili.agente AS Associato, mobili.matricola, mobili.modello AS Modello, mobili.identificativo, mobili.nullaosta, 
+                      ParTipologiaMonopoli AS TM, move.idmove, NULL AS IdStorico, 0 AS IdPadre, CONVERT(varchar, RIGHT(move.DataCambio, 4)) 
+                      + '-' + CONVERT(varchar, replace(LEFT(RIGHT(move.DataCambio, 7), 3), '/', '')) + '-' + CONVERT(varchar, replace(LEFT(move.DataCambio, 2), '/', '')) 
+                      + ' 00:00:00' AS DataDa, NULL AS DataA, mobili.DataCreazione, mobili.fornitore, mobili.costruttore, mobili.IdMagazzino, 2 AS Ordinamento, 
+                      0 AS OrdinamentoCategoria
+FROM         move, mobili
+WHERE     mobili.idmobile = move.mobile AND move.mobile > 0 AND ParTipologiaMonopoli = 1
+UNION
+SELECT     'C7A' AS Categoria, 'Mobile' AS Tipo, move.locale AS IdLocale, 0 AS TipoOggetto, 'MOB' AS TipoOggettoDesc, move.mobile AS CodiceOggetto, 
+                      mobili.prop AS Proprieta, mobili.agente AS Associato, mobili.matricola, mobili.modello AS Modello, mobili.identificativo, mobili.nullaosta, 
+                      ParTipologiaMonopoli AS TM, move.idmove, NULL AS IdStorico, 0 AS IdPadre, CONVERT(varchar, RIGHT(move.DataCambio, 4)) 
+                      + '-' + CONVERT(varchar, replace(LEFT(RIGHT(move.DataCambio, 7), 3), '/', '')) + '-' + CONVERT(varchar, replace(LEFT(move.DataCambio, 2), '/', '')) 
+                      + ' 00:00:00' AS DataDa, NULL AS DataA, mobili.DataCreazione, mobili.fornitore, mobili.costruttore, mobili.IdMagazzino, 2 AS Ordinamento, 
+                      1 AS OrdinamentoCategoria
+FROM         move, mobili
+WHERE     mobili.idmobile = move.mobile AND move.mobile > 0 AND ParTipologiaMonopoli = 2
+UNION
+SELECT     'C7C' AS Categoria, 'Mobile' AS Tipo, move.locale AS IdLocale, 0 AS TipoOggetto, 'MOB' AS TipoOggettoDesc, move.mobile AS CodiceOggetto, 
+                      mobili.prop AS Proprieta, mobili.agente AS Associato, mobili.matricola, mobili.modello AS Modello, mobili.identificativo, mobili.nullaosta, 
+                      ParTipologiaMonopoli AS TM, move.idmove, NULL AS IdStorico, 0 AS IdPadre, CONVERT(varchar, RIGHT(move.DataCambio, 4)) 
+                      + '-' + CONVERT(varchar, replace(LEFT(RIGHT(move.DataCambio, 7), 3), '/', '')) + '-' + CONVERT(varchar, replace(LEFT(move.DataCambio, 2), '/', '')) 
+                      + ' 00:00:00' AS DataDa, NULL AS DataA, mobili.DataCreazione, mobili.fornitore, mobili.costruttore, mobili.IdMagazzino, 2 AS Ordinamento, 
+                      2 AS OrdinamentoCategoria
+FROM         move, mobili
+WHERE     mobili.idmobile = move.mobile AND move.mobile > 0 AND ParTipologiaMonopoli = 4
+UNION
+SELECT     'MEC' AS Categoria, 'Mobile' AS Tipo, move.locale AS IdLocale, 0 AS TipoOggetto, 'MOB' AS TipoOggettoDesc, move.mobile AS CodiceOggetto, 
+                      mobili.prop AS Proprieta, mobili.agente AS Associato, mobili.matricola, mobili.modello AS Modello, mobili.identificativo, mobili.nullaosta, 
+                      ParTipologiaMonopoli AS TM, move.idmove, NULL AS IdStorico, 0 AS IdPadre, CONVERT(varchar, RIGHT(move.DataCambio, 4)) 
+                      + '-' + CONVERT(varchar, replace(LEFT(RIGHT(move.DataCambio, 7), 3), '/', '')) + '-' + CONVERT(varchar, replace(LEFT(move.DataCambio, 2), '/', '')) 
+                      + ' 00:00:00' AS DataDa, NULL AS DataA, mobili.DataCreazione, mobili.fornitore, mobili.costruttore, mobili.IdMagazzino, 2 AS Ordinamento, 
+                      3 AS OrdinamentoCategoria
+FROM         move, mobili
+WHERE     mobili.idmobile = move.mobile AND move.mobile > 0 AND (mobili.partipologiamonopoli > 4 OR
+                      mobili.partipologiamonopoli IS NULL)
+UNION
+SELECT     'SCH' AS Categoria, 'Scheda' AS Tipo, FirstMove.locale AS IdLocale, 1 AS TipoOggetto, 'SCH' AS TipoOggettoDesc, FirstMove.scheda AS CodiceOggetto,
+                       schede.prop AS Proprieta, schede.agente AS Associato, schede.matricola, schede.nome AS Modello, '' AS identificativo, '' AS nullaosta, NULL AS TM, 
+                      FirstMove.idmove, NULL AS IdStorico,
+                          (SELECT     SecondMove.mobile
+                            FROM          move AS SecondMove
+                            WHERE      SecondMove.idmove = FirstMove.movimentorif) AS IdPadre, CONVERT(varchar, RIGHT(FirstMove.DataCambio, 4)) 
+                      + '-' + CONVERT(varchar, replace(LEFT(RIGHT(FirstMove.DataCambio, 7), 3), '/', '')) + '-' + CONVERT(varchar, replace(LEFT(FirstMove.DataCambio, 2), 
+                      '/', '')) + ' 00:00:00' AS DataDa, NULL AS DataA, schede.DataCreazione, schede.fornitore, schede.costruttore, schede.IdMagazzino, 3 AS Ordinamento, 
+                      4 AS OrdinamentoCategoria
+FROM         move AS FirstMove, schede
+WHERE     schede.idscheda = FirstMove.scheda AND FirstMove.scheda > 0
+UNION
+SELECT     'DIS' AS Categoria, 'Distributore' AS Tipo, move.locale AS IdLocale, 15 AS TipoOggetto, 'DIS' AS TipoOggettoDesc, move.distributore AS CodiceOggetto, 
+                      distribut.prop AS Proprieta, distribut.agente AS Associato, distribut.matricola, distribut.nome AS Modello, '' AS identificativo, '' AS nullaosta, NULL 
+                      AS TM, move.idmove, NULL AS IdStorico, 0 AS IdPadre, CONVERT(varchar, RIGHT(move.DataCambio, 4)) + '-' + CONVERT(varchar, 
+                      replace(LEFT(RIGHT(move.DataCambio, 7), 3), '/', '')) + '-' + CONVERT(varchar, replace(LEFT(move.DataCambio, 2), '/', '')) + ' 00:00:00' AS DataDa, NULL 
+                      AS DataA, distribut.DataCreazione, distribut.fornitore, distribut.costruttore, distribut.IdMagazzino, 4 AS Ordinamento, 5 AS OrdinamentoCategoria
+FROM         move, distribut
+WHERE     distribut.iddistributore = move.distributore AND move.distributore > 0
+GO

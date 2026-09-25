@@ -1,0 +1,6 @@
+﻿/****** Object:  ForeignKey [FK_Codici_Problematiche_CEZ_ATTIVITA]    Script Date: 11/17/2025 15:21:53 ******/
+ALTER TABLE [dbo].[CODICI_PROBLEMATICHE_CEZ]  WITH CHECK ADD  CONSTRAINT [FK_Codici_Problematiche_CEZ_ATTIVITA] FOREIGN KEY([Cod_attivita])
+REFERENCES [dbo].[ATTIVITA] ([ID_ATTIVITA])
+GO
+ALTER TABLE [dbo].[CODICI_PROBLEMATICHE_CEZ] CHECK CONSTRAINT [FK_Codici_Problematiche_CEZ_ATTIVITA]
+GO

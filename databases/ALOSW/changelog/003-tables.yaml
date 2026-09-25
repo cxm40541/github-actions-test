@@ -1,0 +1,3761 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: ALOSW-tabelle-001_create_RicambiMove
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/001_create_RicambiMove.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-002_create_RicambiLuoghi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/002_create_RicambiLuoghi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-003_create_RicambiLavorazione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/003_create_RicambiLavorazione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-004_create_RicambiGruppo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/004_create_RicambiGruppo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-005_create_RicambiGiacenza
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/005_create_RicambiGiacenza.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-006_create_RicambiDismissioneRic
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/006_create_RicambiDismissioneRic.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-007_create_RicambiDismissione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/007_create_RicambiDismissione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-008_create_Ricambi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/008_create_Ricambi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-009_create_Ric_LogImport
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/009_create_Ric_LogImport.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-010_create_rfid
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/010_create_rfid.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-011_create_ReportConfig
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/011_create_ReportConfig.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-012_create_RelReportConfig
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/012_create_RelReportConfig.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-013_create_RelPraticheImg
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/013_create_RelPraticheImg.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-014_create_RelPraticaAtt
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/014_create_RelPraticaAtt.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-015_create_RelPratica
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/015_create_RelPratica.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-016_create_RelLocaleImg
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/016_create_RelLocaleImg.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-017_create_RelIncassiFattureRete
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/017_create_RelIncassiFattureRete.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-018_create_RelFattureAssegni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/018_create_RelFattureAssegni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-019_create_RelDedicatoImg
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/019_create_RelDedicatoImg.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-020_create_RelCorrAssegni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/020_create_RelCorrAssegni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-021_create_RelContatori
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/021_create_RelContatori.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-022_create_RelBonus
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/022_create_RelBonus.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-023_create_RelAutoKM
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/023_create_RelAutoKM.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-024_create_RelAssPraAtt
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/024_create_RelAssPraAtt.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-025_create_RelArticoliVenduti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/025_create_RelArticoliVenduti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-026_create_RelArticoliUsciti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/026_create_RelArticoliUsciti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-027_create_RefillHopper
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/027_create_RefillHopper.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-028_create_SospesiRientri
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/028_create_SospesiRientri.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-029_create_sospesi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/029_create_sospesi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-030_create_parunitamisura
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/030_create_parunitamisura.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-031_create_ParToponimi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/031_create_ParToponimi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-032_create_ParTipoVoceSpesa
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/032_create_ParTipoVoceSpesa.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-033_create_ParTipoSerratura
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/033_create_ParTipoSerratura.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-034_create_ParTipoScheda
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/034_create_ParTipoScheda.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-035_create_ParTipoScadenza
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/035_create_ParTipoScadenza.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-036_create_ParTipoPratica
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/036_create_ParTipoPratica.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-037_create_ParTipoMonitor
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/037_create_ParTipoMonitor.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-038_create_ParTipoLuogo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/038_create_ParTipoLuogo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-039_create_ParTipologiaRicambi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/039_create_ParTipologiaRicambi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-040_create_ParTipologiaMonopoli
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/040_create_ParTipologiaMonopoli.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-041_create_ParTipologiaGiri
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/041_create_ParTipologiaGiri.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-042_create_ParTipoIntervento
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/042_create_ParTipoIntervento.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-043_create_ParTipoIncentivo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/043_create_ParTipoIncentivo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-044_create_ParTipoHopper
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/044_create_ParTipoHopper.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-045_create_ParTipoGuasto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/045_create_ParTipoGuasto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-046_create_ParTipoFurti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/046_create_ParTipoFurti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-047_create_ParTipoDedicato
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/047_create_ParTipoDedicato.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-048_create_ParTipoContratto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/048_create_ParTipoContratto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-049_create_ParTipoChiave
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/049_create_ParTipoChiave.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-050_create_ParTipoBonusLocale
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/050_create_ParTipoBonusLocale.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-051_create_ParTipoAzione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/051_create_ParTipoAzione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-052_create_ParTipoAss
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/052_create_ParTipoAss.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-053_create_ParTipoArticolo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/053_create_ParTipoArticolo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-054_create_ParTipoAlimentatore
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/054_create_ParTipoAlimentatore.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-055_create_ParTipoAcquisto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/055_create_ParTipoAcquisto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-056_create_ParStatoIncentivo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/056_create_ParStatoIncentivo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-057_create_ParStatoDDT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/057_create_ParStatoDDT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-058_create_ParStatoCespite
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/058_create_ParStatoCespite.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-059_create_ParStatoAWP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/059_create_ParStatoAWP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-060_create_ParStagionalita
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/060_create_ParStagionalita.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-061_create_ParSpostCausale
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/061_create_ParSpostCausale.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-062_create_ParSospesoRientro
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/062_create_ParSospesoRientro.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-063_create_ParPropApp
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/063_create_ParPropApp.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-064_create_ParPiataforma
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/064_create_ParPiataforma.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-065_create_ParMonete
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/065_create_ParMonete.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-066_create_ParModelloHopper
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/066_create_ParModelloHopper.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-067_create_ParModalita
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/067_create_ParModalita.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-068_create_ParMarcaMonitor
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/068_create_ParMarcaMonitor.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-069_create_ParMacroSospeso
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/069_create_ParMacroSospeso.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-070_create_ParGettoniere
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/070_create_ParGettoniere.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-071_create_ParGestore
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/071_create_ParGestore.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-072_create_ParGenereScheda
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/072_create_ParGenereScheda.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-073_create_ParGenerePDA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/073_create_ParGenerePDA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-074_create_ParGenereLocale
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/074_create_ParGenereLocale.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-075_create_ParGenereDistributore
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/075_create_ParGenereDistributore.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-076_create_ParGenereAccessorio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/076_create_ParGenereAccessorio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-077_create_ParFrequenzaIncasso
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/077_create_ParFrequenzaIncasso.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-078_create_ParDurataContratto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/078_create_ParDurataContratto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-079_create_ParDestSchedaPLAN
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/079_create_ParDestSchedaPLAN.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-080_create_ParCentroDiCosto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/080_create_ParCentroDiCosto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-081_create_ParCausaleSconto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/081_create_ParCausaleSconto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-082_create_ParCausaleMoveRicambi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/082_create_ParCausaleMoveRicambi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-083_create_ParCausaleDDT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/083_create_ParCausaleDDT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-084_create_ParCausaleAzzeramenti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/084_create_ParCausaleAzzeramenti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-085_create_ParCausaleAttivo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/085_create_ParCausaleAttivo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-086_create_ParCausale
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/086_create_ParCausale.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-087_create_ParCategoriaSiae
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/087_create_ParCategoriaSiae.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-088_create_ParCategoriaDedicato
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/088_create_ParCategoriaDedicato.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-089_create_ParCategoriaBene
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/089_create_ParCategoriaBene.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-090_create_ParCalcoloBonusLocale
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/090_create_ParCalcoloBonusLocale.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-091_create_ParCablaggio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/091_create_ParCablaggio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-092_create_ParBanca
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/092_create_ParBanca.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-093_create_PagamentiISI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/093_create_PagamentiISI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-094_create_Pratiche
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/094_create_Pratiche.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-095_create_pgw_utenti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/095_create_pgw_utenti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-096_create_pgw_stats
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/096_create_pgw_stats.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-097_create_pgw_profili
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/097_create_pgw_profili.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-098_create_pgw_log
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/098_create_pgw_log.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-099_create_pgw_gestori
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/099_create_pgw_gestori.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-100_create_PDA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/100_create_PDA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-101_create_MAG_TipoLuogo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/101_create_MAG_TipoLuogo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-102_create_MAG_RicTipoLuogo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/102_create_MAG_RicTipoLuogo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-103_create_MacroTipoRicambi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/103_create_MacroTipoRicambi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-104_create__APPOODARDA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/104_create__APPOODARDA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-105_create_NolConcorrente
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/105_create_NolConcorrente.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-106_create_LibSiae
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/106_create_LibSiae.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-107_create_Mobile_Users_Tree
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/107_create_Mobile_Users_Tree.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-108_create_mobile_users
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/108_create_mobile_users.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-109_create_Mobile_session
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/109_create_Mobile_session.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-110_create_Mobile_Richieste_LOTTO_Storico
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/110_create_Mobile_Richieste_LOTTO_Storico.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-111_create_Mobile_Richieste_LOTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/111_create_Mobile_Richieste_LOTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-112_create_mobile_report
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/112_create_mobile_report.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-113_create_mobile_print
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/113_create_mobile_print.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-114_create_Mobile_message
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/114_create_Mobile_message.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-115_create_Mobile_LogEsattoreDTL
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/115_create_Mobile_LogEsattoreDTL.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-116_create_Mobile_LogEsattore
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/116_create_Mobile_LogEsattore.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-117_create_mobile_Log
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/117_create_mobile_Log.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-118_create_Mobile_giriassegnati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/118_create_Mobile_giriassegnati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-119_create_Mobile_gateway
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/119_create_Mobile_gateway.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-120_create_Mobile_ActionVars
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/120_create_Mobile_ActionVars.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-121_create_mobile_actions
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/121_create_mobile_actions.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-122_create_MG_FileStorage
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/122_create_MG_FileStorage.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-123_create_Medie
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/123_create_Medie.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-124_create_MagRicambiLotto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/124_create_MagRicambiLotto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-125_create_LOTTOPARCOAWP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/125_create_LOTTOPARCOAWP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-126_create_LOTTO_STATSPARCO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/126_create_LOTTO_STATSPARCO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-127_create_LOTTO_ODARDA_TEMP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/127_create_LOTTO_ODARDA_TEMP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-128_create_LOTTO_ODARDA_OLD
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/128_create_LOTTO_ODARDA_OLD.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-129_create_LOTTO_ODARDA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/129_create_LOTTO_ODARDA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-130_create_LOTTO_MODELLOMASTER
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/130_create_LOTTO_MODELLOMASTER.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-131_create_LOTTO_LOC
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/131_create_LOTTO_LOC.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-132_create_LOTTO_CONT_MONTH_202009
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/132_create_LOTTO_CONT_MONTH_202009.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-133_create_LOTTO_CONT_MONTH_202008
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/133_create_LOTTO_CONT_MONTH_202008.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-134_create_LOTTO_CONT_MONTH_202007
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/134_create_LOTTO_CONT_MONTH_202007.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-135_create_LOTTO_CONT_MONTH_202006
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/135_create_LOTTO_CONT_MONTH_202006.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-136_create_LOTTO_CONT_MONTH_202005
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/136_create_LOTTO_CONT_MONTH_202005.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-137_create_LOTTO_CONT_MONTH_202004
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/137_create_LOTTO_CONT_MONTH_202004.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-138_create_LOTTO_CONT_MONTH_202003
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/138_create_LOTTO_CONT_MONTH_202003.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-139_create_LOTTO_CONT_MONTH_202002
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/139_create_LOTTO_CONT_MONTH_202002.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-140_create_LOTTO_CONT_MONTH_202001
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/140_create_LOTTO_CONT_MONTH_202001.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-141_create_LOTTO_CONT_DAY_20200930
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/141_create_LOTTO_CONT_DAY_20200930.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-142_create_LOTTO_CONT_DAY_20200929
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/142_create_LOTTO_CONT_DAY_20200929.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-143_create_LOTTO_CONT_DAY_20200928
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/143_create_LOTTO_CONT_DAY_20200928.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-144_create_LOTTO_CONT_DAY_20200927
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/144_create_LOTTO_CONT_DAY_20200927.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-145_create_LOTTO_CONT_DAY_20200926
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/145_create_LOTTO_CONT_DAY_20200926.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-146_create_LOTTO_CONT_DAY_20200925
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/146_create_LOTTO_CONT_DAY_20200925.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-147_create_LOTTO_CONT_DAY_20200924
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/147_create_LOTTO_CONT_DAY_20200924.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-148_create_LOTTO_CONT_DAY_20200923
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/148_create_LOTTO_CONT_DAY_20200923.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-149_create_LOTTO_CONT_DAY_20200922
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/149_create_LOTTO_CONT_DAY_20200922.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-150_create_LOTTO_CONT_DAY_20200921
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/150_create_LOTTO_CONT_DAY_20200921.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-151_create_LOTTO_CONT_DAY_20200920
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/151_create_LOTTO_CONT_DAY_20200920.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-152_create_LOTTO_CONT_DAY_20200919
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/152_create_LOTTO_CONT_DAY_20200919.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-153_create_LOTTO_CONT_DAY_20200918
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/153_create_LOTTO_CONT_DAY_20200918.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-154_create_LOTTO_CONT_DAY_20200917
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/154_create_LOTTO_CONT_DAY_20200917.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-155_create_LOTTO_CONT_DAY_20200916
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/155_create_LOTTO_CONT_DAY_20200916.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-156_create_LOTTO_CONT_DAY_20200915
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/156_create_LOTTO_CONT_DAY_20200915.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-157_create_LOTTO_CONT_DAY_20200914
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/157_create_LOTTO_CONT_DAY_20200914.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-158_create_LOTTO_CONT_DAY_20200913
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/158_create_LOTTO_CONT_DAY_20200913.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-159_create_LOTTO_CONT_DAY_20200912
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/159_create_LOTTO_CONT_DAY_20200912.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-160_create_LOTTO_CONT_DAY_20200911
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/160_create_LOTTO_CONT_DAY_20200911.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-161_create_LOTTO_CONT_DAY_20200910
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/161_create_LOTTO_CONT_DAY_20200910.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-162_create_LOTTO_CONT_DAY_20200909
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/162_create_LOTTO_CONT_DAY_20200909.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-163_create_LOTTO_CONT_DAY_20200908
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/163_create_LOTTO_CONT_DAY_20200908.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-164_create_LOTTO_CONT_DAY_20200907
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/164_create_LOTTO_CONT_DAY_20200907.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-165_create_LOTTO_CONT_DAY_20200906
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/165_create_LOTTO_CONT_DAY_20200906.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-166_create_LOTTO_CONT_DAY_20200905
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/166_create_LOTTO_CONT_DAY_20200905.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-167_create_LOTTO_CONT_DAY_20200904
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/167_create_LOTTO_CONT_DAY_20200904.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-168_create_LOTTO_CONT_DAY_20200903
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/168_create_LOTTO_CONT_DAY_20200903.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-169_create_LOTTO_CONT_DAY_20200902
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/169_create_LOTTO_CONT_DAY_20200902.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-170_create_LOTTO_CONT_DAY_20200901
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/170_create_LOTTO_CONT_DAY_20200901.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-171_create_LOTTO_CONT_DAY_20200831
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/171_create_LOTTO_CONT_DAY_20200831.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-172_create_LOTTO_CONT_DAY_20200830
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/172_create_LOTTO_CONT_DAY_20200830.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-173_create_LOTTO_CONT_DAY_20200829
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/173_create_LOTTO_CONT_DAY_20200829.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-174_create_LOTTO_CONT_DAY_20200828
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/174_create_LOTTO_CONT_DAY_20200828.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-175_create_LOTTO_CONT_DAY_20200827
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/175_create_LOTTO_CONT_DAY_20200827.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-176_create_LOTTO_CONT_DAY_20200826
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/176_create_LOTTO_CONT_DAY_20200826.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-177_create_LOTTO_CONT_DAY_20200825
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/177_create_LOTTO_CONT_DAY_20200825.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-178_create_LOTTO_CONT_DAY_20200824
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/178_create_LOTTO_CONT_DAY_20200824.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-179_create_LOTTO_CONT_DAY_20200823
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/179_create_LOTTO_CONT_DAY_20200823.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-180_create_LOTTO_CONT_DAY_20200822
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/180_create_LOTTO_CONT_DAY_20200822.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-181_create_LOTTO_CONT_DAY_20200821
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/181_create_LOTTO_CONT_DAY_20200821.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-182_create_LOTTO_CONT_DAY_20200820
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/182_create_LOTTO_CONT_DAY_20200820.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-183_create_LOTTO_CONT_DAY_20200819
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/183_create_LOTTO_CONT_DAY_20200819.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-184_create_LOTTO_CONT_DAY_20200818
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/184_create_LOTTO_CONT_DAY_20200818.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-185_create_LOTTO_CONT_DAY_20200817
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/185_create_LOTTO_CONT_DAY_20200817.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-186_create_LOTTO_CONT_DAY_20200816
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/186_create_LOTTO_CONT_DAY_20200816.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-187_create_LOTTO_CONT_DAY_20200815
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/187_create_LOTTO_CONT_DAY_20200815.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-188_create_LOTTO_CONT_DAY_20200814
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/188_create_LOTTO_CONT_DAY_20200814.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-189_create_LOTTO_CONT_DAY_20200813
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/189_create_LOTTO_CONT_DAY_20200813.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-190_create_LOTTO_CONT_DAY_20200812
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/190_create_LOTTO_CONT_DAY_20200812.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-191_create_LOTTO_CONT_DAY_20200811
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/191_create_LOTTO_CONT_DAY_20200811.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-192_create_LOTTO_CONT_DAY_20200810
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/192_create_LOTTO_CONT_DAY_20200810.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-193_create_LOTTO_CONT_DAY_20200809
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/193_create_LOTTO_CONT_DAY_20200809.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-194_create_LOTTO_CONT_DAY_20200808
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/194_create_LOTTO_CONT_DAY_20200808.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-195_create_LOTTO_CONT_DAY_20200807
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/195_create_LOTTO_CONT_DAY_20200807.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-196_create_LOTTO_CONT_DAY_20200806
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/196_create_LOTTO_CONT_DAY_20200806.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-197_create_LOTTO_CONT_DAY_20200805
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/197_create_LOTTO_CONT_DAY_20200805.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-198_create_LOTTO_CONT_DAY_20200804
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/198_create_LOTTO_CONT_DAY_20200804.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-199_create_LOTTO_CONT_DAY_20200803
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/199_create_LOTTO_CONT_DAY_20200803.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-200_create_LOTTO_CONT_DAY_20200802
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/200_create_LOTTO_CONT_DAY_20200802.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-201_create_LOTTO_CONT_DAY_20200801
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/201_create_LOTTO_CONT_DAY_20200801.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-202_create_LOTTO_CONT_DAY_20200731
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/202_create_LOTTO_CONT_DAY_20200731.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-203_create_LOTTO_CONT_DAY_20200730
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/203_create_LOTTO_CONT_DAY_20200730.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-204_create_LOTTO_CONT_DAY_20200729
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/204_create_LOTTO_CONT_DAY_20200729.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-205_create_LOTTO_CONT_DAY_20200728
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/205_create_LOTTO_CONT_DAY_20200728.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-206_create_LOTTO_CONT_DAY_20200727
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/206_create_LOTTO_CONT_DAY_20200727.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-207_create_LOTTO_CONT_DAY_20200726
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/207_create_LOTTO_CONT_DAY_20200726.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-208_create_LOTTO_CONT_DAY_20200725
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/208_create_LOTTO_CONT_DAY_20200725.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-209_create_LOTTO_CONT_DAY_20200724
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/209_create_LOTTO_CONT_DAY_20200724.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-210_create_LOTTO_CONT_DAY_20200723
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/210_create_LOTTO_CONT_DAY_20200723.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-211_create_LOTTO_CONT_DAY_20200722
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/211_create_LOTTO_CONT_DAY_20200722.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-212_create_LOTTO_CONT_DAY_20200721
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/212_create_LOTTO_CONT_DAY_20200721.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-213_create_LOTTO_CONT_DAY_20200720
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/213_create_LOTTO_CONT_DAY_20200720.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-214_create_LOTTO_CONT_DAY_20200719
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/214_create_LOTTO_CONT_DAY_20200719.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-215_create_LOTTO_CONT_DAY_20200718
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/215_create_LOTTO_CONT_DAY_20200718.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-216_create_LOTTO_CONT_DAY_20200717
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/216_create_LOTTO_CONT_DAY_20200717.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-217_create_LOTTO_CONT_DAY_20200716
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/217_create_LOTTO_CONT_DAY_20200716.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-218_create_LOTTO_CONT_DAY_20200715
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/218_create_LOTTO_CONT_DAY_20200715.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-219_create_LOTTO_CONT_DAY_20200714
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/219_create_LOTTO_CONT_DAY_20200714.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-220_create_LOTTO_CONT_DAY_20200713
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/220_create_LOTTO_CONT_DAY_20200713.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-221_create_LOTTO_CONT_DAY_20200712
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/221_create_LOTTO_CONT_DAY_20200712.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-222_create_LOTTO_CONT_DAY_20200711
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/222_create_LOTTO_CONT_DAY_20200711.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-223_create_LOTTO_CONT_DAY_20200710
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/223_create_LOTTO_CONT_DAY_20200710.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-224_create_LOTTO_CONT_DAY_20200709
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/224_create_LOTTO_CONT_DAY_20200709.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-225_create_LOTTO_CONT_DAY_20200708
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/225_create_LOTTO_CONT_DAY_20200708.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-226_create_LOTTO_CONT_DAY_20200707
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/226_create_LOTTO_CONT_DAY_20200707.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-227_create_LOTTO_CONT_DAY_20200706
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/227_create_LOTTO_CONT_DAY_20200706.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-228_create_LOTTO_CONT_DAY_20200705
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/228_create_LOTTO_CONT_DAY_20200705.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-229_create_LOTTO_CONT_DAY_20200704
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/229_create_LOTTO_CONT_DAY_20200704.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-230_create_LOTTO_CONT_DAY_20200703
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/230_create_LOTTO_CONT_DAY_20200703.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-231_create_LOTTO_CONT_DAY_20200702
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/231_create_LOTTO_CONT_DAY_20200702.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-232_create_LOTTO_CONT_DAY_20200701
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/232_create_LOTTO_CONT_DAY_20200701.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-233_create_LOTTO_CONT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/233_create_LOTTO_CONT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-234_create_LOTTO_CONFIG
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/234_create_LOTTO_CONFIG.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-235_create_LOTTO_AWP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/235_create_LOTTO_AWP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-236_create_LogIncassiMobile
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/236_create_LogIncassiMobile.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-237_create_locGiriAgenti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/237_create_locGiriAgenti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-238_create_LocGiri
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/238_create_LocGiri.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-239_create_LocaliSoci
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/239_create_LocaliSoci.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-240_create_LocaliCoordinate
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/240_create_LocaliCoordinate.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-241_create_LocaliCon
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/241_create_LocaliCon.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-242_create_MovePlan
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/242_create_MovePlan.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-243_create_MovePda
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/243_create_MovePda.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-244_create_Move
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/244_create_Move.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-245_create_IncassiLocaliTmp
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/245_create_IncassiLocaliTmp.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-246_create_Incassi_Rollback
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/246_create_Incassi_Rollback.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-247_create_Incassi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/247_create_Incassi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-248_create_Imposte
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/248_create_Imposte.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-249_create_ImportLotto15Dir
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/249_create_ImportLotto15Dir.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-250_create_ImportLotto15A
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/250_create_ImportLotto15A.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-251_create_ImgPra
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/251_create_ImgPra.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-252_create_ImgLoc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/252_create_ImgLoc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-253_create_Img
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/253_create_Img.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-254_create_Hopper
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/254_create_Hopper.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-255_create_Guasti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/255_create_Guasti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-256_create_GiriAgenti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/256_create_GiriAgenti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-257_create_Giri
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/257_create_Giri.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-258_create_GiorniAnni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/258_create_GiorniAnni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-259_create_IncassiTmp
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/259_create_IncassiTmp.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-260_create_IncassiSospesi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/260_create_IncassiSospesi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-261_create_FattureRete
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/261_create_FattureRete.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-262_create_DDT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/262_create_DDT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-263_create_FogliXLS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/263_create_FogliXLS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-264_create_Interventi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/264_create_Interventi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-265_create_Furti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/265_create_Furti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-266_create_ELENCO_PROVINCE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/266_create_ELENCO_PROVINCE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-267_create_dismissioni_padgate
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/267_create_dismissioni_padgate.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-268_create_AppoIncassi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/268_create_AppoIncassi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-269_create_AppoEtichette
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/269_create_AppoEtichette.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-270_create_Azzeramenti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/270_create_Azzeramenti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-271_create_AzioniCom
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/271_create_AzioniCom.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-272_create_AWP_Visibilita
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/272_create_AWP_Visibilita.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-273_create_Automezzi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/273_create_Automezzi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-274_create_Assegni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/274_create_Assegni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-275_create_Assegnazioni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/275_create_Assegnazioni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-276_create_AltriCespiti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/276_create_AltriCespiti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-277_create_AloUpdateNew
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/277_create_AloUpdateNew.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-278_create_aloUpdate
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/278_create_aloUpdate.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-279_create_AloParemeters_User
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/279_create_AloParemeters_User.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-280_create_AloParemeters
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/280_create_AloParemeters.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-281_create_aloLicKey
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/281_create_aloLicKey.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-282_create_AloConfigMobile
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/282_create_AloConfigMobile.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-283_create_ALO_MainLog
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/283_create_ALO_MainLog.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-284_create_ALO_Days
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/284_create_ALO_Days.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-285_create_ALO_Codici
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/285_create_ALO_Codici.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-286_create_Cellulari
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/286_create_Cellulari.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-287_create_CheckPM
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/287_create_CheckPM.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-288_create_ChangeLivelli
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/288_create_ChangeLivelli.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-289_create_ChangeLast
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/289_create_ChangeLast.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-290_create_ChangeHopper
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/290_create_ChangeHopper.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-291_create_CodiciAutorizzazioni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/291_create_CodiciAutorizzazioni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-292_create_DataChangeIVA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/292_create_DataChangeIVA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-293_create_Corrispettivi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/293_create_Corrispettivi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-294_create_cOperazione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/294_create_cOperazione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-295_create_Contingentamento
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/295_create_Contingentamento.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-296_create_ConfigValuta
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/296_create_ConfigValuta.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-297_create_ConfigTreeView
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/297_create_ConfigTreeView.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-298_create_ConfigFunzione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/298_create_ConfigFunzione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-299_create_AccontiDtl
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/299_create_AccontiDtl.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-300_create_Acconti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/300_create_Acconti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-301_create_CASH_Ping
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/301_create_CASH_Ping.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-302_create_CASH_LocaleBonus
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/302_create_CASH_LocaleBonus.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-303_create_CASH_LocaleBlocco
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/303_create_CASH_LocaleBlocco.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-304_create_CASH_CodiciSblocco
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/304_create_CASH_CodiciSblocco.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-305_create_CaricheHopper
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/305_create_CaricheHopper.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-306_create_CAMBIA_VNE_Storico
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/306_create_CAMBIA_VNE_Storico.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-307_create_CAMBIA_Storico
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/307_create_CAMBIA_Storico.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-308_create_CAMBIA_ParVendor
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/308_create_CAMBIA_ParVendor.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-309_create_CAMBIA_MICROHARD_Storico
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/309_create_CAMBIA_MICROHARD_Storico.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-310_create_CAMBIA_ITG_Storico
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/310_create_CAMBIA_ITG_Storico.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-311_create_CAMBIA_Eventi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/311_create_CAMBIA_Eventi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-312_create_CAMBIA_CHITA_Storico
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/312_create_CAMBIA_CHITA_Storico.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-313_create_BonusLocaleVoci
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/313_create_BonusLocaleVoci.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-314_create_BonusLocale
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/314_create_BonusLocale.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-315_create_BollettaTestata
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/315_create_BollettaTestata.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-316_create_bizSocieta
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/316_create_bizSocieta.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-317_create_bizschede
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/317_create_bizschede.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-318_create_bizParZone
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/318_create_bizParZone.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-319_create_bizmobili
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/319_create_bizmobili.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-320_create_bizMagazzini
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/320_create_bizMagazzini.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-321_create_bizMacro
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/321_create_bizMacro.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-322_create_BizLogTrace
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/322_create_BizLogTrace.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-323_create_bizlocali
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/323_create_bizlocali.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-324_create_bizforn_OLD
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/324_create_bizforn_OLD.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-325_create_bizforn
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/325_create_bizforn.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-326_create_BizFideiussioni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/326_create_BizFideiussioni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-327_create_bizEsattore
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/327_create_bizEsattore.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-328_create_bizDitte
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/328_create_bizDitte.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-329_create_bizdistribut
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/329_create_bizdistribut.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-330_create_bizdedicati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/330_create_bizdedicati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-331_create_bizcostr
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/331_create_bizcostr.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-332_create_bizConcessionari
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/332_create_bizConcessionari.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-333_create_bizArticoli
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/333_create_bizArticoli.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-334_create_BizAltriCespiti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/334_create_BizAltriCespiti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-335_create_bizAgenti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/335_create_bizAgenti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-336_create_bizAccessori
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/336_create_bizAccessori.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-337_create_Benefit
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/337_create_Benefit.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-338_create_storico
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/338_create_storico.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-339_create_StatRegionale
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/339_create_StatRegionale.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-340_create_SpostamentiPda
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/340_create_SpostamentiPda.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-341_create_Spostamenti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/341_create_Spostamenti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-342_create_SpeseEsattori
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/342_create_SpeseEsattori.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-343_create_Richieste
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/343_create_Richieste.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-344_create_Ricevute
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/344_create_Ricevute.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-345_create_QRY_REPORT_OLD
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/345_create_QRY_REPORT_OLD.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-346_create_QRY_Report
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/346_create_QRY_Report.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-347_create_QRY_Filter
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/347_create_QRY_Filter.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-348_create_QrCode
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/348_create_QrCode.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-349_create_Progressivi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/349_create_Progressivi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-350_create_SMSInvio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/350_create_SMSInvio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-351_create_SMSConfig
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/351_create_SMSConfig.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-352_create_SMSAltri
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/352_create_SMSAltri.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-353_create_usrUserFilter
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/353_create_usrUserFilter.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-354_create_usrUser
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/354_create_usrUser.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-355_create_usrTreeView
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/355_create_usrTreeView.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-356_create_usrMacroZone
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/356_create_usrMacroZone.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-357_create_usrFilter
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/357_create_usrFilter.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-358_create_TentataVendita
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/358_create_TentataVendita.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-359_create_Tecnici
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/359_create_Tecnici.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-360_create_tbUpdate
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/360_create_tbUpdate.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-361_create_tbLocale
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/361_create_tbLocale.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-362_create_tbApparecchi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/362_create_tbApparecchi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-363_create_StoricoStatoAWP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/363_create_StoricoStatoAWP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-364_create_StoricoPDA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/364_create_StoricoPDA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-365_create_StatNazionale
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/365_create_StatNazionale.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-366_create_StabilitaLocali
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/366_create_StabilitaLocali.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-367_create_StabilitaDettaglioDovuto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/367_create_StabilitaDettaglioDovuto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-368_create_StabilitaConc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/368_create_StabilitaConc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-369_create_ssData
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/369_create_ssData.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-370_create_SpostamentiRic
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/370_create_SpostamentiRic.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-371_create_Scadenze
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/371_create_Scadenze.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-372_create_StoricoGiri
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/372_create_StoricoGiri.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-373_create_StoricoContatori
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/373_create_StoricoContatori.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-374_create_VLTImportiSRU
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/374_create_VLTImportiSRU.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-375_create_VerificheConti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/375_create_VerificheConti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-tabelle-376_create_VociDDT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/376_create_VociDDT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

@@ -1,0 +1,15 @@
+﻿/****** Object:  Table [dbo].[terminali_da_controllare_nuovo_hardware]    Script Date: 11/17/2025 15:21:52 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[terminali_da_controllare_nuovo_hardware](
+	[ricevitoria] [char](6) NULL,
+	[terminale] [char](1) NULL,
+	[data_sostituzione] [char](8) NULL
+) ON [DATA]
+GO
+SET ANSI_PADDING OFF
+GO

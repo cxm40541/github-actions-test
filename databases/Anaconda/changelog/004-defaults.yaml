@@ -1,0 +1,661 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: Anaconda-defaults-001_alter_DF_S2T_zucchetti_cliente_dataoracreazione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/001_alter_DF_S2T_zucchetti_cliente_dataoracreazione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-002_alter_DF_S2T_zucchetti_cliente_dataoramodifica
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/002_alter_DF_S2T_zucchetti_cliente_dataoramodifica.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-003_alter_DF_S2T_versioni_file_dataoramodifica
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/003_alter_DF_S2T_versioni_file_dataoramodifica.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-004_alter_DF_S2T_POSService_scartati_def_versione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/004_alter_DF_S2T_POSService_scartati_def_versione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-005_alter_DF_S2T_POSService_scartati_def_data_invio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/005_alter_DF_S2T_POSService_scartati_def_data_invio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-006_alter_DF_S2T_POSService_scartati_def_esito
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/006_alter_DF_S2T_POSService_scartati_def_esito.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-007_alter_DF_S2T_POSService_inviati_def_versione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/007_alter_DF_S2T_POSService_inviati_def_versione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-008_alter_DF_S2T_POSService_inviati_def_data_invio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/008_alter_DF_S2T_POSService_inviati_def_data_invio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-009_alter_DF_S2T_POSService_inviati_def_esito
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/009_alter_DF_S2T_POSService_inviati_def_esito.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-010_alter_DF_S2T_PointOfSale_scartati_def_versione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/010_alter_DF_S2T_PointOfSale_scartati_def_versione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-011_alter_DF_S2T_PointOfSale_scartati_def_data_invio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/011_alter_DF_S2T_PointOfSale_scartati_def_data_invio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-012_alter_DF_S2T_PointOfSale_scartati_def_esito
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/012_alter_DF_S2T_PointOfSale_scartati_def_esito.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-013_alter_DF_S2T_PointOfSale_inviati_def_versione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/013_alter_DF_S2T_PointOfSale_inviati_def_versione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-014_alter_DF_S2T_PointOfSale_inviati_def_data_invio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/014_alter_DF_S2T_PointOfSale_inviati_def_data_invio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-015_alter_DF_S2T_PointOfSale_inviati_def_esito
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/015_alter_DF_S2T_PointOfSale_inviati_def_esito.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-016_alter_DF_S2T_Operator_scartati_def_versione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/016_alter_DF_S2T_Operator_scartati_def_versione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-017_alter_DF_S2T_Operator_scartati_def_data_invio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/017_alter_DF_S2T_Operator_scartati_def_data_invio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-018_alter_DF_S2T_Operator_scartati_def_esito
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/018_alter_DF_S2T_Operator_scartati_def_esito.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-019_alter_DF_S2T_Operator_inviati_def_versione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/019_alter_DF_S2T_Operator_inviati_def_versione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-020_alter_DF_S2T_Operator_inviati_def_data_invio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/020_alter_DF_S2T_Operator_inviati_def_data_invio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-021_alter_DF_S2T_Operator_inviati_def_esito
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/021_alter_DF_S2T_Operator_inviati_def_esito.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-022_alter_DF_S2T_movimenti_giornalieri_tipo_operazione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/022_alter_DF_S2T_movimenti_giornalieri_tipo_operazione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-023_alter_DF_S2T_movimenti_giornalieri_carta
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/023_alter_DF_S2T_movimenti_giornalieri_carta.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-024_alter_DF_S2T_ClientContract_scartati_def_versione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/024_alter_DF_S2T_ClientContract_scartati_def_versione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-025_alter_DF_S2T_ClientContract_scartati_def_data_invio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/025_alter_DF_S2T_ClientContract_scartati_def_data_invio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-026_alter_DF_S2T_ClientContract_scartati_def_esito
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/026_alter_DF_S2T_ClientContract_scartati_def_esito.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-027_alter_DF_dbo.lsrttb_lsrttb_data_fine_validita
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/027_alter_DF_dbo.lsrttb_lsrttb_data_fine_validita.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-028_alter_DF__GEV_IVR_Gio__ivr__2FF570D3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/028_alter_DF__GEV_IVR_Gio__ivr__2FF570D3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-029_alter_DF__GEV_IVR_Gio__ivr__2F014C9A
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/029_alter_DF__GEV_IVR_Gio__ivr__2F014C9A.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-030_alter_DF_S2T_Client_scartati_def_versione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/030_alter_DF_S2T_Client_scartati_def_versione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-031_alter_DF_S2T_Client_scartati_def_data_invio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/031_alter_DF_S2T_Client_scartati_def_data_invio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-032_alter_DF_S2T_Client_scartati_def_esito
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/032_alter_DF_S2T_Client_scartati_def_esito.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-033_alter_DF_S2T_Client_inviati_def_versione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/033_alter_DF_S2T_Client_inviati_def_versione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-034_alter_DF_S2T_Client_inviati_def_data_invio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/034_alter_DF_S2T_Client_inviati_def_data_invio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-035_alter_DF_S2T_Client_inviati_def_esito
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/035_alter_DF_S2T_Client_inviati_def_esito.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-036_alter_DF_S2T_ClientContract_inviati_def_versione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/036_alter_DF_S2T_ClientContract_inviati_def_versione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-037_alter_DF_S2T_ClientContract_inviati_def_data_invio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/037_alter_DF_S2T_ClientContract_inviati_def_data_invio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-038_alter_DF_S2T_ClientContract_inviati_def_esito
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/038_alter_DF_S2T_ClientContract_inviati_def_esito.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-039_alter_DF_lsrnuo_coni_lsrnuo_coni_data_accettazione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/039_alter_DF_lsrnuo_coni_lsrnuo_coni_data_accettazione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-040_alter_DF_lsrpvc_lsrpvc_fk_data_invio_richiesta
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/040_alter_DF_lsrpvc_lsrpvc_fk_data_invio_richiesta.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-041_alter_DF_S2T_Client_def_supercodice
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/041_alter_DF_S2T_Client_def_supercodice.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-042_alter_DF_S2T_Client_def_vbo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/042_alter_DF_S2T_Client_def_vbo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-043_alter_DF_S2T_Client_def_sia
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/043_alter_DF_S2T_Client_def_sia.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-044_alter_DF_S2T_Client_def_societa_riferimento
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/044_alter_DF_S2T_Client_def_societa_riferimento.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-045_alter_DF_S2T_Client_def_forma_giuridica
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/045_alter_DF_S2T_Client_def_forma_giuridica.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-046_alter_DF_S2T_Client_def_fax
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/046_alter_DF_S2T_Client_def_fax.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-047_alter_DF_S2T_Client_def_email
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/047_alter_DF_S2T_Client_def_email.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-048_alter_DF_S2T_Client_def_conto_merchant
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/048_alter_DF_S2T_Client_def_conto_merchant.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-049_alter_DF_S2T_ClientContract_def_codice_contratto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/049_alter_DF_S2T_ClientContract_def_codice_contratto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-050_alter_DF_S2T_ClientContract_def_societa_riferimento
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/050_alter_DF_S2T_ClientContract_def_societa_riferimento.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-051_alter_DF_S2T_ClientContract_def_codice_plafond
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/051_alter_DF_S2T_ClientContract_def_codice_plafond.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-052_alter_DF_S2T_ClientContract_def_tipo_contratto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/052_alter_DF_S2T_ClientContract_def_tipo_contratto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-053_alter_DF_S2T_PointOfSale_def_codice_stabilimento
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/053_alter_DF_S2T_PointOfSale_def_codice_stabilimento.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-054_alter_DF_S2T_PointOfSale_def_fax
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/054_alter_DF_S2T_PointOfSale_def_fax.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-055_alter_DF_S2T_PointOfSale_def_email
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/055_alter_DF_S2T_PointOfSale_def_email.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-056_alter_DF_S2T_PointOfSale_def_codice_configurazione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/056_alter_DF_S2T_PointOfSale_def_codice_configurazione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-057_alter_DF_S2T_PointOfSale_def_riga1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/057_alter_DF_S2T_PointOfSale_def_riga1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-058_alter_DF_S2T_PointOfSale_def_riga2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/058_alter_DF_S2T_PointOfSale_def_riga2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-059_alter_DF_S2T_PointOfSale_def_riga3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/059_alter_DF_S2T_PointOfSale_def_riga3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-060_alter_DF_S2T_PointOfSale_def_riga4
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/060_alter_DF_S2T_PointOfSale_def_riga4.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-061_alter_DF_S2T_POSService_def_codice_servizio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/061_alter_DF_S2T_POSService_def_codice_servizio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-062_alter_DF_S2T_POSService_def_societa_riferimento
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/062_alter_DF_S2T_POSService_def_societa_riferimento.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-063_alter_DF_S2T_POSService_def_codice_contratto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/063_alter_DF_S2T_POSService_def_codice_contratto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-064_alter_DF_S2T_POSService_def_codice_configurazione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/064_alter_DF_S2T_POSService_def_codice_configurazione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-065_alter_DF_S2T_Operator_def_tipo_operatore
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/065_alter_DF_S2T_Operator_def_tipo_operatore.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-defaults-066_alter_DF_S2T_Operator_def_brand_type
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/066_alter_DF_S2T_Operator_def_brand_type.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

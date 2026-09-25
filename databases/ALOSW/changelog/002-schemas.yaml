@@ -1,0 +1,10 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: ALOSW-schemi-001_create_ALOUser
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/001_create_ALOUser.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO

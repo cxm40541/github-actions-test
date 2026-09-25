@@ -1,0 +1,26 @@
+﻿/****** Object:  Table [dbo].[CNI]    Script Date: 11/17/2025 15:18:28 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[CNI](
+	[CODICE_LOTTOMATICA] [char](6) NOT NULL,
+	[COGNOME] [char](25) NOT NULL,
+	[NOME] [char](25) NOT NULL,
+	[DATA_INS] [char](8) NULL,
+	[ORA_INS] [char](8) NULL,
+	[PROTOCOLLO] [char](10) NULL,
+	[DATA_PROTOCOLLO] [char](10) NULL,
+	[ANOMALIA] [char](4) NULL,
+	[AUTORIZZAZIONE_PS] [char](1) NULL,
+	[FIDEJ_ANNO_PREC] [char](2) NULL,
+	[IMPORTO_FIDEJ_ANNO_PREC] [decimal](10, 0) NULL,
+	[FIDEJ_ANNO_CORR] [char](2) NULL,
+	[IMPORTO_FIDEJ_ANNO_CORR] [decimal](10, 0) NULL,
+	[FLAG_ANAG] [varchar](1) NULL
+) ON [DATA]
+GO
+SET ANSI_PADDING OFF
+GO

@@ -1,0 +1,20 @@
+﻿/****** Object:  Table [dbo].[MENU_CEZ]    Script Date: 11/17/2025 15:21:52 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MENU_CEZ](
+	[id_menu] [int] NOT NULL,
+	[menu_asp] [char](50) NOT NULL,
+	[menu_descrizione] [char](50) NOT NULL,
+	[livello_min] [int] NOT NULL,
+ CONSTRAINT [pk_menu_cez] PRIMARY KEY CLUSTERED 
+(
+	[id_menu] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [DATA]
+) ON [DATA]
+GO
+SET ANSI_PADDING OFF
+GO

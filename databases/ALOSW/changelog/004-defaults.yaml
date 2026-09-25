@@ -1,0 +1,681 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: ALOSW-defaults-001_alter_DF_AppoIncassi_ReteCalcolata
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/001_alter_DF_AppoIncassi_ReteCalcolata.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-002_alter_DF_BizAgenti_bAcquisito
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/002_alter_DF_BizAgenti_bAcquisito.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-003_alter_DF_BizConcessionari_RidDiretto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/003_alter_DF_BizConcessionari_RidDiretto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-004_alter_DF_bizdedicati_IsVLT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/004_alter_DF_bizdedicati_IsVLT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-005_alter_DF_BizLocali_bEscludiMaturato
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/005_alter_DF_BizLocali_bEscludiMaturato.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-006_alter_DF_BizLocali_InfBalduzzi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/006_alter_DF_BizLocali_InfBalduzzi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-007_alter_DF_BizLocali_swPrelevaIncasso
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/007_alter_DF_BizLocali_swPrelevaIncasso.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-008_alter_DF_BizLocali_PercEsattoreSuNetto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/008_alter_DF_BizLocali_PercEsattoreSuNetto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-009_alter_DF_BizSocieta_swIntFatProvvigioni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/009_alter_DF_BizSocieta_swIntFatProvvigioni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-010_alter_DF_BollettaTestata_Stampata
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/010_alter_DF_BollettaTestata_Stampata.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-011_alter_DF_BollettaTestata_Contata
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/011_alter_DF_BollettaTestata_Contata.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-012_alter_DF_CASH_CodiciSblocco_Annullato
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/012_alter_DF_CASH_CodiciSblocco_Annullato.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-013_alter_DF_CASH_LocaleBlocco_Attivo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/013_alter_DF_CASH_LocaleBlocco_Attivo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-014_alter_DF_CASH_LocaleBonus_Attivo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/014_alter_DF_CASH_LocaleBonus_Attivo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-015_alter_DF_ChangeLivelli_swVerifica
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/015_alter_DF_ChangeLivelli_swVerifica.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-016_alter_DF_ConfigTreeView_bNoTreeView
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/016_alter_DF_ConfigTreeView_bNoTreeView.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-017_alter_DF_Furti_swDenuncia
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/017_alter_DF_Furti_swDenuncia.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-018_alter_DF_Furti_swDanni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/018_alter_DF_Furti_swDanni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-019_alter_DF_LocGiri_Pri
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/019_alter_DF_LocGiri_Pri.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-020_alter_DF_LocGiri_Par
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/020_alter_DF_LocGiri_Par.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-021_alter_DF_LocGiri_Dis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/021_alter_DF_LocGiri_Dis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-022_alter_DF_LocGiri_Ord
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/022_alter_DF_LocGiri_Ord.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-023_alter_DF_LocGiri_Sec
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/023_alter_DF_LocGiri_Sec.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-024_alter_DF_LocGiri_Ter
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/024_alter_DF_LocGiri_Ter.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-025_alter_DF_LocGiri_Qua
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/025_alter_DF_LocGiri_Qua.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-026_alter_DF_MacroTipoRicambi_IsFine
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/026_alter_DF_MacroTipoRicambi_IsFine.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-027_alter_DF_Mobile_gateway_Attivo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/027_alter_DF_Mobile_gateway_Attivo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-028_alter_DF_Mobile_message_bLetto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/028_alter_DF_Mobile_message_bLetto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-029_alter_DF_Mobile_message_bInviato
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/029_alter_DF_Mobile_message_bInviato.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-030_alter_DF_Mobile_message_bNotifica
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/030_alter_DF_Mobile_message_bNotifica.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-031_alter_DF_Mobile_message_bAll
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/031_alter_DF_Mobile_message_bAll.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-032_alter_DF_mobile_print_Attivo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/032_alter_DF_mobile_print_Attivo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-033_alter_DF_mobile_print_ToDelete
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/033_alter_DF_mobile_print_ToDelete.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-034_alter_DF_mobile_report_bPublic
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/034_alter_DF_mobile_report_bPublic.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-035_alter_DF_mobile_users_bIncassi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/035_alter_DF_mobile_users_bIncassi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-036_alter_DF_mobile_users_bMessaggi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/036_alter_DF_mobile_users_bMessaggi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-037_alter_DF_mobile_users_bAttivita
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/037_alter_DF_mobile_users_bAttivita.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-038_alter_DF_mobile_users_bSpostamenti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/038_alter_DF_mobile_users_bSpostamenti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-039_alter_DF_mobile_users_bGuasti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/039_alter_DF_mobile_users_bGuasti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-040_alter_DF_mobile_users_bStatistiche
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/040_alter_DF_mobile_users_bStatistiche.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-041_alter_DF_mobile_users_bViewAll
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/041_alter_DF_mobile_users_bViewAll.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-042_alter_DF_mobile_users_bAttivo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/042_alter_DF_mobile_users_bAttivo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-043_alter_DF_mobile_users_bOnConsole
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/043_alter_DF_mobile_users_bOnConsole.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-044_alter_DF_Mobile_Users_bTckCenter
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/044_alter_DF_Mobile_Users_bTckCenter.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-045_alter_DF_Mobile_Users_bTckCenterAdmin
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/045_alter_DF_Mobile_Users_bTckCenterAdmin.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-046_alter_DF_Mobile_Users_bTckAPP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/046_alter_DF_Mobile_Users_bTckAPP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-047_alter_DF__pgw_utent__acces__257187A8
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/047_alter_DF__pgw_utent__acces__257187A8.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-048_alter_DF__pgw_utent__psw_m__2665ABE1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/048_alter_DF__pgw_utent__psw_m__2665ABE1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-049_alter_DF_RefillHopper_Contato
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/049_alter_DF_RefillHopper_Contato.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-050_alter_DF_RelReportConfig_SwFilter
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/050_alter_DF_RelReportConfig_SwFilter.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-051_alter_DF_RelReportConfig_SwFormula
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/051_alter_DF_RelReportConfig_SwFormula.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-052_alter_DF_RelReportConfig_SwOrder
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/052_alter_DF_RelReportConfig_SwOrder.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-053_alter_DF_Ricambi_bTemporaneo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/053_alter_DF_Ricambi_bTemporaneo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-054_alter_DF_Ricambi_swModificato
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/054_alter_DF_Ricambi_swModificato.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-055_alter_DF_sospesirientri_swBonificato
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/055_alter_DF_sospesirientri_swBonificato.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-056_alter_DF_SospesiRientri_swStabilita
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/056_alter_DF_SospesiRientri_swStabilita.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-057_alter_DF_SpeseEsattori_Verificato
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/057_alter_DF_SpeseEsattori_Verificato.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-058_alter_DF_StabilitaConc_SwStimato
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/058_alter_DF_StabilitaConc_SwStimato.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-059_alter_DF_StabilitaLocali_LimitaAccumulo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/059_alter_DF_StabilitaLocali_LimitaAccumulo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-060_alter_DF_StabilitaLocali_swAttivo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/060_alter_DF_StabilitaLocali_swAttivo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-061_alter_DF_tbApparecchi_bPercSuNetto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/061_alter_DF_tbApparecchi_bPercSuNetto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-062_alter_DF_tbApparecchi_MovebPronta
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/062_alter_DF_tbApparecchi_MovebPronta.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-063_alter_DF_tbApparecchi_ToDelete
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/063_alter_DF_tbApparecchi_ToDelete.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-064_alter_DF_tbLocale_swIncassaTuttoC7
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/064_alter_DF_tbLocale_swIncassaTuttoC7.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-065_alter_DF_tbLocale_swUsaFasce
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/065_alter_DF_tbLocale_swUsaFasce.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-066_alter_DF_tbLocale_swPercSuNetto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/066_alter_DF_tbLocale_swPercSuNetto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-067_alter_DF_tbLocale_bEscludiMaturato
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/067_alter_DF_tbLocale_bEscludiMaturato.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-defaults-068_alter_DF_tbUpdate_Done
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/068_alter_DF_tbUpdate_Done.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

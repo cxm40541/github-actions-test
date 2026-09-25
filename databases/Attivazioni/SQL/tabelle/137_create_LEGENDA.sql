@@ -1,0 +1,37 @@
+﻿/****** Object:  Table [dbo].[LEGENDA]    Script Date: 11/17/2025 15:21:53 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[LEGENDA](
+	[id_record] [int] NOT NULL,
+	[cod_attivita] [char](3) NOT NULL,
+	[cod_avanzamento] [char](5) NULL,
+	[descrizione] [varchar](250) NULL,
+	[tipo_piano] [char](2) NOT NULL,
+ CONSTRAINT [PK_LEGENDA] PRIMARY KEY NONCLUSTERED 
+(
+	[id_record] ASC,
+	[tipo_piano] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [DATA]
+) ON [DATA]
+GO
+SET ANSI_PADDING OFF
+GO
+CREATE CLUSTERED INDEX [IX_LEGENDA] ON [dbo].[LEGENDA] 
+(
+	[tipo_piano] ASC,
+	[cod_attivita] ASC,
+	[cod_avanzamento] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [DATA]
+GO
+CREATE NONCLUSTERED INDEX [IX_legenda_2] ON [dbo].[LEGENDA] 
+(
+	[cod_attivita] ASC,
+	[cod_avanzamento] ASC,
+	[id_record] ASC,
+	[tipo_piano] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [INDEX]
+GO

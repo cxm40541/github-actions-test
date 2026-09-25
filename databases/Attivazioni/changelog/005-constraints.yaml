@@ -1,0 +1,221 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: Attivazioni-constraints-001_alter_FK_PIANI_CODICI_PIANI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/001_alter_FK_PIANI_CODICI_PIANI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-002_alter_FK_CODICI_AVANZAMENTO_ATTIVITA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/002_alter_FK_CODICI_AVANZAMENTO_ATTIVITA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-003_alter_FK_Codici_Problematiche_CEZ_ATTIVITA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/003_alter_FK_Codici_Problematiche_CEZ_ATTIVITA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-004_alter_FK_Codici_Problematiche_ATTIVITA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/004_alter_FK_Codici_Problematiche_ATTIVITA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-005_alter_FK_consuntivi_PIANI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/005_alter_FK_consuntivi_PIANI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-006_alter_FK_legenda_ATTIVITA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/006_alter_FK_legenda_ATTIVITA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-007_alter_FK_legenda_CODICI_AVANZAMENTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/007_alter_FK_legenda_CODICI_AVANZAMENTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-008_alter_FK_Apparecchiature_codici_tipo_appar
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/008_alter_FK_Apparecchiature_codici_tipo_appar.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-009_alter_FK_Apparecchiature_PIANI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/009_alter_FK_Apparecchiature_PIANI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-010_alter_FK_PROFILO_PIANI_ATTIVITA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/010_alter_FK_PROFILO_PIANI_ATTIVITA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-011_alter_FK_PROFILO_PIANI_CODICI_AVANZAMENTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/011_alter_FK_PROFILO_PIANI_CODICI_AVANZAMENTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-012_alter_FK_PROBLEMATICHE_Codici_Problematiche
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/012_alter_FK_PROBLEMATICHE_Codici_Problematiche.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-013_alter_FK_PROBLEMATICHE_STATO_AVANZAMENTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/013_alter_FK_PROBLEMATICHE_STATO_AVANZAMENTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-014_alter_FK_SOGGETTI_DEL_PIANO_PIANI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/014_alter_FK_SOGGETTI_DEL_PIANO_PIANI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-015_alter_FK_SOGGETTI_IN_GESTIONE_SOGGETTI_DEL_PIANo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/015_alter_FK_SOGGETTI_IN_GESTIONE_SOGGETTI_DEL_PIANo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-016_alter_FK_STORICO_SOGGETTI_IN_GESTIONE_SOGGETTI_DEL_PIANO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/016_alter_FK_STORICO_SOGGETTI_IN_GESTIONE_SOGGETTI_DEL_PIANO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-017_alter_FK_NOTE_CEZ_FLAG_CEZ
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/017_alter_FK_NOTE_CEZ_FLAG_CEZ.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-018_alter_FK_NOTE_CEZ_SOGGETTI_DEL_PIANO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/018_alter_FK_NOTE_CEZ_SOGGETTI_DEL_PIANO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-019_alter_FK_ATTIVITA_PIANIFICATE_ATTIVITA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/019_alter_FK_ATTIVITA_PIANIFICATE_ATTIVITA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-020_alter_FK_ATTIVITA_PIANIFICATE_SOGGETTI_DEL_PIANO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/020_alter_FK_ATTIVITA_PIANIFICATE_SOGGETTI_DEL_PIANO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-021_alter_FK_STATO_AVANZAMENTO_CEZ_ATTIVITA_PIANIFICATE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/021_alter_FK_STATO_AVANZAMENTO_CEZ_ATTIVITA_PIANIFICATE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-constraints-022_alter_FK_STATO_AVANZAMENTO_CEZ_CODICI_AVANZAMENTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/022_alter_FK_STATO_AVANZAMENTO_CEZ_CODICI_AVANZAMENTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

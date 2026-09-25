@@ -1,0 +1,21 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: Attivazioni-defaults-001_alter_DF_tab_telecom_FLAG_VERBALE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/001_alter_DF_tab_telecom_FLAG_VERBALE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-defaults-002_alter_DF_tab_telecom_CONT_VERBALE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/defaults/002_alter_DF_tab_telecom_CONT_VERBALE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

@@ -1,0 +1,251 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: Attivazioni-procedure-001_create_sp_Allineamento_Progetto_Rete_Prod
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/001_create_sp_Allineamento_Progetto_Rete_Prod.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-002_create_SPPlichi_AggiornaScontrini
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/002_create_SPPlichi_AggiornaScontrini.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-003_create_CHIUSURA_LAVORAZIONI_SDLC_IP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/003_create_CHIUSURA_LAVORAZIONI_SDLC_IP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-004_create_check_pwd
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/004_create_check_pwd.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-005_create_get_last_id_reclamo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/005_create_get_last_id_reclamo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-006_create_in_gestioneDedicataPiano
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/006_create_in_gestioneDedicataPiano.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-007_create_in_gestioneDedicata
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/007_create_in_gestioneDedicata.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-008_create_in_gestioneCommutata
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/008_create_in_gestioneCommutata.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-009_create_in_gestione9_20070227
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/009_create_in_gestione9_20070227.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-010_create_in_gestione9
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/010_create_in_gestione9.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-011_create_in_gestione8
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/011_create_in_gestione8.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-012_create_in_gestione7
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/012_create_in_gestione7.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-013_create_in_gestione6_20070227
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/013_create_in_gestione6_20070227.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-014_create_in_gestione6
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/014_create_in_gestione6.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-015_create_in_gestione3
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/015_create_in_gestione3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-016_create_in_gestione14
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/016_create_in_gestione14.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-017_create_in_gestione12_20131212
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/017_create_in_gestione12_20131212.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-018_create_in_gestione12_20070227
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/018_create_in_gestione12_20070227.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-019_create_in_gestione12
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/019_create_in_gestione12.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-020_create_in_gestione11
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/020_create_in_gestione11.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-021_create_in_gestione10
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/021_create_in_gestione10.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-022_create_LOEG009001GN
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/022_create_LOEG009001GN.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-023_create_SP_LO01GN
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/023_create_SP_LO01GN.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-024_create_pop_consuntivi6
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/024_create_pop_consuntivi6.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-procedure-025_create_trasf
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Procedure/025_create_trasf.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

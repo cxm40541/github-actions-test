@@ -1,0 +1,19 @@
+﻿/****** Object:  Table [dbo].[ANA_MODIFICHE]    Script Date: 11/17/2025 15:18:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[ANA_MODIFICHE](
+	[DATA_INS] [char](8) NULL,
+	[DATA_VALIDITA] [char](8) NULL,
+	[TIPO_MOD] [varchar](1) NOT NULL,
+	[COD_LOTT] [char](6) NULL,
+	[COGNOME] [varchar](24) NULL,
+	[NOME] [varchar](20) NULL,
+	[FT_SAP] [varchar](8) NOT NULL
+) ON [DATA]
+GO
+SET ANSI_PADDING OFF
+GO

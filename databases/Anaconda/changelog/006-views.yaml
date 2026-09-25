@@ -1,0 +1,181 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: Anaconda-viste-001_create_V_PASSAGGI_STATO_BOLLO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/001_create_V_PASSAGGI_STATO_BOLLO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-viste-002_create_v_lsrser_bollo_StipCessa
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/002_create_v_lsrser_bollo_StipCessa.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-viste-003_create_v_lsrser_atti_StipCessa
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/003_create_v_lsrser_atti_StipCessa.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-viste-004_create_v_lsrlet_totali_dest
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/004_create_v_lsrlet_totali_dest.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-viste-005_create_V_LAST_PARTITA_IVA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/005_create_V_LAST_PARTITA_IVA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-viste-006_create_v_indirizzo_ricev
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/006_create_v_indirizzo_ricev.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-viste-007_create_v_tit_decorr
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/007_create_v_tit_decorr.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-viste-008_create_V_Servizi_Lis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/008_create_V_Servizi_Lis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-viste-009_create_v_tit_prec
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/009_create_v_tit_prec.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-viste-010_create_v_tit_mancanti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/010_create_v_tit_mancanti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-viste-011_create_VIEW_RMF_LOG
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/011_create_VIEW_RMF_LOG.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-viste-012_create_S2T_v_lotto_sgi_zucchetti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/012_create_S2T_v_lotto_sgi_zucchetti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-viste-013_create_VIEW_RMF_RIEPILOGO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/013_create_VIEW_RMF_RIEPILOGO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-viste-014_create_v_qstgev
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/014_create_v_qstgev.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-viste-015_create_v_tit_decorr_prec_parziale
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/015_create_v_tit_decorr_prec_parziale.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-viste-016_create_v_tit_decorr_prec
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/016_create_v_tit_decorr_prec.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-viste-017_create_S2T_v_sinai
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/017_create_S2T_v_sinai.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-viste-018_create_FidejussioneXRiscossioni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/018_create_FidejussioneXRiscossioni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

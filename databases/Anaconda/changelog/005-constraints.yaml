@@ -1,0 +1,351 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: Anaconda-constraints-001_alter_FK_lsrord_GeV_lsrtit
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/001_alter_FK_lsrord_GeV_lsrtit.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-002_alter_FK_lsrord_GeV_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/002_alter_FK_lsrord_GeV_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-003_alter_FK_lsrrad_GS_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/003_alter_FK_lsrrad_GS_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-004_alter_FK_lsrrad_GeV_lsrtit
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/004_alter_FK_lsrrad_GeV_lsrtit.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-005_alter_FK_lsrrad_GeV_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/005_alter_FK_lsrrad_GeV_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-006_alter_FK_lsrrad_coni_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/006_alter_FK_lsrrad_coni_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-007_alter_FK_lsrcon_gp_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/007_alter_FK_lsrcon_gp_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-008_alter_FK_lsrcon_GeV_lsrcod_gev
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/008_alter_FK_lsrcon_GeV_lsrcod_gev.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-009_alter_FK_lsrcon_GeV_lsrtit
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/009_alter_FK_lsrcon_GeV_lsrtit.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-010_alter_FK_lsrcon_GeV_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/010_alter_FK_lsrcon_GeV_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-011_alter_FK_lsrcon_ITVM_lsrtit
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/011_alter_FK_lsrcon_ITVM_lsrtit.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-012_alter_FK_lsrcon_ITVM_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/012_alter_FK_lsrcon_ITVM_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-013_alter_FK_lsrcon_GS_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/013_alter_FK_lsrcon_GS_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-014_alter_FK_lsrcon_coni_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/014_alter_FK_lsrcon_coni_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-015_alter_FK_lsrnuo_GS_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/015_alter_FK_lsrnuo_GS_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-016_alter_FK_lsrnuo_coni_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/016_alter_FK_lsrnuo_coni_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-017_alter_FK_lsrqst_GeV_lsrqst_GeV_new
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/017_alter_FK_lsrqst_GeV_lsrqst_GeV_new.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-018_alter_FK_lsrqst_GeV_lsrtit
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/018_alter_FK_lsrqst_GeV_lsrtit.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-019_alter_FK_lsrqst_GeV_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/019_alter_FK_lsrqst_GeV_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-020_alter_FK_lsrfid_coni_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/020_alter_FK_lsrfid_coni_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-021_alter_FK_lsrser_lotto_lsrpro
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/021_alter_FK_lsrser_lotto_lsrpro.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-022_alter_FK_lsrtlp_st_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/022_alter_FK_lsrtlp_st_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-023_alter_FK_lsrrin_coni_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/023_alter_FK_lsrrin_coni_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-024_alter_FK_lsrfid_GeV_lsrtit
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/024_alter_FK_lsrfid_GeV_lsrtit.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-025_alter_FK_lsrfid_GeV_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/025_alter_FK_lsrfid_GeV_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-026_alter_FK_lsrqst_coni_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/026_alter_FK_lsrqst_coni_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-027_alter_FK_lsrrad_st_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/027_alter_FK_lsrrad_st_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-028_alter_FK_lsrtlp_GS_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/028_alter_FK_lsrtlp_GS_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-029_alter_FK_lsrfid_gp_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/029_alter_FK_lsrfid_gp_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-030_alter_FK_lsrpvc_lsrnuo_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/030_alter_FK_lsrpvc_lsrnuo_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-031_alter_FK_lsrcon_ITVM_matr_lsrcon_ITVM
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/031_alter_FK_lsrcon_ITVM_matr_lsrcon_ITVM.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-032_alter_FK_S2T_ClientContract_S2T_Client
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/032_alter_FK_S2T_ClientContract_S2T_Client.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-033_alter_FK_S2T_PointOfSale_S2T_Client
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/033_alter_FK_S2T_PointOfSale_S2T_Client.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-034_alter_FK_S2T_POSService_S2T_PointOfSale
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/034_alter_FK_S2T_POSService_S2T_PointOfSale.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-constraints-035_alter_FK_S2T_Operator_S2T_PointOfSale
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/constraints/035_alter_FK_S2T_Operator_S2T_PointOfSale.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

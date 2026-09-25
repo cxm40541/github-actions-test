@@ -1,0 +1,29 @@
+﻿databaseChangeLog:
+  - include:
+      file: 001-users-roles.yaml
+      relativeToChangelogFile: true
+
+  - include:
+      file: 002-schemas.yaml
+      relativeToChangelogFile: true
+
+  - include:
+      file: 003-tables.yaml
+      relativeToChangelogFile: true
+
+  - include:
+      file: 004-defaults.yaml
+      relativeToChangelogFile: true
+
+  - include:
+      file: 005-constraints.yaml
+      relativeToChangelogFile: true
+
+  - include:
+      file: 006-views.yaml
+      relativeToChangelogFile: true
+
+  - include:
+      file: 008-procedures.yaml
+      relativeToChangelogFile: true
+

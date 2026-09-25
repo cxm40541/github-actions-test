@@ -1,0 +1,5 @@
+changeLogFile=../../databases/Anaconda/changelog/db.changelog-master.yaml
+url=jdbc:sqlserver://HOST_TF:1433;databaseName=Anaconda;encrypt=true;trustServerCertificate=true
+username=__DA_COMPILARE__
+password=__DA_COMPILARE__
+driver=com.microsoft.sqlserver.jdbc.SQLServerDriver

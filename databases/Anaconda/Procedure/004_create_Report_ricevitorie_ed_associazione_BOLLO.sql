@@ -1,0 +1,53 @@
+﻿/****** Object:  StoredProcedure [dbo].[Report_ricevitorie_ed_associazione_BOLLO]    Script Date: 11/17/2025 15:18:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+/****** Object:  Stored Procedure dbo.Report_ricevitorie_ed_associazione_BOLLO    Script Date: 16/10/2003 10.27.11 ******/
+CREATE	PROCEDURE [dbo].[Report_ricevitorie_ed_associazione_BOLLO] 
+	@DATA		 	CHAR(8),
+	@SERVIZIO		CHAR(2),
+	@RUOTA			CHAR(2),
+	@ASSOCIAZIONE		CHAR(1),
+	@XML 			CHAR(1),
+	@ESITO 			INT OUT
+
+AS
+SELECT @ESITO = 0
+
+IF (@DATA IS NULL) OR (RTRIM(LTRIM(@DATA)) = '')
+BEGIN
+    SELECT @ESITO = 9
+    RAISERROR ('MANCA LA DATA',16,1)
+    RETURN @ESITO
+END
+
+IF (@SERVIZIO IS NULL) OR (RTRIM(LTRIM(@SERVIZIO)) = '')
+BEGIN
+    SELECT @ESITO = 9
+    RAISERROR ('MANCA IL NOME DEL SERVIZIO',16,1)
+    RETURN @ESITO
+END
+
+IF (@RUOTA IS NULL) OR (RTRIM(LTRIM(@RUOTA)) = '')
+BEGIN
+    SELECT @RUOTA = null
+END
+
+IF (@ASSOCIAZIONE IS NULL) OR (RTRIM(LTRIM(@ASSOCIAZIONE)) = '')
+BEGIN
+    SELECT @ASSOCIAZIONE = null
+END
+
+/**/
+/**/
+/**/
+SELECT @ESITO = 1000
+RAISERROR ('BOLLO DA DEFINIRE',16,1)
+RETURN @ESITO
+/**/
+/**/
+/**/
+
+SET QUOTED_IDENTIFIER OFF
+GO

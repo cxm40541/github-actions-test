@@ -1,0 +1,511 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: Attivazioni-viste-001_create_lgu0gt
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/001_create_lgu0gt.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-002_create_lgu04a
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/002_create_lgu04a.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-003_create_lgu01a
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/003_create_lgu01a.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-004_create_anagrafica_globale_punti_vendita
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/004_create_anagrafica_globale_punti_vendita.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-005_create_penali_fornitori
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/005_create_penali_fornitori.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-006_create_rep
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/006_create_rep.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-007_create_software
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/007_create_software.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-008_create_sv_solve_txt
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/008_create_sv_solve_txt.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-009_create_sv_inquiry_audit
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/009_create_sv_inquiry_audit.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-010_create_sv_inquiry
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/010_create_sv_inquiry.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-011_create_sv_inq_txt
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/011_create_sv_inq_txt.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-012_create_run_lotto_settimana_prec
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/012_create_run_lotto_settimana_prec.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-013_create_run_lotto_per_cem
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/013_create_run_lotto_per_cem.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-014_create_run_lotto_concorso_prec
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/014_create_run_lotto_concorso_prec.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-015_create_run_lotto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/015_create_run_lotto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-016_create_prima_attivazione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/016_create_prima_attivazione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-017_create_xdate
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/017_create_xdate.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-018_create_solleciti_sv_inquiry
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/018_create_solleciti_sv_inquiry.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-019_create_V_ANAGRAFICA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/019_create_V_ANAGRAFICA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-020_create_DateImportantiNAoPR
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/020_create_DateImportantiNAoPR.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-021_create_circuiti_per_gestore_e_dettaglio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/021_create_circuiti_per_gestore_e_dettaglio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-022_create_circuiti_per_gestore
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/022_create_circuiti_per_gestore.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-023_create_attivati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/023_create_attivati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-024_create_Giocate_e_annullate_lotto_da_DBDAF
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/024_create_Giocate_e_annullate_lotto_da_DBDAF.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-025_create_gestore_rete
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/025_create_gestore_rete.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-026_create_end_user_device_ytd
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/026_create_end_user_device_ytd.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-027_create_TermDesc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/027_create_TermDesc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-028_create_T6
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/028_create_T6.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-029_create_SoggLeg
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/029_create_SoggLeg.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-030_create_SenzaDedOComm
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/030_create_SenzaDedOComm.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-031_create_Rilasci
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/031_create_Rilasci.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-032_create_Rifiuti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/032_create_Rifiuti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-033_create_GuastiLinea
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/033_create_GuastiLinea.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-034_create_M1OffLine
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/034_create_M1OffLine.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-035_create_OffLine
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/035_create_OffLine.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-036_create_Commutate
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/036_create_Commutate.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-037_create_CodTermLeg
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/037_create_CodTermLeg.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-038_create_LDedicate
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/038_create_LDedicate.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-039_create_DedOComm
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/039_create_DedOComm.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-040_create_CodTerm
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/040_create_CodTerm.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-041_create_OffLineCommutate
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/041_create_OffLineCommutate.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-042_create_M1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/042_create_M1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-043_create_SoggLsr01a
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/043_create_SoggLsr01a.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-044_create_T2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/044_create_T2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-045_create_SoggLsr01aSenzaColl
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/045_create_SoggLsr01aSenzaColl.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-046_create_T6Commutate
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/046_create_T6Commutate.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-047_create_t2Commutate
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/047_create_t2Commutate.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-048_create_SoggLsr01a2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/048_create_SoggLsr01a2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-049_create_t6CommutateDedicate
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/049_create_t6CommutateDedicate.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-050_create_OffLineCommutateDedicate
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/050_create_OffLineCommutateDedicate.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-viste-051_create_M1RilComded
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../Viste/051_create_M1RilComded.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

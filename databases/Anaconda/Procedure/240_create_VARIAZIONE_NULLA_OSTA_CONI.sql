@@ -1,0 +1,181 @@
+﻿/****** Object:  StoredProcedure [dbo].[VARIAZIONE_NULLA_OSTA_CONI]    Script Date: 11/17/2025 15:18:31 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE      PROCEDURE [dbo].[VARIAZIONE_NULLA_OSTA_CONI]
+	@RICEV 			CHAR(6),
+	@NOMEFILE			VARCHAR(255),
+	@DATA_DOC			CHAR(8),
+	@DATA_INVIO_DOC		CHAR(8),
+	@NUMPROTDOC		CHAR(25),
+	@COGNOME			CHAR(24),
+	@NOME			CHAR(20),
+	@DATAACCETTAZIONE	CHAR(8),
+	@DATAREVOCA		CHAR(8),
+	@NUM_CONC_SCOMMESSE	CHAR(10),
+	@DATA_CONC_SCOMMESSE	CHAR(8),
+	@NUM_AUTORIZZAZIONE	CHAR(10),
+	@RIL_AUTORIZZAZIONE	CHAR(20),
+	@NUM_CONCESSIONE		CHAR(6),
+	@STATODOC			CHAR(1),
+	@NOTE			CHAR(100),
+	@FLAGANAG			CHAR(1),
+	@FKDATAINSTIT		CHAR(8),
+	@FKORAINSTIT		CHAR(8),
+
+	@KEYDATAINSDOC	CHAR(8),
+	@KEYORAINSDOC	CHAR(8),
+	@ABBINATO 		CHAR(1),
+
+	@FIRMA			CHAR(17),
+	@MSGERR			VARCHAR(100) OUTPUT
+ AS
+
+
+
+DECLARE 	@APPORICEV		CHAR(6),
+		@CHKRICEV		CHAR(6),
+		@APPODATA		CHAR(8),
+		@DATAOGGI   		CHAR(8),
+		@ORAOGGI  		CHAR(8),
+		@COGNOMETIT	CHAR(24),
+		@NOMETIT		CHAR(20),
+		@FLAGANAGTIT	CHAR(1),
+		@DATAINSTIT		CHAR(8),
+		@ORAINSTIT		CHAR(8),
+		@TIPOPREC 		CHAR(1),
+		@TIPOPROVV		CHAR(1),
+		@TITTROVATO	CHAR(1),
+		@FLAGOK 		CHAR(1)
+
+
+SELECT @DATAOGGI = CONVERT (VARCHAR(10), GETDATE(),112)
+SELECT @ORAOGGI =
+	SUBSTRING(CONVERT (VARCHAR(22), GETDATE(),121),12,2)+
+ 	SUBSTRING(CONVERT (VARCHAR(22), GETDATE(),121),15,2)+
+ 	SUBSTRING(CONVERT (VARCHAR(22), GETDATE(),121),18,2)+
+ 	SUBSTRING(CONVERT (VARCHAR(22), GETDATE(),121),21,2)
+
+
+--EFFETTUO I SEGUENTI CONTROLLI:
+-- 1) SE IL ABBINATO = '0' E FLAGANAG è <>0 VERIFICO CHE NON SIA GIà PRESENTE UN NULLA OSTA PER IL RICEVITORE E LA RICEVITORIA IN QUESTIONE
+-- 2) SE IL NOME/COGNOME NON è VALORIZZATO, MA è VALORIZZATO LA FK DEL TIT, PRENDO I VALORI DA LSRTIT
+
+
+SELECT @CHKRICEV = NULL
+
+SELECT @CHKRICEV = LSRTIT_CONI_KEY_ID_RICEV FROM LSRTIT_CONI
+WHERE LSRTIT_CONI_KEY_ID_RICEV = @RICEV
+
+IF @CHKRICEV IS NULL
+
+BEGIN
+	SELECT @MSGERR = '8888 - ' + @RICEV +' RICEVITORIA INESISTENTE'
+	RETURN
+END
+
+IF LTRIM(RTRIM(@DATAACCETTAZIONE)) = ''
+BEGIN
+	SELECT @DATAACCETTAZIONE = NULL  
+END 
+
+
+
+--*************************************************************************
+--           STEP 1
+--*************************************************************************
+
+SELECT @APPORICEV = NULL
+
+IF (@ABBINATO = '0' AND @FLAGANAG <> '0')
+BEGIN
+	SELECT @APPORICEV = LSRNUO_CONI_KEY_ID_RICEV 
+	FROM LSRNUO_CONI
+	WHERE LSRNUO_CONI_KEY_ID_RICEV = @RICEV
+		AND LSRNUO_CONI_FK_DATA_INS_TIT = @FKDATAINSTIT
+		AND LSRNUO_CONI_FK_ORA_INS_TIT = @FKORAINSTIT
+	
+	IF (@APPORICEV <>'' OR @APPORICEV IS NOT NULL)
+	BEGIN
+		SELECT @MSGERR = '9999 - ' + @RICEV +' PER LA RIC. ESISTE UN NULLA OSTA CON STESSO TITOLARE - NULLA OSTA NON ACQUISITO'
+		RETURN
+	END
+END
+
+ 
+--*************************************************************************
+--          STEP 2
+--*************************************************************************
+
+IF @FLAGANAG <> '0' AND (@COGNOME = '' OR @COGNOME IS NULL)
+BEGIN
+	SELECT  @COGNOME = LSRTIT_CONI_COGNOME , @NOME = LSRTIT_CONI_NOME
+	FROM LSRTIT_CONI
+	WHERE LSRTIT_CONI_KEY_ID_RICEV=@RICEV 
+		AND LSRTIT_CONI_KEY_DATA_INS = @FKDATAINSTIT
+		AND LSRTIT_CONI_KEY_ORA_INS = @FKORAINSTIT
+
+END 
+
+
+--*************************************************************************
+--           CONTROLLO 3
+--*************************************************************************
+
+IF @FLAGANAG <> '0' 
+BEGIN
+	SELECT  @FLAGANAG = LSRTIT_CONI_FLAG_ANAG
+	FROM LSRTIT_CONI
+	WHERE LSRTIT_CONI_KEY_ID_RICEV=@RICEV 
+		AND LSRTIT_CONI_KEY_DATA_INS = @FKDATAINSTIT
+		AND LSRTIT_CONI_KEY_ORA_INS = @FKORAINSTIT
+
+END 
+
+IF @FLAGANAG = '0' 
+BEGIN
+	SELECT @FKDATAINSTIT = NULL	
+	SELECT @FKORAINSTIT = NULL	
+END
+
+
+--*************************************************************************
+--           STEP 4
+--*************************************************************************
+UPDATE lsrnuo_coni 
+SET
+	--lsrnuo_coni_key_data_ins = @DATAOGGI, 
+	--lsrnuo_coni_key_ora_ins = @ORAOGGI, 
+	lsrnuo_coni_data_nulla_osta = @DATA_DOC, 
+	lsrnuo_coni_data_invio = @DATA_INVIO_DOC, 
+	lsrnuo_coni_num_prot = @NUMPROTDOC, 
+	lsrnuo_coni_data_accettazione = @DATAACCETTAZIONE,
+	lsrnuo_coni_data_revoca = @DATAREVOCA,
+	lsrnuo_coni_stato = @STATODOC, 
+	lsrnuo_coni_cognome = @COGNOME, 
+	lsrnuo_coni_nome = @NOME, 
+	lsrnuo_coni_num_conc_scommesse = @NUM_CONC_SCOMMESSE, 
+	lsrnuo_coni_data_conc_scommesse = @DATA_CONC_SCOMMESSE, 
+	lsrnuo_coni_num_autorizzazione = @NUM_AUTORIZZAZIONE, 
+	lsrnuo_coni_ril_autorizzazione = @RIL_AUTORIZZAZIONE, 
+	lsrnuo_coni_num_concessione = @NUM_CONCESSIONE, 
+	lsrnuo_coni_note = @NOTE, 
+	lsrnuo_coni_flag_anag = @FLAGANAG, 
+	lsrnuo_coni_fk_data_ins_tit = @FKDATAINSTIT, 
+	lsrnuo_coni_fk_ora_ins_tit = @FKORAINSTIT, 
+	lsrnuo_coni_firma = @FIRMA
+WHERE LSRNUO_CONI_KEY_ID_RICEV = @RICEV
+	AND LSRNUO_CONI_KEY_DATA_INS = @KEYDATAINSDOC
+	AND LSRNUO_CONI_KEY_ORA_INS = @KEYORAINSDOC
+
+IF @@ERROR <> 0 
+BEGIN
+	SELECT @MSGERR = '9999 - ' + @RICEV +' ERRORE INSERIMENTO NULLA OSTA - DOC. NON ACQUISITO'
+	RETURN
+END
+ELSE
+BEGIN
+	SELECT @MSGERR = '9999 - ' + @RICEV +' NULLA OSTA VARIATO CORRETTAMENTE'
+END
+GO

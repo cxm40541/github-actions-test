@@ -1,0 +1,1461 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: Attivazioni-tabelle-001_create_Lista_triplette_stampante_scontrini
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/001_create_Lista_triplette_stampante_scontrini.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-002_create_Lista_terminali_stampante_scontrini
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/002_create_Lista_terminali_stampante_scontrini.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-003_create_lcg02a
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/003_create_lcg02a.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-004_create_KLA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/004_create_KLA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-005_create_INGEST
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/005_create_INGEST.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-006_create_DORSALI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/006_create_DORSALI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-007_create_DOMANDE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/007_create_DOMANDE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-008_create_date_attivazioni_storico
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/008_create_date_attivazioni_storico.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-009_create_counter
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/009_create_counter.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-010_create_controllo_trace_28mag2014
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/010_create_controllo_trace_28mag2014.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-011_create_contratti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/011_create_contratti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-012_create_FLAG_CEZ
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/012_create_FLAG_CEZ.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-013_create_FEP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/013_create_FEP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-014_create_Guasti_VOS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/014_create_Guasti_VOS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-015_create_Giocate_Lotto_del_giorno
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/015_create_Giocate_Lotto_del_giorno.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-016_create_Giocate_Lotto_concorso_settimana_precedente
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/016_create_Giocate_Lotto_concorso_settimana_precedente.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-017_create_Giocate_Lotto_concorso_precedente
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/017_create_Giocate_Lotto_concorso_precedente.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-018_create_collegamenti_terminali_sed_1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/018_create_collegamenti_terminali_sed_1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-019_create_COLLEGAMENTI_TERMINALI_SED
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/019_create_COLLEGAMENTI_TERMINALI_SED.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-020_create_COLLEGAMENTI_TERMINALI_IP_SDLCold
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/020_create_COLLEGAMENTI_TERMINALI_IP_SDLCold.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-021_create_COLLEGAMENTI_TERMINALI_IP_SDLC
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/021_create_COLLEGAMENTI_TERMINALI_IP_SDLC.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-022_create_COLLEGAMENTI_TERMINALI_backup
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/022_create_COLLEGAMENTI_TERMINALI_backup.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-023_create_COLLEGAMENTI_TERMINALI_ADSL_NEW2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/023_create_COLLEGAMENTI_TERMINALI_ADSL_NEW2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-024_create_COLLEGAMENTI_TERMINALI_ADSL_NEW
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/024_create_COLLEGAMENTI_TERMINALI_ADSL_NEW.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-025_create_COLLEGAMENTI_TERMINALI_ADSL
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/025_create_COLLEGAMENTI_TERMINALI_ADSL.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-026_create_COLLEGAMENTI_TERMINALI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/026_create_COLLEGAMENTI_TERMINALI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-027_create_CONSUMABILI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/027_create_CONSUMABILI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-028_create_comuni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/028_create_comuni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-029_create_ApparatiMultimed
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/029_create_ApparatiMultimed.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-030_create_ACCESSI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/030_create_ACCESSI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-031_create_atip_tot_rich
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/031_create_atip_tot_rich.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-032_create_CODICI_TIPO_APPAR
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/032_create_CODICI_TIPO_APPAR.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-033_create_CENSIMENTO_STAMPANTI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/033_create_CENSIMENTO_STAMPANTI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-034_create_attivita_pianificate_del
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/034_create_attivita_pianificate_del.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-035_create_ATTIVITA_IN_PROBLEMATICHE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/035_create_ATTIVITA_IN_PROBLEMATICHE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-036_create_ATTIVITA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/036_create_ATTIVITA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-037_create_CODICI_PIANI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/037_create_CODICI_PIANI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-038_create_codici_malfunzionamento
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/038_create_codici_malfunzionamento.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-039_create_LTB01A_TAB_DESCRIZIONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/039_create_LTB01A_TAB_DESCRIZIONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-040_create_lst0ea
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/040_create_lst0ea.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-041_create_lst02a_cez_ssc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/041_create_lst02a_cez_ssc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-042_create_loggati_del_giorno
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/042_create_loggati_del_giorno.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-043_create_log_albacom2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/043_create_log_albacom2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-044_create_P_SORT_SCARTI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/044_create_P_SORT_SCARTI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-045_create_P_SORT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/045_create_P_SORT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-046_create_OPERAZIONI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/046_create_OPERAZIONI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-047_create_NOTE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/047_create_NOTE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-048_create_niko_prov
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/048_create_niko_prov.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-049_create_monitoraggio_delivery_backup
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/049_create_monitoraggio_delivery_backup.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-050_create_monitoraggio_delivery
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/050_create_monitoraggio_delivery.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-051_create_MENU_CEZ
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/051_create_MENU_CEZ.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-052_create_Massivi_appo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/052_create_Massivi_appo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-053_create_Massivi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/053_create_Massivi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-054_create_id_da_controllare
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/054_create_id_da_controllare.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-055_create_RIEPILOGO_NUMERI_VERDI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/055_create_RIEPILOGO_NUMERI_VERDI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-056_create_ricevitoria_da_controllare
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/056_create_ricevitoria_da_controllare.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-057_create_Ricev_control
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/057_create_Ricev_control.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-058_create_ricev
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/058_create_ricev.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-059_create_RicDoppie
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/059_create_RicDoppie.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-060_create_Rete_Ip
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/060_create_Rete_Ip.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-061_create_Results
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/061_create_Results.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-062_create_Reclami_Soluzione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/062_create_Reclami_Soluzione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-063_create_Reclami_Risoluzione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/063_create_Reclami_Risoluzione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-064_create_Reclami_guasto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/064_create_Reclami_guasto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-065_create_Reclami_Competenza
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/065_create_Reclami_Competenza.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-066_create_Reclami
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/066_create_Reclami.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-067_create_R_REPORTS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/067_create_R_REPORTS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-068_create_Province
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/068_create_Province.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-069_create_Provacreazione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/069_create_Provacreazione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-070_create_PROGR_MANCATA_ATT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/070_create_PROGR_MANCATA_ATT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-071_create_problematiche_del
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/071_create_problematiche_del.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-072_create_NUMERO_VERDE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/072_create_NUMERO_VERDE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-073_create_Numeri_verdi_MAR
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/073_create_Numeri_verdi_MAR.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-074_create_decod_tipo_T
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/074_create_decod_tipo_T.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-075_create_PIANO_APPARECCHIATURA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/075_create_PIANO_APPARECCHIATURA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-076_create_pianiTIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/076_create_pianiTIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-077_create_PIANI_REPORT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/077_create_PIANI_REPORT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-078_create_PIANI_MENU
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/078_create_PIANI_MENU.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-079_create_PIANI_BU
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/079_create_PIANI_BU.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-080_create_TEMPORANEA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/080_create_TEMPORANEA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-081_create_TEMPGESTIONE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/081_create_TEMPGESTIONE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-082_create_temp1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/082_create_temp1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-083_create_temp_tab_telecom_migra
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/083_create_temp_tab_telecom_migra.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-084_create_TELECOM_UP_MAX
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/084_create_TELECOM_UP_MAX.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-085_create_td_da_controllare
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/085_create_td_da_controllare.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-086_create_tabxverbali
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/086_create_tabxverbali.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-087_create_tab_telecom_copia
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/087_create_tab_telecom_copia.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-088_create_tab_telecom_BACKUP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/088_create_tab_telecom_BACKUP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-089_create_tab_telecom
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/089_create_tab_telecom.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-090_create_tab_login
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/090_create_tab_login.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-091_create_tab_lib_appo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/091_create_tab_lib_appo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-092_create_tab_lavorazioni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/092_create_tab_lavorazioni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-093_create_tab_end_user_device_ytd
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/093_create_tab_end_user_device_ytd.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-094_create_POS_da_controllare
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/094_create_POS_da_controllare.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-095_create_software_old
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/095_create_software_old.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-096_create_SITI_FEP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/096_create_SITI_FEP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-097_create_SETTORI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/097_create_SETTORI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-098_create_storico_stato_avanzamento
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/098_create_storico_stato_avanzamento.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-099_create_SOGGETTI_IN_GESTIONE_storico
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/099_create_SOGGETTI_IN_GESTIONE_storico.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-100_create_soggetti_in_gestione_del
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/100_create_soggetti_in_gestione_del.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-101_create_Ripetitivoservizi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/101_create_Ripetitivoservizi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-102_create_Ripetitivoelab
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/102_create_Ripetitivoelab.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-103_create_soggetti_del_piano_del
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/103_create_soggetti_del_piano_del.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-104_create_STATO_AVANZAMENTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/104_create_STATO_AVANZAMENTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-105_create_UTENTI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/105_create_UTENTI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-106_create_user_password
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/106_create_user_password.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-107_create_USER_CEZ_1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/107_create_USER_CEZ_1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-108_create_transanti_del_giorno
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/108_create_transanti_del_giorno.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-109_create_TOTALI_PROGETTORETE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/109_create_TOTALI_PROGETTORETE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-110_create_TMP_NICOLINI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/110_create_TMP_NICOLINI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-111_create_terminali_presso_mael
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/111_create_terminali_presso_mael.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-112_create_terminali_presso_CEZ
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/112_create_terminali_presso_CEZ.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-113_create_terminali_per_fascia_versione_uno
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/113_create_terminali_per_fascia_versione_uno.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-114_create_terminali_per_fascia_versione_tre
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/114_create_terminali_per_fascia_versione_tre.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-115_create_terminali_per_fascia_versione_sette
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/115_create_terminali_per_fascia_versione_sette.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-116_create_terminali_per_fascia_versione_sei
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/116_create_terminali_per_fascia_versione_sei.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-117_create_terminali_per_fascia_versione_quattro
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/117_create_terminali_per_fascia_versione_quattro.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-118_create_terminali_per_fascia_versione_due
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/118_create_terminali_per_fascia_versione_due.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-119_create_terminali_per_fascia_versione_cinque
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/119_create_terminali_per_fascia_versione_cinque.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-120_create_terminali_per_fascia
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/120_create_terminali_per_fascia.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-121_create_Terminali_M370E
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/121_create_Terminali_M370E.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-122_create_terminali_da_controllare_ultimo_test_hw_complessivo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/122_create_terminali_da_controllare_ultimo_test_hw_complessivo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-123_create_terminali_da_controllare_ultimo_test_hw
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/123_create_terminali_da_controllare_ultimo_test_hw.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-124_create_terminali_da_controllare_nuovo_hardware
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/124_create_terminali_da_controllare_nuovo_hardware.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-125_create_terminali_da_controllare_giochi_sportivi_old
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/125_create_terminali_da_controllare_giochi_sportivi_old.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-126_create_terminali_acquistati_lottomatica
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/126_create_terminali_acquistati_lottomatica.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-127_create_Terminale_da_controllare_ISDN_ADSL
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/127_create_Terminale_da_controllare_ISDN_ADSL.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-128_create_Terminale_da_controllare_Avanzamento_M370E
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/128_create_Terminale_da_controllare_Avanzamento_M370E.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-129_create_Terminale_da_controllare
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/129_create_Terminale_da_controllare.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-130_create_storico_attivita_pianificate
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/130_create_storico_attivita_pianificate.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-131_create_stato_avanzamento_del
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/131_create_stato_avanzamento_del.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-132_create_PIANI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/132_create_PIANI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-133_create_CODICI_AVANZAMENTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/133_create_CODICI_AVANZAMENTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-134_create_CODICI_PROBLEMATICHE_CEZ
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/134_create_CODICI_PROBLEMATICHE_CEZ.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-135_create_CODICI_PROBLEMATICHE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/135_create_CODICI_PROBLEMATICHE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-136_create_CONSUNTIVI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/136_create_CONSUNTIVI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-137_create_LEGENDA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/137_create_LEGENDA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-138_create_APPARECCHIATURE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/138_create_APPARECCHIATURE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-139_create_PROFILO_PIANI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/139_create_PROFILO_PIANI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-140_create_PROBLEMATICHE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/140_create_PROBLEMATICHE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-141_create_SOGGETTI_DEL_PIANO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/141_create_SOGGETTI_DEL_PIANO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-142_create_SOGGETTI_IN_GESTIONE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/142_create_SOGGETTI_IN_GESTIONE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-143_create_STORICO_SOGGETTI_IN_GESTIONE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/143_create_STORICO_SOGGETTI_IN_GESTIONE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-144_create_NOTE_CEZ
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/144_create_NOTE_CEZ.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-145_create_ATTIVITA_PIANIFICATE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/145_create_ATTIVITA_PIANIFICATE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-tabelle-146_create_STATO_AVANZAMENTO_CEZ
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/146_create_STATO_AVANZAMENTO_CEZ.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

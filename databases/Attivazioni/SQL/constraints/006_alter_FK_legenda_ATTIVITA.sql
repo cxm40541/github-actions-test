@@ -1,0 +1,6 @@
+﻿/****** Object:  ForeignKey [FK_legenda_ATTIVITA]    Script Date: 11/17/2025 15:21:53 ******/
+ALTER TABLE [dbo].[LEGENDA]  WITH NOCHECK ADD  CONSTRAINT [FK_legenda_ATTIVITA] FOREIGN KEY([cod_attivita])
+REFERENCES [dbo].[ATTIVITA] ([ID_ATTIVITA])
+GO
+ALTER TABLE [dbo].[LEGENDA] CHECK CONSTRAINT [FK_legenda_ATTIVITA]
+GO

@@ -1,0 +1,3 @@
+﻿/****** Object:  User [GTK\K12054]    Script Date: 11/17/2025 15:18:25 ******/
+CREATE USER [GTK\K12054] WITH DEFAULT_SCHEMA=[k12054]
+GO

@@ -1,0 +1,53 @@
+﻿/****** Object:  Table [dbo].[dbCONI_Tipo1]    Script Date: 11/17/2025 15:18:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[dbCONI_Tipo1](
+	[Campo 1] [nvarchar](255) NULL,
+	[Campo 2] [nvarchar](255) NULL,
+	[Campo 3] [nvarchar](255) NULL,
+	[Campo 4] [nvarchar](255) NULL,
+	[Campo 5] [nvarchar](255) NULL,
+	[Campo 6] [nvarchar](255) NULL,
+	[Campo 7] [nvarchar](255) NULL,
+	[Campo 8] [nvarchar](255) NULL,
+	[Campo 9] [nvarchar](255) NULL,
+	[Campo 10] [nvarchar](255) NULL,
+	[Campo 11] [nvarchar](255) NULL,
+	[Campo 12] [nvarchar](255) NULL,
+	[Campo 13] [nvarchar](255) NULL,
+	[Campo 14] [nvarchar](255) NULL,
+	[Campo 15] [nvarchar](255) NULL,
+	[Campo 16] [nvarchar](255) NULL,
+	[Campo 17] [nvarchar](255) NULL,
+	[Campo 18] [nvarchar](255) NULL,
+	[Campo 19] [nvarchar](255) NULL,
+	[Campo 20] [nvarchar](255) NULL,
+	[Campo 21] [nvarchar](255) NULL,
+	[Campo 22] [nvarchar](255) NULL,
+	[Campo 23] [nvarchar](255) NULL,
+	[Campo 24] [nvarchar](255) NULL,
+	[Campo 25] [nvarchar](255) NULL,
+	[Campo 26] [nvarchar](255) NULL,
+	[Campo 27] [nvarchar](255) NULL,
+	[Campo 28] [nvarchar](255) NULL,
+	[Campo 29] [nvarchar](255) NULL,
+	[Campo 30] [nvarchar](255) NULL,
+	[Campo 31] [nvarchar](255) NULL,
+	[Campo 32] [nvarchar](255) NULL,
+	[Campo 33] [nvarchar](255) NULL,
+	[Campo 34] [nvarchar](255) NULL,
+	[Campo 35] [nvarchar](255) NULL,
+	[Campo 36] [nvarchar](255) NULL,
+	[Campo 37] [nvarchar](255) NULL,
+	[filler] [nvarchar](255) NULL,
+	[DATA INS] [nvarchar](255) NULL,
+	[NULLA OSTA OK] [bit] NOT NULL,
+	[CONTRATTO] [bit] NOT NULL,
+	[FIDEJUSSIONE] [bit] NOT NULL,
+	[DELEGA RID] [bit] NOT NULL,
+	[DATA AGG] [nvarchar](255) NULL,
+	[FLAG_NON_COMPLETO] [bit] NOT NULL
+) ON [DATA]
+GO

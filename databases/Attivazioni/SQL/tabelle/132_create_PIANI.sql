@@ -1,0 +1,26 @@
+﻿/****** Object:  Table [dbo].[PIANI]    Script Date: 11/17/2025 15:21:53 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[PIANI](
+	[ID_PIANO] [char](10) NOT NULL,
+	[DESC_PIANO] [char](50) NOT NULL,
+	[INIZIO] [datetime] NOT NULL,
+	[FINE] [datetime] NOT NULL,
+	[STATO] [char](1) NULL,
+	[NOTE] [varchar](254) NULL,
+	[ELABORAZIONE] [datetime] NULL,
+	[tipo_piano] [char](2) NULL,
+	[mod_stampante] [char](10) NULL,
+	[mod_terminale] [char](10) NULL,
+ CONSTRAINT [PK_PIANI] PRIMARY KEY CLUSTERED 
+(
+	[ID_PIANO] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [DATA]
+) ON [DATA]
+GO
+SET ANSI_PADDING OFF
+GO

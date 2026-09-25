@@ -1,0 +1,3111 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: Anaconda-tabelle-001_create_pass_bollo_2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/001_create_pass_bollo_2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-002_create_Lwk04a_Archivio_Attuale_Totobit
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/002_create_Lwk04a_Archivio_Attuale_Totobit.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-003_create_Lwk04a_Archivio_Attuale
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/003_create_Lwk04a_Archivio_Attuale.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-004_create_Foglio3$
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/004_create_Foglio3$.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-005_create_FIT_FILE_ALLINEAMENTO_CP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/005_create_FIT_FILE_ALLINEAMENTO_CP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-006_create_FIT_FILE_ALLINEAMENTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/006_create_FIT_FILE_ALLINEAMENTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-007_create_fit
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/007_create_fit.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-008_create_RAD_F101
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/008_create_RAD_F101.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-009_create_RAD_Bollo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/009_create_RAD_Bollo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-010_create_pregresso_servizi_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/010_create_pregresso_servizi_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-011_create_lsrtit_GeV
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/011_create_lsrtit_GeV.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-012_create_lsrfon_lis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/012_create_lsrfon_lis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-013_create_lsrfon
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/013_create_lsrfon.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-014_create_lsrflag
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/014_create_lsrflag.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-015_create_lsrfir
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/015_create_lsrfir.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-016_create_lsrfid_Tris
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/016_create_lsrfid_Tris.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-017_create_lsrfid_lis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/017_create_lsrfid_lis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-018_create_lsrchi_errati_20070612
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/018_create_lsrchi_errati_20070612.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-019_create_lsrchi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/019_create_lsrchi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-020_create_lsrcfs_pg_lis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/020_create_lsrcfs_pg_lis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-021_create_lsrcfs_pf_lis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/021_create_lsrcfs_pf_lis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-022_create_lsrcez_cc_storico_sint
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/022_create_lsrcez_cc_storico_sint.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-023_create_lsrcez_cc_storico
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/023_create_lsrcez_cc_storico.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-024_create_lsrcez_cc_regioni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/024_create_lsrcez_cc_regioni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-025_create_lsrcez_cc_operatori
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/025_create_lsrcez_cc_operatori.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-026_create_lsrcez_cc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/026_create_lsrcez_cc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-027_create_lsrcau_gev
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/027_create_lsrcau_gev.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-028_create_lsrbatch
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/028_create_lsrbatch.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-029_create_contratti_tris
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/029_create_contratti_tris.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-030_create_ConFidA_Tris
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/030_create_ConFidA_Tris.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-031_create_COMUNI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/031_create_COMUNI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-032_create_CNI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/032_create_CNI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-033_create_clc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/033_create_clc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-034_create_report_tris
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/034_create_report_tris.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-035_create_lsrgio_GeV
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/035_create_lsrgio_GeV.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-036_create_lsrgio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/036_create_lsrgio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-037_create_lsrgen_BACKUP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/037_create_lsrgen_BACKUP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-038_create_LSRGEN
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/038_create_LSRGEN.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-039_create_SAP_Contr_Big_Temp
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/039_create_SAP_Contr_Big_Temp.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-040_create_SAP_Contr_Big
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/040_create_SAP_Contr_Big.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-041_create_S2T_zucchetti_pos
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/041_create_S2T_zucchetti_pos.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-042_create_S2T_zucchetti_cliente
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/042_create_S2T_zucchetti_cliente.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-043_create_S2T_versioni_file
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/043_create_S2T_versioni_file.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-044_create_S2T_valori_default
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/044_create_S2T_valori_default.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-045_create_S2T_tipo_operazione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/045_create_S2T_tipo_operazione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-046_create_S2T_POSService_scartati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/046_create_S2T_POSService_scartati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-047_create_S2T_POSService_inviati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/047_create_S2T_POSService_inviati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-048_create_S2T_PointOfSale_scartati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/048_create_S2T_PointOfSale_scartati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-049_create_S2T_PointOfSale_inviati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/049_create_S2T_PointOfSale_inviati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-050_create_S2T_Operator_scartati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/050_create_S2T_Operator_scartati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-051_create_S2T_Operator_inviati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/051_create_S2T_Operator_inviati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-052_create_S2T_movimenti_giornalieri
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/052_create_S2T_movimenti_giornalieri.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-053_create_S2T_ClientContract_scartati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/053_create_S2T_ClientContract_scartati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-054_create_lsrpvo_bkp_new
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/054_create_lsrpvo_bkp_new.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-055_create_lsrpvo_bkp
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/055_create_lsrpvo_bkp.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-056_create_lsrpvo_back
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/056_create_lsrpvo_back.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-057_create_lsrpvo_20060224
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/057_create_lsrpvo_20060224.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-058_create_indirizzi_REMS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/058_create_indirizzi_REMS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-059_create_incentivazione_gev
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/059_create_incentivazione_gev.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-060_create_lsrfid_F101_bck
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/060_create_lsrfid_F101_bck.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-061_create_lsrrin
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/061_create_lsrrin.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-062_create_lsrrid_lis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/062_create_lsrrid_lis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-063_create_lsrric_GeV
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/063_create_lsrric_GeV.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-064_create_lsrric
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/064_create_lsrric.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-065_create_lsrpro_tra_tipo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/065_create_lsrpro_tra_tipo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-066_create_lsrpro_tra
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/066_create_lsrpro_tra.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-067_create_lsrpro_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/067_create_lsrpro_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-068_create_lto0aa
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/068_create_lto0aa.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-069_create_lsrxxa_conc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/069_create_lsrxxa_conc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-070_create_lsrvar_ind
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/070_create_lsrvar_ind.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-071_create_lsruni_ser
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/071_create_lsruni_ser.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-072_create_lsruni_ind
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/072_create_lsruni_ind.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-073_create_lsrttb
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/073_create_lsrttb.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-074_create_lsraut_lis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/074_create_lsraut_lis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-075_create_lsrass
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/075_create_lsrass.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-076_create_lsraps_Tris
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/076_create_lsraps_Tris.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-077_create_lsraps_GeV
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/077_create_lsraps_GeV.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-078_create_lsraps_F101
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/078_create_lsraps_F101.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-079_create_lsraps
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/079_create_lsraps.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-080_create_lsrapp
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/080_create_lsrapp.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-081_create_lsrann
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/081_create_lsrann.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-082_create_twin_rinuncia_gioco
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/082_create_twin_rinuncia_gioco.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-083_create_twin_ric_agg_da
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/083_create_twin_ric_agg_da.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-084_create_twin_pubblica_sicurezza
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/084_create_twin_pubblica_sicurezza.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-085_create_twin_fideiussioni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/085_create_twin_fideiussioni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-086_create_twin_contratti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/086_create_twin_contratti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-087_create_ANA_MODIFICHE_LTO0AA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/087_create_ANA_MODIFICHE_LTO0AA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-088_create_ANA_MODIFICHE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/088_create_ANA_MODIFICHE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-089_create_cu_associazione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/089_create_cu_associazione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-090_create_DIAMANTE_NUOVE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/090_create_DIAMANTE_NUOVE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-091_create_Decod_pdv
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/091_create_Decod_pdv.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-092_create_dbo.tmp_update
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/092_create_dbo.tmp_update.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-093_create_dbCONI_Tipo2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/093_create_dbCONI_Tipo2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-094_create_dbCONI_Tipo1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/094_create_dbCONI_Tipo1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-095_create_dbconi_nulla_osta_aams
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/095_create_dbconi_nulla_osta_aams.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-096_create_TUTTO_LTM
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/096_create_TUTTO_LTM.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-097_create_ttbv_appo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/097_create_ttbv_appo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-098_create_ttb_v_totale
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/098_create_ttb_v_totale.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-099_create_ttb_v
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/099_create_ttb_v.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-100_create_ttb_n_appo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/100_create_ttb_n_appo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-101_create_ttb_n
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/101_create_ttb_n.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-102_create_tris_app
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/102_create_tris_app.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-103_create_tmp1_gev_rmf_dettaglio_new
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/103_create_tmp1_gev_rmf_dettaglio_new.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-104_create_tmp_update
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/104_create_tmp_update.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-105_create_TMP_TUTTO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/105_create_TMP_TUTTO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-106_create_TMP_TSR_NEW
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/106_create_TMP_TSR_NEW.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-107_create_ElenchiFinali
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/107_create_ElenchiFinali.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-108_create_DWH_ANAGRAFICA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/108_create_DWH_ANAGRAFICA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-109_create_lsrser_ssp
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/109_create_lsrser_ssp.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-110_create_lsrser_pag
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/110_create_lsrser_pag.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-111_create_lsrfid_F101
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/111_create_lsrfid_F101.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-112_create_lsrent
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/112_create_lsrent.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-113_create_lsrdec_prov
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/113_create_lsrdec_prov.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-114_create_lsrdec
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/114_create_lsrdec.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-115_create_lsrdati_sens_storico
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/115_create_lsrdati_sens_storico.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-116_create_lsrdati_sens
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/116_create_lsrdati_sens.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-117_create_lsrdata_resp_cont
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/117_create_lsrdata_resp_cont.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-118_create_lsrcon_Tris
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/118_create_lsrcon_Tris.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-119_create_lfb0na
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/119_create_lfb0na.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-120_create_lfb09a
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/120_create_lfb09a.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-121_create_lfb08a
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/121_create_lfb08a.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-122_create_lfb06a_conc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/122_create_lfb06a_conc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-123_create_lfb06a
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/123_create_lfb06a.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-124_create_invio_aps
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/124_create_invio_aps.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-125_create_GEV_RMF_Giornaliero_NEW
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/125_create_GEV_RMF_Giornaliero_NEW.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-126_create_GEV_RMF_Totobit_tmp
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/126_create_GEV_RMF_Totobit_tmp.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-127_create_GEV_RMF_MOD_ANA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/127_create_GEV_RMF_MOD_ANA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-128_create_adesioni_ricariche_lis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/128_create_adesioni_ricariche_lis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-129_create_lsrcon_gp_tipo_pv
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/129_create_lsrcon_gp_tipo_pv.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-130_create_lsrcon_gp_c_term_rete
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/130_create_lsrcon_gp_c_term_rete.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-131_create_lsr01a
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/131_create_lsr01a.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-132_create_lsr_ispett
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/132_create_lsr_ispett.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-133_create_lsr_indirizzo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/133_create_lsr_indirizzo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-134_create_lseapp
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/134_create_lseapp.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-135_create_lse01a_conc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/135_create_lse01a_conc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-136_create_lse01a
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/136_create_lse01a.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-137_create_GEV_IVR_Giornaliero_tmp
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/137_create_GEV_IVR_Giornaliero_tmp.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-138_create_GEV_IVR_Giornaliero
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/138_create_GEV_IVR_Giornaliero.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-139_create_GEV_RMF_DETTAGLIO_NEW_BKP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/139_create_GEV_RMF_DETTAGLIO_NEW_BKP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-140_create_GEV_RMF_Dettaglio_NEW
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/140_create_GEV_RMF_Dettaglio_NEW.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-141_create_anaconda.dbo.tmp_update
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/141_create_anaconda.dbo.tmp_update.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-142_create_AbitantiComuni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/142_create_AbitantiComuni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-143_create_lsrser_tel
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/143_create_lsrser_tel.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-144_create_lsrser_st
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/144_create_lsrser_st.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-145_create_lsrser_atti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/145_create_lsrser_atti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-146_create_lsrser
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/146_create_lsrser.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-147_create_lsrseg_drv
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/147_create_lsrseg_drv.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-148_create_lsrseg_cri
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/148_create_lsrseg_cri.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-149_create_lsrseg_cls
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/149_create_lsrseg_cls.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-150_create_lsrrin_lis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/150_create_lsrrin_lis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-151_create_lsrrin_GeV
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/151_create_lsrrin_GeV.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-152_create_GEV_Decod_LTM_SGI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/152_create_GEV_Decod_LTM_SGI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-153_create_GEV_Decod_Frequenza
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/153_create_GEV_Decod_Frequenza.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-154_create_lsrqst_Gev_spz_clt
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/154_create_lsrqst_Gev_spz_clt.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-155_create_lsrqst_Gev_num_vetr
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/155_create_lsrqst_Gev_num_vetr.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-156_create_lsrqst_GeV_new
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/156_create_lsrqst_GeV_new.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-157_create_lsrqst_Gev_ese_zona
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/157_create_lsrqst_Gev_ese_zona.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-158_create_lsrqst_Gev_ese_sit
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/158_create_lsrqst_Gev_ese_sit.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-159_create_lsrqst_Gev_ese_pos
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/159_create_lsrqst_Gev_ese_pos.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-160_create_lsrqst_Gev_ese
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/160_create_lsrqst_Gev_ese.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-161_create_lsrqst_Gev_cod_sec
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/161_create_lsrqst_Gev_cod_sec.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-162_create_lsrser_tris
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/162_create_lsrser_tris.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-163_create_lsrcon_Bollo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/163_create_lsrcon_Bollo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-164_create_lsrcod_gev
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/164_create_lsrcod_gev.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-165_create_lsrcod_aams
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/165_create_lsrcod_aams.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-166_create_lsrchi_ft_vos
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/166_create_lsrchi_ft_vos.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-167_create_ADD_AUT_PG_FIT_
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/167_create_ADD_AUT_PG_FIT_.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-168_create_ADD_AUT_PG_
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/168_create_ADD_AUT_PG_.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-169_create_ADD_AUT_PF_FIT_
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/169_create_ADD_AUT_PF_FIT_.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-170_create_ADD_AUT_PF_
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/170_create_ADD_AUT_PF_.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-171_create_ADD_AUT_lsrrid_lis_STOR
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/171_create_ADD_AUT_lsrrid_lis_STOR.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-172_create_ADD_AUT_lsrrid_lis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/172_create_ADD_AUT_lsrrid_lis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-173_create_ADD_AUT_lsrcfs_pg_lis_STOR
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/173_create_ADD_AUT_lsrcfs_pg_lis_STOR.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-174_create_ADD_AUT_lsrcfs_pg_lis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/174_create_ADD_AUT_lsrcfs_pg_lis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-175_create_ADD_AUT_lsrcfs_pf_lis_STOR
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/175_create_ADD_AUT_lsrcfs_pf_lis_STOR.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-176_create_ADD_AUT_lsrcfs_pf_lis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/176_create_ADD_AUT_lsrcfs_pf_lis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-177_create_ADD_AUT_INVIO_
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/177_create_ADD_AUT_INVIO_.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-178_create_ADD_AUT_COBA_STOR
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/178_create_ADD_AUT_COBA_STOR.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-179_create_ADD_AUT_COBA_SCARTI_STOR
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/179_create_ADD_AUT_COBA_SCARTI_STOR.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-180_create_ADD_AUT_COBA_SCARTI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/180_create_ADD_AUT_COBA_SCARTI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-181_create_ADD_AUT_COBA
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/181_create_ADD_AUT_COBA.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-182_create_ADD_AUT_CFPN_STOR
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/182_create_ADD_AUT_CFPN_STOR.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-183_create_ADD_AUT_CFPN_SCARTI_STOR
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/183_create_ADD_AUT_CFPN_SCARTI_STOR.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-184_create_ADD_AUT_CFPN_SCARTI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/184_create_ADD_AUT_CFPN_SCARTI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-185_create_ADD_AUT_CFPN
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/185_create_ADD_AUT_CFPN.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-186_create_ADD_AUT_CFPF_STOR
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/186_create_ADD_AUT_CFPF_STOR.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-187_create_ADD_AUT_CFPF_SCARTI_STOR
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/187_create_ADD_AUT_CFPF_SCARTI_STOR.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-188_create_ADD_AUT_CFPF_SCARTI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/188_create_ADD_AUT_CFPF_SCARTI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-189_create_ADD_AUT_CFPF
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/189_create_ADD_AUT_CFPF.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-190_create_ADD_AUT_CB_FIT_
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/190_create_ADD_AUT_CB_FIT_.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-191_create_lsrmat_GeV
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/191_create_lsrmat_GeV.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-192_create_lsrlit
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/192_create_lsrlit.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-193_create_RAD_Tris
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/193_create_RAD_Tris.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-194_create_lsrqst_Gev_sup
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/194_create_lsrqst_Gev_sup.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-195_create_lsrcon_lis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/195_create_lsrcon_lis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-196_create_Report_Contratti_GEV
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/196_create_Report_Contratti_GEV.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-197_create_RMF_SCARTI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/197_create_RMF_SCARTI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-198_create_RMF_NORMALIZZATO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/198_create_RMF_NORMALIZZATO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-199_create_RMF_MODULE_PARAMETER_LOG
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/199_create_RMF_MODULE_PARAMETER_LOG.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-200_create_RMF_MODULE_MESSAGE_TEXT_LOG
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/200_create_RMF_MODULE_MESSAGE_TEXT_LOG.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-201_create_RMF_MODULE_MESSAGE_LOG
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/201_create_RMF_MODULE_MESSAGE_LOG.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-202_create_RMF_MODULE_LOG
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/202_create_RMF_MODULE_LOG.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-203_create_RMF_LOG
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/203_create_RMF_LOG.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-204_create_RMF_IVR_ERR
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/204_create_RMF_IVR_ERR.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-205_create_RMF_INVII
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/205_create_RMF_INVII.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-206_create_RMF_EXCEPTIONS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/206_create_RMF_EXCEPTIONS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-207_create_RMF_20040330_NORMALIZZATO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/207_create_RMF_20040330_NORMALIZZATO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-208_create_Richiesta_gev
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/208_create_Richiesta_gev.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-209_create_S2T_Client_scartati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/209_create_S2T_Client_scartati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-210_create_S2T_Client_inviati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/210_create_S2T_Client_inviati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-211_create_report_lis_tmp
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/211_create_report_lis_tmp.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-212_create_Report_Documenti_Acquisiti_GEV
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/212_create_Report_Documenti_Acquisiti_GEV.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-213_create_scarti_cambi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/213_create_scarti_cambi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-214_create_S2T_ClientContract_inviati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/214_create_S2T_ClientContract_inviati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-215_create_lsrcon_F101
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/215_create_lsrcon_F101.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-216_create_lsrsoc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/216_create_lsrsoc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-217_create_bolo_2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/217_create_bolo_2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-218_create_bolo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/218_create_bolo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-219_create_bollo_associazione
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/219_create_bollo_associazione.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-220_create_bcr_operatore
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/220_create_bcr_operatore.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-221_create_autor_reg_cri
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/221_create_autor_reg_cri.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-222_create_appo_tel
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/222_create_appo_tel.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-223_create_APPO_FID
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/223_create_APPO_FID.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-224_create_associazione_servizi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/224_create_associazione_servizi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-225_create_lsrcon_gev_BKP
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/225_create_lsrcon_gev_BKP.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-226_create_lsrrad_Bollo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/226_create_lsrrad_Bollo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-227_create_lsrrad
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/227_create_lsrrad.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-228_create_lsranm
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/228_create_lsranm.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-229_create_lsrade_lis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/229_create_lsrade_lis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-230_create_lsr5app
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/230_create_lsr5app.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-231_create_lsr3app
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/231_create_lsr3app.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-232_create_lsr3ann
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/232_create_lsr3ann.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-233_create_lsr1app
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/233_create_lsr1app.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-234_create_lsr05a
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/234_create_lsr05a.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-235_create_lsr03a_conc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/235_create_lsr03a_conc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-236_create_lsr03a
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/236_create_lsr03a.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-237_create_lsr02a_appo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/237_create_lsr02a_appo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-238_create_lsr02a
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/238_create_lsr02a.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-239_create_lsr01a_TWIN_DENOMINAZIONE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/239_create_lsr01a_TWIN_DENOMINAZIONE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-240_create_lsr01a_TWIN_ANACONDA_STATO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/240_create_lsr01a_TWIN_ANACONDA_STATO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-241_create_lsr01a_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/241_create_lsr01a_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-242_create_lsr01a_conc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/242_create_lsr01a_conc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-243_create_lsr01a_att
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/243_create_lsr01a_att.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-244_create_lsr01a_app
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/244_create_lsr01a_app.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-245_create_lsrcon_gp_c_app_supp
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/245_create_lsrcon_gp_c_app_supp.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-246_create_lsrcon_gp_aggio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/246_create_lsrcon_gp_aggio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-247_create_lsrrad_lis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/247_create_lsrrad_lis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-248_create_lsrtit_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/248_create_lsrtit_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-249_create_lsrtit
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/249_create_lsrtit.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-250_create_lsrser_lis_report
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/250_create_lsrser_lis_report.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-251_create_lsrser_lis_dec
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/251_create_lsrser_lis_dec.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-252_create_lsrser_lis_attiv
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/252_create_lsrser_lis_attiv.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-253_create_lsrser_gp
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/253_create_lsrser_gp.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-254_create_SOGEI_IN
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/254_create_SOGEI_IN.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-255_create_Servizi_LIS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/255_create_Servizi_LIS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-256_create_Tipo2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/256_create_Tipo2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-257_create_Tipo1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/257_create_Tipo1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-258_create_temporaneaAps
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/258_create_temporaneaAps.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-259_create_TAB_RIF_FIDE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/259_create_TAB_RIF_FIDE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-260_create_Tab_Ann_Trim
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/260_create_Tab_Ann_Trim.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-261_create_lsrlet_st
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/261_create_lsrlet_st.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-262_create_lsrlet_lis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/262_create_lsrlet_lis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-263_create_lsrlet_gs
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/263_create_lsrlet_gs.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-264_create_TMP_TSR
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/264_create_TMP_TSR.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-265_create_TMP_RMF
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/265_create_TMP_RMF.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-266_create_TMP_RECUPERO
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/266_create_TMP_RECUPERO.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-267_create_TMP_gev_rmf_dettaglio_new
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/267_create_TMP_gev_rmf_dettaglio_new.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-268_create_TMP_EXRM
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/268_create_TMP_EXRM.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-269_create_TMP_EX04
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/269_create_TMP_EX04.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-270_create_tmp_attive_no_contratto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/270_create_tmp_attive_no_contratto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-271_create_tmp_1215
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/271_create_tmp_1215.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-272_create_lsrser_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/272_create_lsrser_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-273_create_lsrser_citt
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/273_create_lsrser_citt.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-274_create_lsrlet_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/274_create_lsrlet_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-275_create_lsrlet_appoggio
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/275_create_lsrlet_appoggio.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-276_create_lsrlet
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/276_create_lsrlet.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-277_create_lsrser_GeV
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/277_create_lsrser_GeV.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-278_create_lsrser_F101
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/278_create_lsrser_F101.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-279_create_lsrser_bollo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/279_create_lsrser_bollo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-280_create_lsrser_big
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/280_create_lsrser_big.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-281_create_lsrpro
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/281_create_lsrpro.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-282_create_lsrpck_gev
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/282_create_lsrpck_gev.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-283_create_lsrord_GeV
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/283_create_lsrord_GeV.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-284_create_lsrrad_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/284_create_lsrrad_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-285_create_lsrrad_GeV
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/285_create_lsrrad_GeV.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-286_create_lsrrad_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/286_create_lsrrad_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-287_create_lsrcon_gp
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/287_create_lsrcon_gp.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-288_create_lsrcon_GeV
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/288_create_lsrcon_GeV.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-289_create_lsrcon_ITVM
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/289_create_lsrcon_ITVM.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-290_create_lsrcon_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/290_create_lsrcon_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-291_create_lsrcon_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/291_create_lsrcon_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-292_create_lsrnuo_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/292_create_lsrnuo_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-293_create_lsrnuo_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/293_create_lsrnuo_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-294_create_lsrqst_GeV
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/294_create_lsrqst_GeV.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-295_create_lsrfid_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/295_create_lsrfid_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-296_create_lsrser_lotto
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/296_create_lsrser_lotto.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-297_create_lsrtlp_st
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/297_create_lsrtlp_st.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-298_create_lsrrin_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/298_create_lsrrin_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-299_create_lsrfid_GeV
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/299_create_lsrfid_GeV.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-300_create_lsrqst_coni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/300_create_lsrqst_coni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-301_create_lsrrad_st
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/301_create_lsrrad_st.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-302_create_lsrtlp_GS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/302_create_lsrtlp_GS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-303_create_lsrfid_gp
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/303_create_lsrfid_gp.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-304_create_lsrpvo
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/304_create_lsrpvo.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-305_create_lsrpvc
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/305_create_lsrpvc.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-306_create_lsrcon_ITVM_matr
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/306_create_lsrcon_ITVM_matr.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-307_create_S2T_Client
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/307_create_S2T_Client.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-308_create_S2T_ClientContract
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/308_create_S2T_ClientContract.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-309_create_S2T_PointOfSale
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/309_create_S2T_PointOfSale.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-310_create_S2T_POSService
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/310_create_S2T_POSService.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-tabelle-311_create_S2T_Operator
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/tabelle/311_create_S2T_Operator.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

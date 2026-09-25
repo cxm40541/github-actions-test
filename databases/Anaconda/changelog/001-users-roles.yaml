@@ -1,0 +1,451 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: Anaconda-utenti-ruoli-001_create_wltuser
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/001_create_wltuser.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-002_create_webint
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/002_create_webint.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-003_create_Usr_Solleciti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/003_create_Usr_Solleciti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-004_create_usr_interessimora
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/004_create_usr_interessimora.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-005_create_usr_anaconda
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/005_create_usr_anaconda.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-006_create_UserPSS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/006_create_UserPSS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-007_create_univsql
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/007_create_univsql.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-008_create_SQLBatchTasks
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/008_create_SQLBatchTasks.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-009_create_sanzionigev
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/009_create_sanzionigev.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-010_create_portalis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/010_create_portalis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-011_create_pgmlettere
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/011_create_pgmlettere.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-012_create_LOTTOMATICA_univadm
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/012_create_LOTTOMATICA_univadm.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-013_create_LOTTOMATICA_iusr_Deleghe_Vlt
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/013_create_LOTTOMATICA_iusr_Deleghe_Vlt.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-014_create_LOTTOMATICA_iusr_deleghe_totobit
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/014_create_LOTTOMATICA_iusr_deleghe_totobit.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-015_create_LOTTOMATICA_iusr_deleghe_lisfin
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/015_create_LOTTOMATICA_iusr_deleghe_lisfin.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-016_create_LkOTGAUGLTM
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/016_create_LkOTGAUGLTM.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-017_create_LkDbSan2
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/017_create_LkDbSan2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-018_create_LkDbSan1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/018_create_LkDbSan1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-019_create_LkDBSan
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/019_create_LkDBSan.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-020_create_Lk_awpgev
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/020_create_Lk_awpgev.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-021_create_k42281
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/021_create_k42281.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-022_create_IUSR_S_ONE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/022_create_IUSR_S_ONE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-023_create_iusr_pss_hda
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/023_create_iusr_pss_hda.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-024_create_iusr_delegherid_sqf
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/024_create_iusr_delegherid_sqf.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-025_create_Ispettorati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/025_create_Ispettorati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-026_create_GTK_k13523
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/026_create_GTK_k13523.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-027_create_GTK_k12706
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/027_create_GTK_k12706.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-028_create_GTK_K12186
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/028_create_GTK_K12186.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-029_create_GTK_K12060
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/029_create_GTK_K12060.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-030_create_GTK_K12054
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/030_create_GTK_K12054.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-031_create_fit_dmz
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/031_create_fit_dmz.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-032_create_DBServLISUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/032_create_DBServLISUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-033_create_DBRiscossioniUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/033_create_DBRiscossioniUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-034_create_DBMenuUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/034_create_DBMenuUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-035_create_DBAssurance
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/035_create_DBAssurance.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-036_create_DbARCULis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/036_create_DbARCULis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-037_create_DBAnaLisUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/037_create_DBAnaLisUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-038_create_DBAnacondaOwners
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/038_create_DBAnacondaOwners.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-039_create_DbAddebAutomUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/039_create_DbAddebAutomUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-040_create_contablis
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/040_create_contablis.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-041_create_concilia
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/041_create_concilia.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-042_create_anaconda_plugin
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/042_create_anaconda_plugin.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-043_create_ExtranetIspettorati
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/043_create_ExtranetIspettorati.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-044_create_db_executor
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/044_create_db_executor.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Anaconda-utenti-ruoli-045_create_UtentiAppConciliaVB
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/045_create_UtentiAppConciliaVB.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

@@ -1,0 +1,15 @@
+﻿/****** Object:  Table [dbo].[DataChangeIVA]    Script Date: 11/17/2025 15:15:59 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DataChangeIVA](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[DataCambio] [smalldatetime] NULL,
+	[PercIVA] [float] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [DATA]
+) ON [DATA]
+GO

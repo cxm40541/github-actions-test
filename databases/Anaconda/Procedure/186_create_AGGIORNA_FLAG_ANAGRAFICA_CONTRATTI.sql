@@ -1,0 +1,549 @@
+﻿/****** Object:  StoredProcedure [dbo].[AGGIORNA_FLAG_ANAGRAFICA_CONTRATTI]    Script Date: 11/17/2025 15:18:31 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[AGGIORNA_FLAG_ANAGRAFICA_CONTRATTI] 
+
+AS
+
+DECLARE	
+
+@RICEV		CHAR(6),
+@OGGI			CHAR(8),
+@ORAOGGI		CHAR(8),
+@IERI			CHAR(8),
+@ORAINS		CHAR(8),
+@DATAINS		CHAR(8),
+@DATAINSDOC	CHAR(8),
+@ORAINSDOC		CHAR(8),
+@COGNOME		CHAR(24),
+@NOME 		CHAR(20),
+@FLAGANAGRAFICA	CHAR(1),
+@ESITO 		BIT,
+@STRINGA 		CHAR(100),
+@FILEDILOG		VARCHAR(80),
+@TIPOPREC		VARCHAR(1),
+@TIPOPROVV		VARCHAR(1),
+@FLAGOK		CHAR(1),
+@MSGERR 		CHAR(100),
+@NOMEJOB		VARCHAR(25),
+@FILELOG		VARCHAR(25)
+
+
+SELECT @OGGI = CONVERT (VARCHAR(10), GETDATE() ,112)
+SELECT @NOMEJOB = 'AAEG012005UC'
+SELECT @STRINGA = 'INIZIO AGGIORNAMENTO FLAG ANAGRAFICA SULLE TABELLE DEI CONTRATTI' + ' ' + @OGGI 
+
+
+--SCRIVO FILE DI LOG
+EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @STRINGA, 0
+EXEC  MSDB..UT_AA004 9999, @NOMEJOB, '', 0
+
+--IL CURSORE CUR_01 SERVE PER PRENDERE TUTTI I CODICI RICEVITORIA DA LSRPRO
+--DI TUTTI QUEI PROVVEDIMENTI CON DATA DECORRENZA UGUALE AD OGGI MA INSERITI NEL PASSATO
+DECLARE CUR_R1 SCROLL CURSOR FOR
+SELECT DISTINCT LSRPRO_KEY_ID_RICEV
+FROM LSRPRO
+WHERE LSRPRO_KEY_TIPO_REC = 'I'
+	AND LSRPRO_DECOR_DAL = @OGGI
+	AND LSRPRO_DATA_INS < @OGGI
+	AND LSRPRO_FLAG_VALIDITA NOT IN ('N','A')
+
+OPEN CUR_R1
+FETCH NEXT FROM CUR_R1
+INTO @RICEV
+
+WHILE @@FETCH_STATUS = 0 
+BEGIN
+
+	SELECT @STRINGA = 'INIZIO RICEVITORIA: ' + ' ' + @RICEV
+	EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @STRINGA, 0
+	EXEC  MSDB..UT_AA004 9999, @NOMEJOB, '', 0
+
+	--******************************************************************
+	--TABELLA LSRAPS_F101        
+	--******************************************************************
+	UPDATE  LSRAPS_F101
+	SET LSRAPS_F101_FLAG_ANAG='2'
+	WHERE LSRAPS_F101_KEY_ID_RICEV=@RICEV 
+		AND LSRAPS_F101_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV +' : ERRORE UPDATE LSRAPS_F101 ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ' :  UPDATE LSRAPS_F101 OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+	--******************************************************************
+	--TABELLA LSRAPS_TRIS
+	--******************************************************************
+	UPDATE  LSRAPS_TRIS
+	SET LSRAPS_TRIS_FLAG_ANAG='2'
+	WHERE LSRAPS_TRIS_KEY_ID_RICEV=@RICEV 
+		AND LSRAPS_TRIS_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV + ': ERRORE UPDATE LSRAPS_TRIS '
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRAPS_TRIS OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+
+	--******************************************************************
+	--TABELLA LSRCON_BOLLO
+	--******************************************************************
+	UPDATE  LSRCON_BOLLO
+	SET LSRCON_BOLLO_FLAG_ANAG='2'
+	WHERE LSRCON_BOLLO_KEY_ID_RICEV=@RICEV 
+		AND LSRCON_BOLLO_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV  + ': ERRORE UPDATE LSRCON_BOLLO ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV  + ':  UPDATE LSRCON_BOLLO OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+
+
+	--******************************************************************
+	--TABELLA LSRCON_F101
+	--******************************************************************
+	UPDATE  LSRCON_F101
+	SET LSRCON_F101_FLAG_ANAG='2'
+	WHERE LSRCON_F101_KEY_ID_RICEV=@RICEV 
+		AND LSRCON_F101_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV + ': ERRORE UPDATE LSRCON_F101 ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRCON_F101 OK '
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+
+	--******************************************************************
+	--TABELLA LSRCON_TRIS
+	--******************************************************************
+	UPDATE  LSRCON_TRIS
+	SET LSRCON_TRIS_FLAG_ANAG='2'
+	WHERE LSRCON_TRIS_KEY_ID_RICEV=@RICEV 
+		AND LSRCON_TRIS_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV  + ': ERRORE UPDATE LSRCON_TRIS '
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRCON_TRIS OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+	--******************************************************************
+	--TABELLA LSRFID_F101
+	--******************************************************************
+	UPDATE  LSRFID_F101
+	SET LSRFID_F101_FLAG_ANAG='2'
+	WHERE LSRFID_F101_KEY_ID_RICEV=@RICEV 
+		AND LSRFID_F101_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV  + ': ERRORE UPDATE LSRFID_F101 '
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRFID_F101 OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+	--******************************************************************
+	--TABELLA LSRFID_TRIS
+	--******************************************************************
+	UPDATE  LSRFID_TRIS
+	SET LSRFID_TRIS_FLAG_ANAG='2'
+	WHERE LSRFID_TRIS_KEY_ID_RICEV=@RICEV 
+		AND LSRFID_TRIS_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV + ': ERRORE UPDATE LSRFID_TRIS ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRFID_TRIS OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+
+	--******************************************************************
+	--TABELLA LSRRAD
+	--******************************************************************
+	UPDATE  LSRRAD
+	SET LSRRAD_FLAG_ANAG='2'
+	WHERE LSRRAD_KEY_ID_RICEV=@RICEV 
+		AND LSRRAD_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV + ': ERRORE UPDATE LSRRAD ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRRAD OK '
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+
+
+
+	--******************************************************************
+	--TABELLA LSRRIN
+	--******************************************************************
+	UPDATE  LSRRIN
+	SET LSRRIN_FLAG_ANAG='2'
+	WHERE LSRRIN_KEY_ID_RICEV=@RICEV 
+		AND LSRRIN_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV + ': ERRORE UPDATE LSRRIN ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRRIN OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+
+	--******************************************************************
+	--TABELLA LSRCON_GEV
+	--******************************************************************
+	UPDATE  LSRCON_GEV
+	SET LSRCON_GEV_FLAG_ANAG='2'
+	WHERE lsrcon_gev_cod_lotto=@RICEV 
+		AND LSRCON_GEV_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV  + ': ERRORE UPDATE LSRCON_GEV '
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRCON_GEV OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+	--******************************************************************
+	--TABELLA LSRFID_GEV
+	--******************************************************************
+	UPDATE  LSRFID_GEV
+	SET LSRFID_GEV_FLAG_ANAG='2'
+	WHERE lsrFID_gev_cod_lotto=@RICEV 
+		AND LSRFID_GEV_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV  + ': ERRORE UPDATE LSRFID_GEV '
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRFID_GEV OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+	--******************************************************************
+	--TABELLA LSRQST_GEV
+	--******************************************************************
+	UPDATE  LSRQST_GEV
+	SET LSRQST_GEV_FLAG_ANAG='2'
+	WHERE lsrQST_gev_cod_lotto=@RICEV 
+		AND LSRQST_GEV_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV  + ': ERRORE UPDATE LSRQST_GEV '
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRQST_GEV OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+
+	--******************************************************************
+	--TABELLA LSRORD_GEV
+	--******************************************************************
+	UPDATE  LSRORD_GEV
+	SET LSRORD_GEV_FLAG_ANAG='2'
+	WHERE lsrORD_gev_cod_lotto=@RICEV 
+		AND LSRORD_GEV_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV  + ': ERRORE UPDATE LSRORD_GEV '
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRORD_GEV OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+
+	--******************************************************************
+	--TABELLA LSRRAD_GEV
+	--******************************************************************
+	UPDATE  LSRRAD_GEV
+	SET LSRRAD_FLAG_ANAG='2'
+	WHERE lsrRAD_cod_lotto=@RICEV 
+		AND LSRRAD_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV  + ': ERRORE UPDATE LSRRAD_GEV '
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRRAD_GEV OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+	--******************************************************************
+	--TABELLA LSRCON_ITVM
+	--******************************************************************
+	UPDATE  LSRCON_ITVM
+	SET LSRCON_ITVM_FLAG_ANAG='2'
+	WHERE LSRCON_ITVM_cod_lotto=@RICEV 
+		AND LSRCON_ITVM_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV  + ': ERRORE UPDATE LSRCON_ITVM '
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRCON_ITVM OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+	--******************************************************************
+	--******************************************************************
+	--		SERVIZI LIS
+	--******************************************************************
+	--******************************************************************
+
+	--******************************************************************
+	--TABELLA LSRADE_LIS
+	--******************************************************************
+	UPDATE  LSRADE_LIS
+	SET LSRADE_LIS_FLAG_ANAG='2'
+	WHERE LSRADE_LIS_KEY_ID_RICEV=@RICEV 
+		AND LSRADE_LIS_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV + ': ERRORE UPDATE LSRADE_LIS ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRADE_LIS OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+
+	--******************************************************************
+	--TABELLA LSRAUT_LIS
+	--******************************************************************
+	UPDATE  LSRAUT_LIS
+	SET LSRAUT_LIS_FLAG_ANAG='2'
+	WHERE LSRAUT_LIS_KEY_ID_RICEV=@RICEV 
+		AND LSRAUT_LIS_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV + ': ERRORE UPDATE LSRAUT_LIS ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRAUT_LIS OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+	--******************************************************************
+	--TABELLA LSRCON_LIS
+	--******************************************************************
+	UPDATE  LSRCON_LIS
+	SET LSRCON_LIS_FLAG_ANAG='2'
+	WHERE LSRCON_LIS_KEY_ID_RICEV=@RICEV 
+		AND LSRCON_LIS_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV + ': ERRORE UPDATE LSRCON_LIS ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRCON_LIS OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+	--******************************************************************
+	--TABELLA LSRFID_LIS
+	--******************************************************************
+	UPDATE  LSRFID_LIS
+	SET LSRFID_LIS_FLAG_ANAG='2'
+	WHERE LSRFID_LIS_KEY_ID_RICEV=@RICEV 
+		AND LSRFID_LIS_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV + ': ERRORE UPDATE LSRFID_LIS ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRFID_LIS OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+	--******************************************************************
+	--TABELLA LSRRAD_LIS
+	--******************************************************************
+	UPDATE  LSRRAD_LIS
+	SET LSRRAD_LIS_FLAG_ANAG='2'
+	WHERE LSRRAD_LIS_KEY_ID_RICEV=@RICEV 
+		AND LSRRAD_LIS_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV + ': ERRORE UPDATE LSRRAD_LIS ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRRAD_LIS OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+	--******************************************************************
+	--TABELLA LSRRIN_LIS
+	--******************************************************************
+	UPDATE  LSRRIN_LIS
+	SET LSRRIN_LIS_FLAG_ANAG='2'
+	WHERE LSRRIN_LIS_KEY_ID_RICEV=@RICEV 
+		AND LSRRIN_LIS_FLAG_ANAG='1'
+	
+	--LOG DELL'ESITO DELL'OPERAZIONE
+	IF @@ERROR <> 0
+	BEGIN
+		SELECT @MSGERR = '9999 ' +  @RICEV + ': ERRORE UPDATE LSRRIN_LIS ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+		RAISERROR (@MSGERR, 16, 1)
+		RETURN
+	END
+	ELSE
+	BEGIN
+		SELECT @MSGERR = @RICEV + ':  UPDATE LSRRIN_LIS OK ' 
+		EXEC  MSDB..UT_AA004 9999, @NOMEJOB, @MSGERR, 0
+	END
+
+
+	FETCH NEXT FROM CUR_R1		
+	INTO @RICEV
+
+END
+
+CLOSE CUR_R1
+DEALLOCATE CUR_R1
+GO

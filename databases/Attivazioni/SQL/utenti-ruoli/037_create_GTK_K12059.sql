@@ -1,0 +1,3 @@
+﻿/****** Object:  User [GTK\K12059]    Script Date: 11/17/2025 15:21:50 ******/
+CREATE USER [GTK\K12059] FOR LOGIN [GTK\K12059] WITH DEFAULT_SCHEMA=[dbo]
+GO

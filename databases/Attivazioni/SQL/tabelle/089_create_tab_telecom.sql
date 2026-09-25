@@ -1,0 +1,31 @@
+﻿/****** Object:  Table [dbo].[tab_telecom]    Script Date: 11/17/2025 15:21:52 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[tab_telecom](
+	[COD_LOTTO] [char](6) NOT NULL,
+	[COD_AMM] [char](6) NULL,
+	[POSTAZIONE] [char](2) NOT NULL,
+	[SDLC_SDLC] [int] NULL,
+	[DATA_INVIO] [datetime] NULL,
+	[STATO_LAVORAZIONE] [char](1) NULL,
+	[UTENTE] [char](6) NULL,
+	[DATA_INI_LAV] [datetime] NULL,
+	[DATA_END_LAV] [datetime] NULL,
+	[FLAG_RETE] [char](1) NULL,
+	[FLAG_VERBALE] [char](1) NULL,
+	[CONT_VERBALE] [char](3) NULL,
+	[DATA_VERBALE] [char](8) NULL,
+	[TATIP] [char](2) NULL,
+ CONSTRAINT [PK_tab_telecom] PRIMARY KEY CLUSTERED 
+(
+	[COD_LOTTO] ASC,
+	[POSTAZIONE] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [DATA]
+) ON [DATA]
+GO
+SET ANSI_PADDING OFF
+GO

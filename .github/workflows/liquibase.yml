@@ -1,0 +1,73 @@
+name: Liquibase Workflow
+run-name: Liquibase ${{ inputs.command }} - ${{ inputs.database }} (${{ inputs.environment }})
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Ambiente target
+        required: true
+        type: choice
+        options:
+          - sit
+          - cat
+          - tf
+        default: sit
+
+      database:
+        description: Database target (cartella sotto databases/)
+        required: true
+        type: choice
+        options:
+          - ALOSW
+          - Anaconda
+          - Attivazioni
+
+      command:
+        description: Comando Liquibase da eseguire
+        required: true
+        type: choice
+        options:
+          - validate
+          - status
+          - updateSQL
+          - update
+        default: status
+
+jobs:
+  liquibase:
+    runs-on: ubuntu-latest
+    # Ambiente GitHub: permette di scopare i secrets DB_URL/DB_USERNAME/DB_PASSWORD
+    # per sit/cat/tf e, se configurato, richiedere approvazione manuale per cat/tf.
+    environment: ${{ inputs.environment }}
+    container:
+      image: liquibase/liquibase:4.29
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download driver JDBC SQL Server
+        run: |
+          mkdir -p drivers
+          curl -sSL -o drivers/mssql-jdbc.jar \
+            https://repo1.maven.org/maven2/com/microsoft/sqlserver/mssql-jdbc/12.8.1.jre11/mssql-jdbc-12.8.1.jre11.jar
+
+      - name: Run Liquibase ${{ inputs.command }}
+        run: |
+          liquibase \
+            --changeLogFile="databases/${{ inputs.database }}/changelog/db.changelog-master.yaml" \
+            --url="${{ secrets.DB_URL }}" \
+            --username="${{ secrets.DB_USERNAME }}" \
+            --password="${{ secrets.DB_PASSWORD }}" \
+            --driver="com.microsoft.sqlserver.jdbc.SQLServerDriver" \
+            --classpath="drivers/mssql-jdbc.jar" \
+            ${{ inputs.command }}
+
+      - name: Upload updateSQL output (se generato)
+        if: ${{ inputs.command == 'updateSQL' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: liquibase-updateSQL-${{ inputs.database }}-${{ inputs.environment }}
+          path: '*.sql'
+          if-no-files-found: ignore

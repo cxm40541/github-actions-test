@@ -1,0 +1,11 @@
+﻿/****** Object:  Table [dbo].[RMF_EXCEPTIONS]    Script Date: 11/17/2025 15:18:30 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[RMF_EXCEPTIONS](
+	[EXCEPTION_NO] [float] NULL,
+	[EXCEPTION_NAME] [nvarchar](255) NULL,
+	[EXCEPTION_TEXT] [nvarchar](255) NULL
+) ON [DATA]
+GO

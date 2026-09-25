@@ -1,0 +1,501 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-001_create_webint
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/001_create_webint.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-002_create_usr_rice_att
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/002_create_usr_rice_att.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-003_create_usr_pss
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/003_create_usr_pss.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-004_create_usr_aslog
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/004_create_usr_aslog.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-005_create_UserPSS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/005_create_UserPSS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-006_create_userguasti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/006_create_userguasti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-007_create_univsql
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/007_create_univsql.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-008_create_univadm
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/008_create_univadm.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-009_create_TivAgent
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/009_create_TivAgent.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-010_create_SQLBatchTasks
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/010_create_SQLBatchTasks.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-011_create_OraBIUser
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/011_create_OraBIUser.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-012_create_OdiUserMI
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/012_create_OdiUserMI.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-013_create_OdiUser
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/013_create_OdiUser.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-014_create_LkTestappl
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/014_create_LkTestappl.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-015_create_LkOTGDWHONL
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/015_create_LkOTGDWHONL.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-016_create_LkDbSan1
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/016_create_LkDbSan1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-017_create_Lk2K-LH-TBSMSQL
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/017_create_Lk2K-LH-TBSMSQL.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-018_create_Lk2K-LH-DBREPORT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/018_create_Lk2K-LH-DBREPORT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-019_create_k42281
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/019_create_k42281.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-020_create_k42141
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/020_create_k42141.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-021_create_iusr_verbaliwebint
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/021_create_iusr_verbaliwebint.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-022_create_IUSR_S_ONE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/022_create_IUSR_S_ONE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-023_create_iusr_pss_hda
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/023_create_iusr_pss_hda.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-024_create_iusr_inazidm
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/024_create_iusr_inazidm.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-025_create_HelpsiB2B
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/025_create_HelpsiB2B.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-026_create_GTK_k13634
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/026_create_GTK_k13634.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-027_create_GTK_k13242
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/027_create_GTK_k13242.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-028_create_GTK_k13179
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/028_create_GTK_k13179.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-029_create_GTK_k13176
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/029_create_GTK_k13176.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-030_create_GTK_K12497
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/030_create_GTK_K12497.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-031_create_GTK_K12459
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/031_create_GTK_K12459.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-032_create_GTK_K12237
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/032_create_GTK_K12237.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-033_create_GTK_K12203
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/033_create_GTK_K12203.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-034_create_GTK_K12186
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/034_create_GTK_K12186.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-035_create_GTK_K12170
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/035_create_GTK_K12170.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-036_create_GTK_K12077
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/036_create_GTK_K12077.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-037_create_GTK_K12059
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/037_create_GTK_K12059.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-038_create_fit_dmz
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/038_create_fit_dmz.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-039_create_DBGuastiVOSUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/039_create_DBGuastiVOSUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-040_create_DBComunicazioniUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/040_create_DBComunicazioniUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-041_create_DBAttivazProgReteUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/041_create_DBAttivazProgReteUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-042_create_DBAttivazMigra
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/042_create_DBAttivazMigra.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-043_create_DBAttivazioniUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/043_create_DBAttivazioniUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-044_create_DBAttivazioniOwners
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/044_create_DBAttivazioniOwners.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-045_create_DBAttivazGestRich
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/045_create_DBAttivazGestRich.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-046_create_DBAssurance
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/046_create_DBAssurance.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-047_create_CrAttivazioni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/047_create_CrAttivazioni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-048_create_db_executor
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/048_create_db_executor.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-049_create_GestRichAttivaz
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/049_create_GestRichAttivaz.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-utenti-ruoli-050_create_ProgReteAttivaz
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/050_create_ProgReteAttivaz.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

@@ -1,0 +1,41 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: ALOSW-utenti-ruoli-001_create_ALOUser
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/001_create_ALOUser.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-utenti-ruoli-002_create_orabi
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/002_create_orabi.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-utenti-ruoli-003_create_univsql
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/003_create_univsql.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: ALOSW-utenti-ruoli-004_create_db_executor
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/utenti-ruoli/004_create_db_executor.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+

@@ -1,0 +1,411 @@
+﻿databaseChangeLog:
+  - changeSet:
+      id: Attivazioni-schemi-001_create_webint
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/001_create_webint.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-002_create_usr_rice_att
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/002_create_usr_rice_att.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-003_create_usr_pss
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/003_create_usr_pss.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-004_create_usr_aslog
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/004_create_usr_aslog.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-005_create_UserPSS
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/005_create_UserPSS.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-006_create_userguasti
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/006_create_userguasti.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-007_create_univadm
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/007_create_univadm.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-008_create_TivAgent
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/008_create_TivAgent.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-009_create_SQLBatchTasks
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/009_create_SQLBatchTasks.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-010_create_ProgReteAttivaz
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/010_create_ProgReteAttivaz.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-011_create_OraBIUser
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/011_create_OraBIUser.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-012_create_LOTTOMATICA_k13242
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/012_create_LOTTOMATICA_k13242.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-013_create_LOTTOMATICA_k12237
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/013_create_LOTTOMATICA_k12237.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-014_create_LkTestappl
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/014_create_LkTestappl.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-015_create_LkOTGDWHONL
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/015_create_LkOTGDWHONL.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-016_create_Lk2K-LH-TBSMSQL
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/016_create_Lk2K-LH-TBSMSQL.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-017_create_Lk2K-LH-DBREPORT
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/017_create_Lk2K-LH-DBREPORT.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-018_create_k42141
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/018_create_k42141.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-019_create_K13179
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/019_create_K13179.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-020_create_k13176
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/020_create_k13176.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-021_create_K12497
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/021_create_K12497.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-022_create_k12459
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/022_create_k12459.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-023_create_k12203
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/023_create_k12203.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-024_create_k12170
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/024_create_k12170.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-025_create_K12077
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/025_create_K12077.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-026_create_iusr_verbaliwebint
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/026_create_iusr_verbaliwebint.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-027_create_IUSR_S_ONE
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/027_create_IUSR_S_ONE.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-028_create_iusr_pss_hda
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/028_create_iusr_pss_hda.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-029_create_iusr_inazidm
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/029_create_iusr_inazidm.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-030_create_HelpsiB2B
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/030_create_HelpsiB2B.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-031_create_GestRichAttivaz
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/031_create_GestRichAttivaz.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-032_create_fit_dmz
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/032_create_fit_dmz.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-033_create_DBGuastiVOSUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/033_create_DBGuastiVOSUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-034_create_DBComunicazioniUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/034_create_DBComunicazioniUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-035_create_DBAttivazProgReteUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/035_create_DBAttivazProgReteUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-036_create_DBAttivazMigra
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/036_create_DBAttivazMigra.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-037_create_DBAttivazioniUsers
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/037_create_DBAttivazioniUsers.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-038_create_DBAttivazioniOwners
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/038_create_DBAttivazioniOwners.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-039_create_DBAttivazGestRich
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/039_create_DBAttivazGestRich.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-040_create_DBAssurance
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/040_create_DBAssurance.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
+  - changeSet:
+      id: Attivazioni-schemi-041_create_CrAttivazioni
+      author: dba-team
+      changes:
+        - sqlFile:
+            path: ../SQL/schemi/041_create_CrAttivazioni.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            endDelimiter: GO
+
