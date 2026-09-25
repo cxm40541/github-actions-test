@@ -73,6 +73,7 @@ jobs:
           echo "command=$CMD" >> "$GITHUB_OUTPUT"
 
       - name: Liquibase ${{ steps.db.outputs.command }}
+        id: liquibase
         uses: docker://liquibase/liquibase:4.29
         with:
           args: >-
@@ -91,3 +92,20 @@ jobs:
           name: liquibase-test-updateSQL-${{ steps.db.outputs.name }}
           path: updateSQL-preview.sql
           if-no-files-found: ignore
+
+      - name: Job summary
+        if: always()
+        run: |
+          {
+            echo "## Liquibase Test"
+            echo ""
+            echo "| Campo | Valore |"
+            echo "|---|---|"
+            echo "| Database | ${{ steps.db.outputs.name }} |"
+            echo "| Comando | ${{ steps.db.outputs.command }} |"
+            echo "| Esito | ${{ steps.liquibase.outcome == 'success' && '✅ Riuscito' || '❌ Fallito' }} |"
+            if [ "${{ steps.db.outputs.command }}" = "updateSQL" ]; then
+              echo ""
+              echo "Anteprima SQL disponibile come artifact: liquibase-test-updateSQL-${{ steps.db.outputs.name }}"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
