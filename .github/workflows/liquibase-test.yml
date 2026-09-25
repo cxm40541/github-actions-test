@@ -1,0 +1,79 @@
+name: Liquibase Test (smoke test su SQL Server effimero)
+run-name: Liquibase Test - ${{ github.event_name }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      database:
+        description: Database da testare (cartella sotto databases/)
+        required: true
+        type: choice
+        options:
+          - ALOSW
+          - Anaconda
+          - Attivazioni
+        default: Anaconda
+  push:
+    paths:
+      - 'databases/**'
+      - 'tools/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    # SQL Server usa-e-getta: vive solo per la durata del job, nessun dato reale coinvolto.
+    services:
+      mssql:
+        image: mcr.microsoft.com/mssql/server:2022-latest
+        env:
+          ACCEPT_EULA: "Y"
+          MSSQL_SA_PASSWORD: "Test-Pass123!"
+        ports:
+          - 1433:1433
+        options: >-
+          --health-cmd="/opt/mssql-tools18/bin/sqlcmd -C -S localhost -U sa -P Test-Pass123! -Q 'SELECT 1'"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download driver JDBC SQL Server
+        run: |
+          mkdir -p drivers
+          curl -sSL -o drivers/mssql-jdbc.jar \
+            https://repo1.maven.org/maven2/com/microsoft/sqlserver/mssql-jdbc/12.8.1.jre11/mssql-jdbc-12.8.1.jre11.jar
+
+      - name: Determine database to test
+        id: db
+        run: |
+          DB="${{ inputs.database }}"
+          if [ -z "$DB" ]; then DB="Anaconda"; fi
+          echo "name=$DB" >> "$GITHUB_OUTPUT"
+
+      - name: Liquibase validate
+        uses: docker://liquibase/liquibase:4.29
+        with:
+          args: >-
+            --changeLogFile=databases/${{ steps.db.outputs.name }}/changelog/db.changelog-master.yaml
+            --url=jdbc:sqlserver://mssql:1433;encrypt=true;trustServerCertificate=true
+            --username=sa
+            --password=Test-Pass123!
+            --driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
+            --classpath=drivers/mssql-jdbc.jar
+            validate
+
+      - name: Liquibase update (applica tutto il changelog sul DB effimero)
+        uses: docker://liquibase/liquibase:4.29
+        with:
+          args: >-
+            --changeLogFile=databases/${{ steps.db.outputs.name }}/changelog/db.changelog-master.yaml
+            --url=jdbc:sqlserver://mssql:1433;encrypt=true;trustServerCertificate=true
+            --username=sa
+            --password=Test-Pass123!
+            --driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
+            --classpath=drivers/mssql-jdbc.jar
+            update
