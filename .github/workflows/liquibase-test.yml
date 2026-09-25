@@ -13,6 +13,21 @@ on:
           - Anaconda
           - Attivazioni
         default: Anaconda
+
+      command:
+        # validate  -> controlla solo la sintassi/struttura del changelog, non tocca il DB
+        # status    -> mostra quali changeSet risultano ancora da applicare (non modifica nulla)
+        # updateSQL -> genera l'SQL che verrebbe eseguito, senza applicarlo (anteprima)
+        # update    -> applica davvero i changeSet mancanti sul DB effimero
+        description: Comando Liquibase da testare
+        required: true
+        type: choice
+        options:
+          - validate
+          - status
+          - updateSQL
+          - update
+        default: update
   push:
     paths:
       - 'databases/**'
@@ -47,14 +62,17 @@ jobs:
           curl -sSL -o drivers/mssql-jdbc.jar \
             https://repo1.maven.org/maven2/com/microsoft/sqlserver/mssql-jdbc/12.8.1.jre11/mssql-jdbc-12.8.1.jre11.jar
 
-      - name: Determine database to test
+      - name: Determine database and command to test
         id: db
         run: |
           DB="${{ inputs.database }}"
           if [ -z "$DB" ]; then DB="Anaconda"; fi
+          CMD="${{ inputs.command }}"
+          if [ -z "$CMD" ]; then CMD="update"; fi
           echo "name=$DB" >> "$GITHUB_OUTPUT"
+          echo "command=$CMD" >> "$GITHUB_OUTPUT"
 
-      - name: Liquibase validate
+      - name: Liquibase ${{ steps.db.outputs.command }}
         uses: docker://liquibase/liquibase:4.29
         with:
           args: >-
@@ -64,16 +82,12 @@ jobs:
             --password=Test-Pass123!
             --driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
             --classpath=drivers/mssql-jdbc.jar
-            validate
+            ${{ steps.db.outputs.command }}
+            ${{ steps.db.outputs.command == 'updateSQL' && '--output-file=updateSQL-preview.sql' || '' }}
 
-      - name: Liquibase update (applica tutto il changelog sul DB effimero)
-        uses: docker://liquibase/liquibase:4.29
+      - name: Upload updateSQL preview
+        uses: actions/upload-artifact@v4
         with:
-          args: >-
-            --changeLogFile=databases/${{ steps.db.outputs.name }}/changelog/db.changelog-master.yaml
-            --url=jdbc:sqlserver://mssql:1433;encrypt=true;trustServerCertificate=true
-            --username=sa
-            --password=Test-Pass123!
-            --driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
-            --classpath=drivers/mssql-jdbc.jar
-            update
+          name: liquibase-test-updateSQL-${{ steps.db.outputs.name }}
+          path: updateSQL-preview.sql
+          if-no-files-found: ignore
