@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: database-app
+  description: To manage the database with Liquibase.
+  annotations:
+    github.com/project-slug: cxm40541/github-actions-test
+spec:
+  type: library
+  owner: development
+  lifecycle: experimental
