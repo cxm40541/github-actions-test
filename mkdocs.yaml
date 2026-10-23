@@ -1,0 +1,11 @@
+site_name: 'database-app'
+site_description: 'Main documentation for database app'
+repo_url: https://github.com/cxm40541/github-actions-test
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+# For sidebar navigation on https://backstage.io/, see `microsite/sidebars.js`
+nav:
+  - Overview:
+      - Getting started: 'docs/index.md'
