@@ -5,6 +5,7 @@ metadata:
   description: To manage the database with Liquibase.
   annotations:
     github.com/project-slug: cxm40541/github-actions-test
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: library
   owner: development
